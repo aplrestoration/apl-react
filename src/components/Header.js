@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../index.css'
 
 
 const Header = () => {
@@ -13,13 +14,13 @@ const Header = () => {
           me-md-auto
           text-dark text-decoration-none
         ">
-          <span className="fs-4 mx-3 site-logo">APL restoration</span>
+          <h3 className="fs-4 mx-3 site-logo">APL restoration</h3>
           <span className="fs-6 ml-3">24/7 Emergency Toll-Free Number <br />
             1-833-7GOT-FlOOD（1-833-746-8356)</span>
         </Link>
         <ul className="nav">
           <li className="nav-item dropdown">
-            <a href="/" className="nav-link active" aria-current="page">Service</a>
+            <Link to="/" className="nav-link active" aria-current="page">Service</Link>
           </li>
           <li className="nav-item">
             <Link to="/" className="nav-link nav-custom">Who We Serve</Link></li>

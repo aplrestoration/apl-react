@@ -12,7 +12,6 @@ code {
     monospace;
 } */
 
-
 /* Typography */
 * {
   font-family: Roboto;
@@ -49,22 +48,39 @@ h6 {
 }
 
 .big-title-1 {
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: "Big Shoulders Display", cursive;
   font-size: 100px;
   font-weight: bold;
 }
 
 .big-title-2 {
-  font-family:'Big Shoulders Display', cursive;
+  font-family: "Big Shoulders Display", cursive;
   font-size: 50px;
   font-weight: bold;
 }
 
-
-.hero-title {
-  font-family: 'Big Shoulders Display', cursive;
+/* Sizing */
+.hero-container {
+  background-color: blue;
+  min-height: 572px;
+  margin-bottom: 200px ;
+}
+.hero-title{
+  font-family: "Big Shoulders Display", cursive;
   font-size: 100px;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
-
-/* Sizing */
+.hero-block-text {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  position:absolute;
+  background-color: #E1E6EB;
+  font-weight: bold;
+  padding: 2em;
+  margin-top: -100px;
+  margin-left: 15%;
+  margin-right:15%;
+}

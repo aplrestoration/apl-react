@@ -17,9 +17,9 @@ const SmallGallery = () => {
               shadow-lg
             " style={{backgroundImage: 'url("unsplash-photo-1.jpg")'}}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
-                <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <h1 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                   Short title, long jacket
-                </h2>
+                </h1>
               </div>
             </div>
           </div>
@@ -34,9 +34,9 @@ const SmallGallery = () => {
               shadow-lg
             " style={{backgroundImage: 'url("unsplash-photo-2.jpg")'}}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
-                <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <h1 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                   Much longer title that wraps to multiple lines
-                </h2>
+                </h1>
               </div>
             </div>
           </div>
@@ -51,9 +51,9 @@ const SmallGallery = () => {
               shadow-lg
             " style={{backgroundImage: 'url("unsplash-photo-3.jpg")'}}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
-                <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <h1 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                   Another longer title belongs here
-                </h2>
+                </h1>
               </div>
             </div>
           </div>
@@ -68,9 +68,9 @@ const SmallGallery = () => {
               shadow-lg
             " style={{backgroundImage: 'url("unsplash-photo-3.jpg")'}}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
-                <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <h1 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                   Another longer title belongs here
-                </h2>
+                </h1>
               </div>
             </div>
           </div>
@@ -85,9 +85,9 @@ const SmallGallery = () => {
               shadow-lg
             " style={{backgroundImage: 'url("unsplash-photo-3.jpg")'}}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
-                <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <h1 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                   Another longer title belongs here
-                </h2>
+                </h1>
               </div>
             </div>
           </div>
@@ -102,9 +102,9 @@ const SmallGallery = () => {
               shadow-lg
             " style={{backgroundImage: 'url("unsplash-photo-3.jpg")'}}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
-                <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <h1 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                   Another longer title belongs here
-                </h2>
+                </h1>
               </div>
             </div>
           </div>
@@ -119,9 +119,9 @@ const SmallGallery = () => {
               shadow-lg
             " style={{backgroundImage: 'url("unsplash-photo-3.jpg")'}}>
               <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <h1 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                   Another longer title belongs here
-                </h2>
+                </h1>
               </div>
             </div>
           </div>
@@ -136,9 +136,9 @@ const SmallGallery = () => {
               shadow-lg
             " style={{backgroundImage: 'url("unsplash-photo-3.jpg")'}}>
               <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <h1 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                   Another longer title belongs here
-                </h2>
+                </h1>
               </div>
             </div>
           </div>

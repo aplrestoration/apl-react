@@ -7,7 +7,6 @@ import { Row, Col, Image, Container } from "react-bootstrap";
 const Footer = () => {
   return (
     <div>
-      {/*Other information*/}
       <Container className="container my-3">
         <Row className="row">
           <Col xs={6} md={3}>
@@ -28,7 +27,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-3">
-            <h1 className="my-3">Contact</h1>
+            <h1 className="fw-bold my-3">Contact</h1>
             <ul className="list-unstyled nav-item">
               <li>1-833-7GOT-FLOOD (1-833-746-8356）</li>
               <li>Info@aplrestoration.ca</li>
@@ -36,7 +35,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-lg-3">
-            <h1 className="my-3">Contact</h1>
+            <h1 className="fw-bold my-3">Renovation</h1>
             <ul className="list-unstyled nav-item">
               <li>1-833-7GOT-FLOOD (1-833-746-8356）</li>
               <li>Info@aplrestoration.ca</li>
@@ -44,7 +43,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-lg-3">
-            <h1 className="my-3">Contact</h1>
+            <h1 className="fw-bold my-3">Restoration</h1>
             <ul className="list-unstyled nav-item">
               <li>1-833-7GOT-FLOOD (1-833-746-8356）</li>
               <li>Info@aplrestoration.ca</li>
@@ -52,7 +51,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-lg-3">
-            <h1 className="my-3">Contact</h1>
+            <h1 className="fw-bold my-3">More Info</h1>
             <ul className="list-unstyled nav-item">
               <li>1-833-7GOT-FLOOD (1-833-746-8356）</li>
               <li>Info@aplrestoration.ca</li>

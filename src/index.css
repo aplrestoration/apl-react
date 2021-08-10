@@ -14,11 +14,11 @@ code {
 
 /* Typography */
 * {
-  font-family: Roboto;
+  font-family: 'Roboto';
 }
 
 h1 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 38px;
 }
 
@@ -59,7 +59,7 @@ h6 {
   font-weight: bold;
 }
 
-/* Sizing */
+/* Hero Hection */
 .hero-container {
   background-color: blue;
   min-height: 572px;
@@ -83,4 +83,11 @@ h6 {
   margin-top: -100px;
   margin-left: 15%;
   margin-right:15%;
+}
+
+/* Galleries */
+.large-gallery-row {
+    min-height: 1000px;
+    /* height: 830px; */
+    align-items: flex-end;
 }

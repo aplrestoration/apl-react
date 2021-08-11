@@ -5,7 +5,7 @@ import "../index.css";
 const WhoWeServed = () => {
   return (
     <div className="container px-4 py-5" id="featured-3">
-      <div className="d-inline-flex flex-row">
+      <div className="d-inline-flex flex-row align-items-baseline">
         <h2 className="pb-2 big-title-2">Who do we served</h2>
         <Link to="#" className="icon-link">
           <p>VIEW ALL</p>

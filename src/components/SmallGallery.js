@@ -4,7 +4,7 @@ import '../index.css'
 const SmallGallery = () => {
     return (
         <div className="container px-4 py-5" id="custom-cards">
-        <h2 className="pb-2 big-title-2">Renovation Services</h2>
+        <h2 className="pb-2 big-title-2">RENOVATION SERVICES</h2>
         <div className="row row-cols-2 row-cols-lg-4 align-items-stretch g-4 py-5">
           <div className="col ">
             <div className="

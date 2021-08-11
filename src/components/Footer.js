@@ -6,7 +6,7 @@ import { Row, Col, Image, Container } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
       <Container className="container my-3">
         <Row className="row">
           <Col xs={6} md={3}>
@@ -23,7 +23,7 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-      {/*Contact*/}
+
       <div className="container">
         <div className="row">
           <div className="col-lg-3">

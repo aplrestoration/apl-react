@@ -4,7 +4,7 @@ import "../index.css";
 
 const Hero = () => {
   return (
-    <div className="hero-container position-relative text-center">
+    <div className="container-fluid hero-container position-relative text-center">
       <h1 className="hero-title">RESTORATION & RENOVATION</h1>
       <Button className="custom-button-react hero-button rounded-0 px-5 py-3 fw-bold">Get a free quote</Button>
       <h2 className="hero-block-text">

@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import MobileMenu from "./MobileMenu";
 
-const Header = () => {
+function Header() {
+  const [show,setShow]=useState(true)
+
   return (
     <div className="header-container">
       <div className="header-nav-container">
@@ -41,8 +44,9 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        {/* Mobile Nav Menu */}
-        <div className="header-nav-menu d-lg-none">
+
+        {/* Mobile Hamburger Menu */}
+        <div className="header-nav-menu d-lg-none" onClick={()=>setShow(!show)} >
           <Link to="/">
             <svg viewBox="0 0 100 80" width="40" height="40">
               <rect width="100" height="20"></rect>
@@ -50,15 +54,12 @@ const Header = () => {
               <rect y="60" width="100" height="20"></rect>
             </svg>
           </Link>
+          
         </div>
       </div>
 
       {/* Mobile Navigation Panel  */}
-      <div className="mobile-menu d-lg-none">
-        <div className="mobile-menu-card">
-            <p>Test: This is mobile menu </p>
-        </div>
-      </div>
+      {show ? <MobileMenu />: null}
     </div>
   );
 };

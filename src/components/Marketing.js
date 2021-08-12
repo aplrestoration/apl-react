@@ -23,7 +23,7 @@ const Marketing = () => {
         <div className="d-flex flex-column align-items-center marketing-callout">
             <span className="callout-title">ready to fix your home</span>
             <h6>We're here to help, so you can rest assured.</h6>
-            <Button className="custom-button-react rounded-0 fw-bold mt-2">Call for free quote</Button>
+            <Button className="custom-button-react rounded-0 fw-bold mt-2 px-5 py-3">Call for free quote</Button>
         </div>
         </Container>
     )

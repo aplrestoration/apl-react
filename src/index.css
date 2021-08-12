@@ -14,7 +14,7 @@ code {
 
 /* Typography */
 * {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -43,6 +43,7 @@ h4 {
   font-family: Roboto;
   font-size: 18px;
   line-height: 40px;
+  text-decoration: none;
 }
 
 h6 {
@@ -61,32 +62,65 @@ h6 {
   font-weight: bold;
 }
 
+/* Navigation  */
+.header-container {
+  position: relative;
+  margin: 0 auto;
+}
+
+.header-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 70px;
+}
+
+.site-logo {
+  padding-right: 25px;
+}
+
+.headernav-info {
+  display: block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+}
+
+.mobile-menu {
+  transform: scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mobile-menu-card {
+  position: relative;
+  min-width: 100px;
+  min-height: 300px;
+  background-color:black;
+  color: white;
+}
+
 /* Hero Hection */
 .hero-container {
   display: block;
   min-height: 572px;
-  margin-bottom: 200px ;
+  margin-bottom: 200px;
   /* Image styling  */
-  background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../src/assets/bg/header-bg.jpg);
-  background-repeat:no-repeat;
-  background-size:auto;
-  background-position:center; 
-}
-
-.dark-overlay {
-  background-color: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../src/assets/bg/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
 
 .hero-image {
   width: 100%;
   height: 100%;
 }
-.hero-title{
+.hero-title {
   font-family: "Big Shoulders Display", cursive;
   font-size: 100px;
   padding-top: 250px;
@@ -98,21 +132,21 @@ h6 {
   display: block;
   margin: 0 auto;
   text-align: center;
-  position:absolute;
-  background-color: #E1E6EB;
+  position: absolute;
+  background-color: #e1e6eb;
   font-weight: bold;
   padding: 2em;
   margin-top: -100px;
   margin-left: 15%;
-  margin-right:15%;
+  margin-right: 15%;
 }
 
 .hero-button {
   /* positioning */
   left: 50%;
   margin-left: -120px;
-  margin-top: -120px; 
-  position:absolute;
+  margin-top: -120px;
+  position: absolute;
 }
 
 /* Galleries */
@@ -128,21 +162,21 @@ h6 {
   z-index: 100;
   font-size: 16px;
   font-weight: 700;
-  text-transform:uppercase;
+  text-transform: uppercase;
   background-color: #0038ff;
 }
 
 /* Marketing */
 
 .marketing-title {
-  font-family:"Big Shoulders Display", cursive;
+  font-family: "Big Shoulders Display", cursive;
   font-size: 50px;
   text-transform: uppercase;
 }
 
 .callout-title {
   margin-top: 276px;
-  font-family:"Big Shoulders Display", cursive;
+  font-family: "Big Shoulders Display", cursive;
   font-size: 68px;
   text-transform: uppercase;
   text-align: center;

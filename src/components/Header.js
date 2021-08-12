@@ -1,40 +1,66 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import '../index.css'
-
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-    return (
-      <div className="container">
-      <header className="d-flex flex-wrap justify-content-center py-3 mb-4">
-        <Link to="/" className="
-          d-flex
-          align-items-center
-          mb-3 mb-md-0
-          me-md-auto
-          text-dark text-decoration-none
-        ">
-          <h3 className="fs-4 mx-3 site-logo">APL restoration</h3>
-          <span className="fs-6 ml-3">24/7 Emergency Toll-Free Number <br />
-            1-833-7GOT-FlOOD（1-833-746-8356)</span>
-        </Link>
-        <ul className="nav">
-          <li className="nav-item dropdown">
-            <Link to="/" className="nav-link active" aria-current="page">Service</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/" className="nav-link nav-custom">Who We Serve</Link></li>
-          <li className="nav-item">
-            <Link to="/" className="nav-link nav-custom">Where We Serve</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/about" className="nav-link nav-custom">About</Link>
-            </li>
-        </ul>
-      </header>
-    </div>
-    
-    )
-}
+  return (
+    <div className="header-container">
+      <div className="header-nav-container">
+        {/* Site Logo  */}
+        <div className="header-nav-logo d-flex justify-content-between">
+          <Link to="/" className="text-dark text-decoration-none">
+            <h3 className="site-logo">APL restoration</h3>
+          </Link>
+          <span className="header-nav-info d-none d-xl-block">
+            24/7 Emergency Toll-Free Number <br />
+            1-833-7GOT-FlOOD（1-833-746-8356)
+          </span>
+        </div>
 
-export default Header
+        {/* Desktop Navigation  */}
+        <div className="header-nav">
+          <ul className="nav d-none d-lg-flex">
+            <li className="nav-item dropdown">
+              <Link to="/" className="nav-link active" aria-current="page">
+                Service
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-link nav-custom">
+                Who We Serve
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-link nav-custom">
+                Where We Serve
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/about" className="nav-link nav-custom">
+                About
+              </Link>
+            </li>
+          </ul>
+        </div>
+        {/* Mobile Nav Menu */}
+        <div className="header-nav-menu d-lg-none">
+          <Link to="/">
+            <svg viewBox="0 0 100 80" width="40" height="40">
+              <rect width="100" height="20"></rect>
+              <rect y="30" width="100" height="20"></rect>
+              <rect y="60" width="100" height="20"></rect>
+            </svg>
+          </Link>
+        </div>
+      </div>
+
+      {/* Mobile Navigation Panel  */}
+      <div className="mobile-menu d-lg-none">
+        <div className="mobile-menu-card">
+            <p>Test: This is mobile menu </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Header;

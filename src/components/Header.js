@@ -4,7 +4,7 @@ import MobileMenu from "./MobileMenu";
 
 function Header() {
   const [showMobile, setShow] = useState(false);
-  const [showWeb, setWeb] = useState(true);
+  // const [showWeb, setWeb] = useState(true);
 
   return (
     <div>

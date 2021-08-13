@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
 
 function Header() {
-  const [showMobile, setShow] = useState(true);
-  const [showService, setService] = useState(true);
+  const [showMobile, setShow] = useState(false);
+  const [showWeb, setWeb] = useState(true);
 
   return (
     <div>

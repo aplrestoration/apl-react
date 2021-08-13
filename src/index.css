@@ -210,8 +210,14 @@ h6 {
   padding-bottom: 50px;
 }
 
-.card-body {
+.card-box {
+  padding: 25px 32px;
+}
 
+.card-text {
+  font-size: 25px;
+  line-height: 45px;
+  letter-spacing: 0.03em;
 }
 
 /* Marketing */

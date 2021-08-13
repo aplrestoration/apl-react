@@ -4,9 +4,10 @@ import "../index.css";
 
 const Testimonial = () => {
   return (
-    <Container>
+    <div className="testimonial-container">
+      <Container>
       <div className="row mb-5">
-        <div className="col">
+        <div className="testimonial-intro col">
           <h2 className="big-title-2">WHAT OUR CUSTOMER HAVE TO SAY</h2>
           <h6>5 star Google review from all customers</h6>
           <button type="button" className="btn btn-dark">
@@ -14,8 +15,8 @@ const Testimonial = () => {
           </button>
         </div>
       </div>
-      <Row>
-        <Col className="card col-lg-4 col-md-6">
+      <div className="d-flex justify-content-around">
+        <div className="card col-lg-4 col-md-6">
           <div className="card-body">
             <svg width="2em" height="2em" viewBox="0 0 24 24">
               <path
@@ -34,8 +35,8 @@ const Testimonial = () => {
             <h3>Joel Saalfeld</h3>
             <p>This is for the stars</p>
           </div>
-        </Col>
-        <Col className="card col-lg-4 col-md-6">
+        </div>
+        <div className="card col-lg-4 col-md-6">
           <div className="card-body">
             <svg width="2em" height="2em" viewBox="0 0 24 24">
               <path
@@ -54,8 +55,8 @@ const Testimonial = () => {
             <h3>Joel Saalfeld</h3>
             <p>This is for the stars</p>
           </div>
-        </Col>
-        <Col className="card col-lg-4 col-md-6">
+        </div>
+        <div className="card col-lg-4 col-md-6">
           <div className="card-body">
             <svg width="2em" height="2em" viewBox="0 0 24 24">
               <path
@@ -74,9 +75,11 @@ const Testimonial = () => {
             <h3>Joel Saalfeld</h3>
             <p>This is for the stars</p>
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </Container>   
+    </div>
+    
   );
 };
 

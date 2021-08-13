@@ -199,6 +199,21 @@ h6 {
   background-color: #0038ff;
 }
 
+/* Testimonial */
+.testimonial-container {
+  background-color: blue;
+  padding: 70px 66px;
+}
+
+.testimonial-intro {
+  color: white;
+  padding-bottom: 50px;
+}
+
+.card-body {
+ 
+}
+
 /* Marketing */
 
 .marketing-title {

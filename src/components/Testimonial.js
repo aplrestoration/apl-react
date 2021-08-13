@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "../index.css";
 
 const Testimonial = () => {
@@ -15,7 +15,7 @@ const Testimonial = () => {
           </button>
         </div>
       </div>
-      <div className="d-flex justify-content-around">
+      <div className="d-flex">
         <div className="card col-lg-4 col-md-6">
           <div className="card-body">
             <svg width="2em" height="2em" viewBox="0 0 24 24">

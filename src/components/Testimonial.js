@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../index.css";
-import CardSlider from "./CardSlider";
 import CarouselBS from "./CarouselBS";
 
 const Testimonial = () => {

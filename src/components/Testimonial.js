@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import "../index.css";
 import CardSlider from "./CardSlider";
+import CarouselBS from "./CarouselBS";
 
 const Testimonial = () => {
   return (
@@ -16,7 +17,8 @@ const Testimonial = () => {
           </button>
         </div>
       </div>
-      <CardSlider />
+      <CarouselBS />
+      {/* <CardSlider /> */}
     </Container>   
     </div>
     

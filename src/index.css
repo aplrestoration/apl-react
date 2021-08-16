@@ -89,6 +89,8 @@ h6 {
   align-items: center;
 }
 
+/* Mobile Menu  */
+
 .mobile-menu {
   transform: scale(1);
   opacity: 1;
@@ -112,9 +114,6 @@ h6 {
   grid-gap: 20px;
 }
 
-.mobile-menu-list {
-}
-
 .solid-divider {
   border: 1px solid #fff;
 }
@@ -132,6 +131,39 @@ h6 {
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
+
+  letter-spacing: -0.02em;
+}
+
+/* Web Menu  */
+.web-menu-container {
+  box-sizing: border-box;
+  position: absolute;
+  transform: scale(1);
+  opacity: 1;
+  z-index: 100;
+  top: 95px;
+  min-width: 500px;
+  /* min-height: 438px; */
+  padding: 47px 40px;
+  background-color: black;
+  color: white;
+}
+
+.web-menu-box {
+  position: relative;
+}
+
+.web-menu-list {
+  width: 50%;
+  float: left;
+  /* Font styles */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  /* or 111% */
 
   letter-spacing: -0.02em;
 }
@@ -228,7 +260,6 @@ h6 {
   border-radius: 50%;
   background-color: transparent;
 } */
-
 
 /* Marketing */
 

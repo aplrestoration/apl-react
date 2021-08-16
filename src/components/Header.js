@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
+import WebMenu from "./WebMenu";
+
 
 function Header() {
   const [showMobile, setShow] = useState(false);
-  // const [showWeb, setWeb] = useState(true);
+  const [showWeb, setWeb] = useState(false);
 
   return (
     <div>
@@ -23,9 +25,10 @@ function Header() {
 
           {/* Desktop Navigation  */}
           <div className="header-nav">
+          {showWeb ? <WebMenu /> : null}
             <ul className="nav d-none d-lg-flex">
               <li className="nav-item dropdown">
-                <Link to="/" className="nav-link active" aria-current="page">
+                <Link to="/" className="nav-link nav-custom"onClick={() => setWeb(!showWeb)}>
                   Service
                 </Link>
               </li>
@@ -46,7 +49,6 @@ function Header() {
               </li>
             </ul>
           </div>
-
           {/* Mobile Hamburger Menu */}
           <div
             className="header-nav-menu d-lg-none"
@@ -61,10 +63,13 @@ function Header() {
             </Link>
           </div>
         </div>
+        <div>
+        </div>
       </div>
 
       {/* Mobile Navigation Panel  */}
       {showMobile ? <MobileMenu /> : null}
+
     </div>
   );
 }

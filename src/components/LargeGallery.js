@@ -1,5 +1,10 @@
 import React from 'react'
 import '../index.css'
+import bg1 from '../assets/bg/restoration/1.jpg'
+import bg2 from '../assets/bg/restoration/2.jpg'
+import bg3 from '../assets/bg/restoration/3.jpg'
+import bg4 from '../assets/bg/restoration/4.jpg'
+
 
 const LargeGallery = () => {
     return (
@@ -15,7 +20,8 @@ const LargeGallery = () => {
               bg-dark
               rounded-5
               shadow-lg
-            " style={{backgroundImage: 'url("unsplash-photo-3.jpg")'}}>
+              gallery-bg
+            " style={{ backgroundImage: `url(${bg1})` }}>
               <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
                 <h1 className="fw-bold">
                   Another longer title belongs here
@@ -32,7 +38,8 @@ const LargeGallery = () => {
               bg-dark
               rounded-5
               shadow-lg
-            " style={{backgroundImage: 'url("unsplash-photo-3.jpg")'}}>
+              gallery-bg
+            " style={{ backgroundImage: `url(${bg2})` }}>
               <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
                 <h1 className="fw-bold">
                   Another longer title belongs here
@@ -49,7 +56,8 @@ const LargeGallery = () => {
               bg-dark
               rounded-5
               shadow-lg
-            " style={{backgroundImage: 'url("unsplash-photo-3.jpg")'}}>
+              gallery-bg
+            " style={{ backgroundImage: `url(${bg3})` }}>
               <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
                 <h1 className="fw-bold">
                   Another longer title belongs here
@@ -66,7 +74,8 @@ const LargeGallery = () => {
               bg-dark
               rounded-5
               shadow-lg
-            " style={{backgroundImage: 'url("unsplash-photo-3.jpg")'}}>
+              gallery-bg
+            " style={{ backgroundImage: `url(${bg4})` }}>
               <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
                 <h1 className="fw-bold">
                   Another longer title belongs here

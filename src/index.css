@@ -214,10 +214,22 @@ h6 {
   position: absolute;
 }
 
+/* Logos */
+.logo-partners {
+  width: 100%;
+  height: 100px;
+}
 /* Galleries */
 .large-gallery-row {
   min-height: 1000px;
   align-items: flex-end;
+}
+
+.gallery-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: (rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 
 .custom-button-react {

@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row, Image } from "react-bootstrap";
-import benjamin_moore from '../assets/benjamin_moore.png';
 import logo1 from '../assets/logo/1.png';
 import logo2 from '../assets/logo/2.png';
 import logo3 from '../assets/logo/3.png';

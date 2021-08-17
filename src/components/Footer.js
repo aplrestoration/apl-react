@@ -1,6 +1,9 @@
 import React from "react";
 import "../index.css";
-import benjamin_moore from "../assets/benjamin_moore.png";
+import icon1 from "../assets/icon/footer/1.png";
+import icon2 from "../assets/icon/footer/2.png";
+import icon3 from "../assets/icon/footer/3.png";
+import icon4 from "../assets/icon/footer/4.png";
 import { Row, Col, Image, Container } from "react-bootstrap";
 
 
@@ -10,16 +13,16 @@ const Footer = () => {
       <Container className="container my-3">
         <Row className="row">
           <Col xs={6} md={3}>
-            <Image src={benjamin_moore}></Image>
+            <Image src={icon1} className="logo-partners"></Image>
           </Col>
           <Col xs={6} md={3}>
-            <Image src={benjamin_moore}></Image>
+            <Image src={icon2} className="logo-partners"></Image>
           </Col>
           <Col xs={6} md={3}>
-            <Image src={benjamin_moore}></Image>
+            <Image src={icon3} className="logo-partners"></Image>
           </Col>
           <Col xs={6} md={3}>
-            <Image src={benjamin_moore}></Image>
+            <Image src={icon4} className="logo-partners"></Image>
           </Col>
         </Row>
       </Container>

@@ -1,10 +1,9 @@
 import "./App.css";
-// import "~slick-carousyael/slick/slick.css"; 
-// import "~slick-carousel/slick/slick-theme.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -15,8 +14,11 @@ function App() {
       </div>
       <Switch>
       <Route path='/' component={Home} exact/>
-      <Route path='/about' component={About} />
+      <Route path='/about' component={About} exact/>
       </Switch>
+      <div>
+      <Footer />
+      </div>
       
     </BrowserRouter>
   );

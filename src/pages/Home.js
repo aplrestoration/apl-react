@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import LargeGallery from "../components/LargeGallery";
 import Logo from "../components/Logo";
@@ -18,7 +17,6 @@ const Home = () => {
       <WhoWeServed />
       <Testimonial />
       <Marketing />
-      <Footer />
     </div>
   );
 };

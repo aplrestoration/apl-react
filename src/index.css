@@ -288,11 +288,16 @@ p,li {
 
 /* footer */
 .footer {
+  padding-top: 5%;
   background-color: black;
   color: white;
 }
 
 /* Other Pages  */
+
+.page-container {
+  padding-bottom: 5%;
+}
 
 .page-title {
   font-family: Big Shoulders Display;
@@ -302,5 +307,10 @@ p,li {
   line-height: 120px;
   text-transform: uppercase;
   padding-top: 400px;
+  padding-left: 10%;
   color: black;
+}
+
+.page-text-container {
+  padding: 0 20%;
 }

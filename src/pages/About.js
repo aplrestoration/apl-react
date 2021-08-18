@@ -3,14 +3,14 @@ import { Container } from "react-bootstrap";
 
 const About = () => {
   return (
-    <div>
+    <div className="page-container">
       <div className="container-fluid hero-container position-relative">
           <Container>
           <h1 className="page-title">About Us</h1>
           </Container>
       </div>
       
-      <Container>
+      <div className="page-text-container">
         <p>
           The management team of APL Restoration has over 20 years’ experience
           in helping people who have experienced a flood, or sewer back up. We
@@ -32,7 +32,7 @@ const About = () => {
           <li>Exceptional customer service</li>
           <li>Complete property restoration-Free estimates</li>
         </ul>
-      </Container>
+      </div>
     </div>
   );
 };

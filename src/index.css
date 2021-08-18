@@ -46,7 +46,8 @@ h4 {
   text-decoration: none;
 }
 
-h6 {
+h6,
+p,li {
   font-size: 25px;
 }
 
@@ -265,14 +266,6 @@ h6 {
   padding-top: 34px;
 }
 
-/* .slick-arrow{
-  width: 90px;
-  height:90px;
-  border-style: solid;
-  border-radius: 50%;
-  background-color: transparent;
-} */
-
 /* Marketing */
 
 .marketing-title {
@@ -297,4 +290,17 @@ h6 {
 .footer {
   background-color: black;
   color: white;
+}
+
+/* Other Pages  */
+
+.page-title {
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 120px;
+  text-transform: uppercase;
+  padding-top: 400px;
+  color: black;
 }

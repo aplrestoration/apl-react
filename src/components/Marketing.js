@@ -1,20 +1,26 @@
 import React from 'react'
-import { Button, Container } from 'react-bootstrap'
+import { Button, Container, Image} from 'react-bootstrap'
 import '../index.css'
+import icon1 from '../assets/icon/marketing/1.png';
+import icon2 from '../assets/icon/marketing/2.png';
+import icon3 from '../assets/icon/marketing/3.png';
 
 const Marketing = () => {
     return (
-        <Container>
-        <div className="d-flex justify-content-around text-center">
-            <div className="marketing-block">
+        <Container className="pt-5">
+        <div className="d-flex justify-content-around text-center pb-5">
+            <div className="d-flex flex-column marketing-block">
+            <Image src={icon1} className="icon-marketing"></Image>
                 <span className="marketing-title">5 stars</span>
                 <h6>Average Rating</h6>
             </div>
-            <div className="marketing-block">
+            <div className="d-flex flex-column marketing-block">
+            <Image src={icon2} className="icon-marketing"></Image>
                 <span className="marketing-title">5 stars</span>
                 <h6>Average Rating</h6>
             </div>
-            <div className="marketing-block">
+            <div className="d-flex flex-column marketing-block">
+            <Image src={icon3} className="icon-marketing"></Image>
                 <span className="marketing-title">5 stars</span>
                 <h6>Average Rating</h6>
             </div>

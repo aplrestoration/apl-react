@@ -32,33 +32,33 @@ const Footer = () => {
           <div className="col-lg-3">
             <h1 className="fw-bold my-3">Contact</h1>
             <ul className="list-unstyled nav-item">
-              <li>1-833-7GOT-FLOOD (1-833-746-8356）</li>
-              <li>Info@aplrestoration.ca</li>
-              <li>PO Box 45006 Dunbar, Vancouver, BC V682M8</li>
+              <h5>1-833-7GOT-FLOOD (1-833-746-8356）</h5>
+              <h5>Info@aplrestoration.ca</h5>
+              <h5>PO Box 45006 Dunbar, Vancouver, BC V682M8</h5>
             </ul>
           </div>
           <div className="col-lg-3">
             <h1 className="fw-bold my-3">Renovation</h1>
             <ul className="list-unstyled nav-item">
-              <li>1-833-7GOT-FLOOD (1-833-746-8356）</li>
-              <li>Info@aplrestoration.ca</li>
-              <li>PO Box 45006 Dunbar, Vancouver, BC V682M8</li>
+              <h5>1-833-7GOT-FLOOD (1-833-746-8356）</h5>
+              <h5>Info@aplrestoration.ca</h5>
+              <h5>PO Box 45006 Dunbar, Vancouver, BC V682M8</h5>
             </ul>
           </div>
           <div className="col-lg-3">
             <h1 className="fw-bold my-3">Restoration</h1>
             <ul className="list-unstyled nav-item">
-              <li>1-833-7GOT-FLOOD (1-833-746-8356）</li>
-              <li>Info@aplrestoration.ca</li>
-              <li>PO Box 45006 Dunbar, Vancouver, BC V682M8</li>
+              <h5>1-833-7GOT-FLOOD (1-833-746-8356）</h5>
+              <h5>Info@aplrestoration.ca</h5>
+              <h5>PO Box 45006 Dunbar, Vancouver, BC V682M8</h5>
             </ul>
           </div>
           <div className="col-lg-3">
             <h1 className="fw-bold my-3">More Info</h1>
             <ul className="list-unstyled nav-item">
-              <li>1-833-7GOT-FLOOD (1-833-746-8356）</li>
-              <li>Info@aplrestoration.ca</li>
-              <li>PO Box 45006 Dunbar, Vancouver, BC V682M8</li>
+              <h5>1-833-7GOT-FLOOD (1-833-746-8356）</h5>
+              <h5>Info@aplrestoration.ca</h5>
+              <h5>PO Box 45006 Dunbar, Vancouver, BC V682M8</h5>
             </ul>
           </div>
         </div>

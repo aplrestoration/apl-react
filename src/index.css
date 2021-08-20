@@ -31,7 +31,9 @@ h2 {
 
 h3 {
   font-size: 25px;
-  font-weight: bold;
+  line-height: 45px;
+  letter-spacing: 0.03em;
+  font-weight:700;
 }
 
 h4 {
@@ -46,9 +48,15 @@ h4 {
   text-decoration: none;
 }
 
+h5 {
+  font-size: 18px;
+  line-height: 40px;
+}
+
 h6,
 p,li {
   font-size: 25px;
+  line-height: 45px;
 }
 
 .big-title-1 {
@@ -73,7 +81,7 @@ p,li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 70px;
+  padding: 15px 70px;
 }
 
 .site-logo {
@@ -86,7 +94,7 @@ p,li {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 14px;
   align-items: center;
 }
 
@@ -173,7 +181,7 @@ p,li {
 .hero-container {
   display: block;
   min-height: 572px;
-  margin-bottom: 200px;
+  margin-bottom: 160px;
   /* Image styling  */
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../src/assets/bg/header-bg.jpg);
@@ -244,6 +252,20 @@ p,li {
   background-color: #0038ff;
 }
 
+.icon-link {
+  color: black;
+  padding-left: 30px;
+}
+
+.icon-whoWeServed {
+  width: 78px;
+  height: 78px;
+}
+
+.bg-whoWeServed {
+  background-color: #f2f2f2;
+}
+
 /* Testimonial */
 .testimonial-container {
   background-color: #0038ff;
@@ -252,11 +274,10 @@ p,li {
 
 .testimonial-intro {
   color: white;
-  padding-bottom: 50px;
 }
 
 .card-box {
-  padding: 25px 32px;
+  padding: 30px 25px;
 }
 
 .card-text {
@@ -283,7 +304,16 @@ p,li {
 }
 
 .marketing-callout {
-  margin-bottom: 197px;
+  padding-bottom: 197px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../src/assets/bg/cta-bg.jpg);
+}
+
+.icon-marketing {
+  width: 200px;
 }
 
 /* footer */

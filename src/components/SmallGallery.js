@@ -13,16 +13,14 @@ const SmallGallery = () => {
     return (
         <div className="container px-4 py-5" id="custom-cards">
         <h2 className="pb-2 big-title-2">RENOVATION SERVICES</h2>
-        <div className="row row-cols-2 row-cols-lg-4 align-items-stretch g-4 py-5">
-          <div className="col ">
+        <div className="row row-cols-2 row-cols-lg-4 align-items-stretch g-4 pt-5">
+          <div className="col">
             <div className="
               card card-cover
               h-100
               overflow-hidden
               text-white
-              bg-dark
               rounded-5
-              shadow-lg
               gallery-bg
             " style={{ backgroundImage: `url(${bg1})` }}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
@@ -38,9 +36,7 @@ const SmallGallery = () => {
               h-100
               overflow-hidden
               text-white
-              bg-dark
               rounded-5
-              shadow-lg
               gallery-bg
             " style={{ backgroundImage: `url(${bg2})` }}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
@@ -56,9 +52,7 @@ const SmallGallery = () => {
               h-100
               overflow-hidden
               text-white
-              bg-dark
               rounded-5
-              shadow-lg
               gallery-bg
             " style={{ backgroundImage: `url(${bg3})` }}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
@@ -74,9 +68,7 @@ const SmallGallery = () => {
               h-100
               overflow-hidden
               text-white
-              bg-dark
               rounded-5
-              shadow-lg
               gallery-bg
             " style={{ backgroundImage: `url(${bg4})` }}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
@@ -92,9 +84,7 @@ const SmallGallery = () => {
               h-100
               overflow-hidden
               text-white
-              bg-dark
               rounded-5
-              shadow-lg
               gallery-bg
             " style={{ backgroundImage: `url(${bg5})` }}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
@@ -110,9 +100,7 @@ const SmallGallery = () => {
               h-100
               overflow-hidden
               text-white
-              bg-dark
               rounded-5
-              shadow-lg
               gallery-bg
             " style={{ backgroundImage: `url(${bg6})` }}>
               <div className="d-flex flex-column-reverse h-100 p-5 pb-3 text-shadow-1">
@@ -128,9 +116,7 @@ const SmallGallery = () => {
               h-100
               overflow-hidden
               text-white
-              bg-dark
               rounded-5
-              shadow-lg
               gallery-bg
             " style={{ backgroundImage: `url(${bg7})` }}>
               <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
@@ -146,9 +132,7 @@ const SmallGallery = () => {
               h-100
               overflow-hidden
               text-white
-              bg-dark
               rounded-5
-              shadow-lg
               gallery-bg
             " style={{ backgroundImage: `url(${bg8})` }}>
               <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">

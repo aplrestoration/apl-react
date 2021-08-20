@@ -40,9 +40,9 @@ export default class Responsive extends Component {
     return (
       <div>
         <Slider {...settings}>
-          <div>
+          <div className="pb-4">
             <div
-              style={{ height: 537, margin: 20, background: "white" }}
+              style={{ height: 537, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -71,7 +71,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 20, background: "white" }}
+              style={{ height: 537, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -100,7 +100,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 20, background: "white" }}
+              style={{ height: 537, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -129,7 +129,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 20, background: "white" }}
+              style={{ height: 537, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">

@@ -19,31 +19,31 @@ function Header() {
             </Link>
             <span className="header-nav-info d-none d-xl-block">
               24/7 Emergency Toll-Free Number <br />
-              1-833-7GOT-FlOOD（1-833-746-8356)
+              1-833-7GOT-FLOOD?（1-833-746-8356) or 604.446.2773
             </span>
           </div>
 
           {/* Desktop Navigation  */}
           <div className="header-nav">
           {showWeb ? <WebMenu /> : null}
-            <ul className="nav d-none d-lg-flex">
-              <li className="nav-item dropdown">
-                <Link to="/" className="nav-link nav-custom"onClick={() => setWeb(!showWeb)}>
+            <ul className="nav d-none d-lg-flex nav-styles">
+              <li>
+                <Link to="/" className="nav-link"onClick={() => setWeb(!showWeb)}>
                   Service
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/" className="nav-link nav-custom">
+              <li>
+                <Link to="/" className="nav-link">
                   Who We Serve
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/" className="nav-link nav-custom">
+              <li>
+                <Link to="/" className="nav-link">
                   Where We Serve
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/about" className="nav-link nav-custom">
+              <li>
+                <Link to="/about" className="nav-link">
                   About
                 </Link>
               </li>

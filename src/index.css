@@ -54,8 +54,7 @@ h5 {
 }
 
 h6,
-p,
-li {
+p {
   font-size: 25px;
   line-height: 45px;
 }
@@ -316,15 +315,45 @@ li {
   width: 200px;
 }
 
-/* footer */
+/* Footer */
 .footer {
-  padding: 40px 40px;
+  padding: 60px 0px;
   background-color: black;
   color: white;
 }
 
-/* Other Pages  */
+.footer-contact-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
 
+.footer-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-note {
+  font-style: normal;
+  color: #898787;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #898787;
+}
+
+/* Other Pages  */
 .page-container {
   padding-bottom: 5%;
 }

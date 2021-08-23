@@ -35,15 +35,24 @@ const Footer = () => {
             <div className="col-lg-3">
               <h1 className="fw-bold my-3">Contact</h1>
               <ul className="list-unstyled footer-contact-text">
-                <li style={{paddingBottom:'20px'}}>
-                <Image src={smallIcon1} className="footer-icon"></Image>
-                  <span>&nbsp;&nbsp;1-833-7GOT-FLOOD (1-833-746-8356）</span></li>
-                <li  style={{paddingBottom:'20px'}}>
-                <Image src={smallIcon2} className="footer-icon"></Image>
-                 <span>&nbsp;&nbsp;Info@aplrestoration.ca</span></li>
+                <li style={{ paddingBottom: "20px" }}>
+                  <Image src={smallIcon1} className="footer-icon"></Image>
+                  <span>&nbsp;&nbsp;1-833-7GOT-FLOOD?</span><br/>
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1-833-746-8356）</span>
+                </li>
+                <li style={{ paddingBottom: "20px" }}>
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;604,446,2773</span>
+                </li>
+                <li style={{ paddingBottom: "20px" }}>
+                  <Image src={smallIcon2} className="footer-icon"></Image>
+                  <span>&nbsp;&nbsp;Info@aplrestoration.ca</span>
+                </li>
                 <li>
-                <Image src={smallIcon3} className="footer-icon"></Image>
-                  <span>&nbsp;&nbsp;PO Box 45006 Dunbar, Vancouver, BC V682M8</span></li>
+                  <Image src={smallIcon3} className="footer-icon"></Image>
+                  <span>
+                    &nbsp;&nbsp;PO Box 45006 Dunbar, Vancouver, BC V682M8
+                  </span>
+                </li>
               </ul>
             </div>
             <div className="col-lg-3">
@@ -79,7 +88,9 @@ const Footer = () => {
           </div>
         </div>
         <hr className="solid-divider" />
-        <span className="footer-note">© 2021, APL Restoration Ltd. All Rights Reserved. </span>
+        <span className="footer-note">
+          © 2021, APL Restoration Ltd. All Rights Reserved.{" "}
+        </span>
       </div>
     </div>
   );

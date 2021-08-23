@@ -33,7 +33,7 @@ h3 {
   font-size: 25px;
   line-height: 45px;
   letter-spacing: 0.03em;
-  font-weight:700;
+  font-weight: 700;
 }
 
 h4 {
@@ -54,7 +54,8 @@ h5 {
 }
 
 h6,
-p,li {
+p,
+li {
   font-size: 25px;
   line-height: 45px;
 }
@@ -308,8 +309,7 @@ p,li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../src/assets/bg/cta-bg.jpg);
+  background-image: url(../src/assets/bg/cta-bg.jpg);
 }
 
 .icon-marketing {
@@ -318,7 +318,7 @@ p,li {
 
 /* footer */
 .footer {
-  padding-top: 5%;
+  padding: 40px 40px;
   background-color: black;
   color: white;
 }

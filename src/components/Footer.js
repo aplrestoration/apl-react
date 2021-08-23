@@ -26,7 +26,7 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-
+      <hr className="solid-divider" />
       <div className="container">
         <div className="row">
           <div className="col-lg-3">
@@ -63,6 +63,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <hr className="solid-divider" />
     </div>
   );
 };

@@ -229,10 +229,6 @@ a.nav-link {
   height: 100px;
 }
 /* Galleries */
-.large-gallery-row {
-  min-height: 1000px;
-  align-items: flex-end;
-}
 
 /* Column Height */
 

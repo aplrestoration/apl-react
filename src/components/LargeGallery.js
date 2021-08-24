@@ -20,7 +20,7 @@ const LargeGallery = () => {
               rounded-5
               gallery-bg
             " style={{ backgroundImage: `url(${bg1})` }}>
-              <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
+              <div className="d-flex align-items-end flex-row h-100 p-3 text-shadow-1">
                 <h1 className="fw-bold card-title">
                   Emergency Response
                 </h1>
@@ -36,7 +36,7 @@ const LargeGallery = () => {
               rounded-5
               gallery-bg
             " style={{ backgroundImage: `url(${bg2})` }}>
-              <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
+              <div className="d-flex align-items-end flex-row h-100 p-3 text-shadow-1">
                 <h1 className="fw-bold card-title">
                   Water & Flood
                 </h1>
@@ -52,7 +52,7 @@ const LargeGallery = () => {
               rounded-5
               gallery-bg
             " style={{ backgroundImage: `url(${bg3})` }}>
-              <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
+              <div className="d-flex align-items-end flex-row h-100 p-3 text-shadow-1">
                 <h1 className="fw-bold card-title">
                   Biohazard Redemption
                 </h1>
@@ -68,7 +68,7 @@ const LargeGallery = () => {
               rounded-5
               gallery-bg
             " style={{ backgroundImage: `url(${bg4})` }}>
-              <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
+              <div className="d-flex align-items-end flex-row h-100 p-3 text-shadow-1">
                 <h1 className="fw-bold card-title">
                   Fire & Smoke
                 </h1>

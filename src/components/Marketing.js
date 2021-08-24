@@ -8,13 +8,13 @@ import icon3 from "../assets/icon/marketing/3.png";
 const Marketing = () => {
   return (
     <Container className="pt-5">
-      <div className="d-flex justify-content-around align-items-center text-center pb-5">
-        <div className="d-flex flex-column marketing-block">
+      <div className="d-flex flex-column justify-content-around align-items-center text-center pb-5">
+        <div className="d-flex flex-column marketing-block pb-3">
           <Image src={icon1} className="icon-marketing"></Image>
           <span className="marketing-title">5 stars</span>
           <span className="marketing-text">Average Rating</span>
         </div>
-        <div className="d-flex flex-column marketing-block">
+        <div className="d-flex flex-column marketing-block pb3">
           <Image src={icon2} className="icon-marketing"></Image>
           <span className="marketing-title">570 projects</span>
           <span className="marketing-text">Successed</span>
@@ -29,7 +29,7 @@ const Marketing = () => {
         <div className="d-flex flex-column align-items-center marketing-bg">
           <span className="callout-title">ready to fix your home</span>
           <span className="marketing-text">We're here to help, so you can rest assured.</span>
-          <Button className="custom-button-react rounded-0 fw-bold mt-2 px-5 py-3">
+          <Button className="custom-button-react rounded-0 fw-bold">
             Call for free quote
           </Button>
         </div>

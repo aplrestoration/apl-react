@@ -1,34 +1,34 @@
 import React from "react";
 import "../index.css";
-import icon1 from "../assets/icon/footer/1.png";
 import icon2 from "../assets/icon/footer/2.png";
 import icon3 from "../assets/icon/footer/3.png";
 import icon4 from "../assets/icon/footer/4.png";
 import smallIcon1 from "../assets/icon/footer/icon-1.png";
 import smallIcon2 from "../assets/icon/footer/icon-2.png";
 import smallIcon3 from "../assets/icon/footer/icon-3.png";
-import { Row, Col, Image, Container } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
-        <Container className="container py-3">
-          <Row className="row">
-            <Col xs={6} md={3}>
-              <Image src={icon1} className="logo-partners"></Image>
-            </Col>
-            <Col xs={6} md={3}>
-              <Image src={icon2} className="logo-partners"></Image>
-            </Col>
-            <Col xs={6} md={3}>
-              <Image src={icon3} className="logo-partners"></Image>
-            </Col>
-            <Col xs={6} md={3}>
-              <Image src={icon4} className="logo-partners"></Image>
-            </Col>
-          </Row>
-        </Container>
+        <div className="container py-3">
+          <div className="row">
+            <div className="col-12 col-md-3 footer-title-mobile">
+              <span className="footer-title">APL Restoration Ltd</span>
+            </div>
+            <div className="col-4 col-md-3">
+              <Image src={icon2} className="img-fluid logo-partners"></Image>
+            </div>
+            <div className="col-4 col-md-3">
+              <Image src={icon3} className="img-fluid logo-partners"></Image>
+            </div>
+            <div className="col-4 col-md-3">
+              <Image src={icon4} className="img-fluid logo-partners"></Image>
+            </div>
+            
+          </div>
+        </div>
         <hr className="solid-divider" />
         <div className="container">
           <div className="row">

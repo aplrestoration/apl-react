@@ -16,7 +16,7 @@ const Logo = () => {
         </div>
         <div className="col-4 col-md-2">
           <Image src={logo2} className="img-fluid"></Image>
-        </div>
+        </div> 
         <div className="col-4 col-md-2">
           <Image src={logo3} className="img-fluid"></Image>
         </div>

@@ -26,7 +26,7 @@ function Header() {
           {/* Desktop Navigation  */}
           <div className="header-nav">
           {showWeb ? <WebMenu /> : null}
-            <ul className="nav d-none d-lg-flex nav-styles">
+            <ul className="nav d-none d-lg-flex">
               <li>
                 <Link to="/" className="nav-link"onClick={() => setWeb(!showWeb)}>
                   Service

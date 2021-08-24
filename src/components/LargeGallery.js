@@ -8,7 +8,7 @@ import bg4 from '../assets/bg/restoration/4.jpg'
 
 const LargeGallery = () => {
     return (
-        <div className="container px-4 pt-5" id="custom-cards">
+        <div className="container px-4 pt-5">
         <h2 className="pb-2 big-title-2">RESTORATION SERVICES</h2>
           <div className="large-gallery-row row row-cols-2 row-cols-lg-2 align-items-stretch g-4">
           <div className="col">
@@ -21,7 +21,7 @@ const LargeGallery = () => {
               gallery-bg
             " style={{ backgroundImage: `url(${bg1})` }}>
               <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
-                <h1 className="fw-bold">
+                <h1 className="fw-bold card-title">
                   Emergency Response
                 </h1>
               </div>
@@ -37,8 +37,8 @@ const LargeGallery = () => {
               gallery-bg
             " style={{ backgroundImage: `url(${bg2})` }}>
               <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
-                <h1 className="fw-bold">
-                  Another longer title belongs here
+                <h1 className="fw-bold card-title">
+                  Water & Flood
                 </h1>
               </div>
             </div>
@@ -53,8 +53,8 @@ const LargeGallery = () => {
               gallery-bg
             " style={{ backgroundImage: `url(${bg3})` }}>
               <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
-                <h1 className="fw-bold">
-                  Another longer title belongs here
+                <h1 className="fw-bold card-title">
+                  Biohazard Redemption
                 </h1>
               </div>
             </div>
@@ -69,8 +69,8 @@ const LargeGallery = () => {
               gallery-bg
             " style={{ backgroundImage: `url(${bg4})` }}>
               <div className="d-flex align-items-end flex-row h-100 p-5 pb-3 text-shadow-1">
-                <h1 className="fw-bold">
-                  Another longer title belongs here
+                <h1 className="fw-bold card-title">
+                  Fire & Smoke
                 </h1>
               </div>
             </div>

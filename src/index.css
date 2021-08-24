@@ -98,14 +98,6 @@ a.nav-link {
   color: black;
 }
 
-
-.nav-styles {
-  font-size:18px;
-  line-height: 40px;
-  letter-spacing: -0.02em;
-  color:black;
-}
-
 /* Mobile Menu  */
 
 .mobile-menu {
@@ -242,11 +234,42 @@ a.nav-link {
   align-items: flex-end;
 }
 
+/* Column Height */
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  div.col {
+    height: 400px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  div.col {
+    width: 50%;
+  }
+}
+
+div.card {
+  border: none;
+  border-radius: 5px;
+}
+
 .gallery-bg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: (rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.gallery-bg:after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.card-title {
+  z-index: 100;
 }
 
 .custom-button-react {
@@ -317,14 +340,13 @@ a.nav-link {
   margin-bottom: 50px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
   background-image: url(../src/assets/bg/cta-bg.jpg);
 }
 
 .marketing-bg {
   background-color: white;
-  padding:60px 100px;
-
+  padding: 60px 100px;
 }
 
 .icon-marketing {

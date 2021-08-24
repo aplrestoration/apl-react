@@ -1,5 +1,8 @@
 import React, { Component } from "react";
+import { Image } from "react-bootstrap";
 import Slider from "react-slick";
+import stars from "../assets/icon/star.png";
+import QuoteIcon from "./QuoteIcon";
 
 export default class Responsive extends Component {
   render() {
@@ -40,32 +43,22 @@ export default class Responsive extends Component {
     return (
       <div>
         <Slider {...settings}>
-          <div className="pb-4">
+          <div>
             <div
               style={{ height: 537, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="89"
-                  height="73"
-                  viewBox="0 0 89 73"
-                  fill="none"
-                >
-                  <path
-                    d="M81.4402 0.271057L68.3822 38.4534H89V72.518H50.1699V41.8225L66.6641 0.271057H81.4402ZM0 72.518V41.8225L16.4942 0.271057H31.2703L18.2124 38.4534H38.8301V72.518H0Z"
-                    fill="black"
-                  />
-                </svg>
+                <QuoteIcon />
                 <span className="card-text">
-                  Their care included an effective mediation with the insurance
-                  company, which spared me from many headaches.
+                  APL's workers are polite, well organized and tidy, they did
+                  not try to spend more than need be to complete. They have all
+                  the necessary equipment, Very satisfied.
                 </span>
               </div>
               <div>
-                <h3 className="fw-bold">Joel Saalfeld</h3>
-                <p>~STAR~</p>
+                <h3 className="fw-bold">Norma Freeman</h3>
+                <Image src={stars} style={{ height: "36px" }}></Image>
               </div>
             </div>
           </div>
@@ -75,26 +68,16 @@ export default class Responsive extends Component {
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="89"
-                  height="73"
-                  viewBox="0 0 89 73"
-                  fill="none"
-                >
-                  <path
-                    d="M81.4402 0.271057L68.3822 38.4534H89V72.518H50.1699V41.8225L66.6641 0.271057H81.4402ZM0 72.518V41.8225L16.4942 0.271057H31.2703L18.2124 38.4534H38.8301V72.518H0Z"
-                    fill="black"
-                  />
-                </svg>
+                <QuoteIcon />
                 <span className="card-text">
-                  Their care included an effective mediation with the insurance
-                  company, which spared me from many headaches.
+                  My shower leaked to the unit below. The knowledgeable APL team
+                  were fantastic, I can't recommend them enough! Attention to
+                  detail, and the job is done right to your liking.
                 </span>
               </div>
               <div>
-                <h3 className="fw-bold">Joel Saalfeld</h3>
-                <p>~STAR~</p>
+                <h3 className="fw-bold">Shannon Froklage</h3>
+                <Image src={stars} style={{ height: "36px" }}></Image>
               </div>
             </div>
           </div>
@@ -104,26 +87,16 @@ export default class Responsive extends Component {
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="89"
-                  height="73"
-                  viewBox="0 0 89 73"
-                  fill="none"
-                >
-                  <path
-                    d="M81.4402 0.271057L68.3822 38.4534H89V72.518H50.1699V41.8225L66.6641 0.271057H81.4402ZM0 72.518V41.8225L16.4942 0.271057H31.2703L18.2124 38.4534H38.8301V72.518H0Z"
-                    fill="black"
-                  />
-                </svg>
+                <QuoteIcon />
                 <span className="card-text">
-                  Their care included an effective mediation with the insurance
-                  company, which spared me from many headaches.
+                  Used APL Restoration after a burst pipe and flooding. They
+                  were very professional, did great work. Receptive to questions
+                  and great job at explaining their process.
                 </span>
               </div>
               <div>
-                <h3 className="fw-bold">Joel Saalfeld</h3>
-                <p>~STAR~</p>
+                <h3 className="fw-bold">Raj Brar</h3>
+                <Image src={stars} style={{ height: "36px" }}></Image>
               </div>
             </div>
           </div>
@@ -133,40 +106,136 @@ export default class Responsive extends Component {
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="89"
-                  height="73"
-                  viewBox="0 0 89 73"
-                  fill="none"
-                >
-                  <path
-                    d="M81.4402 0.271057L68.3822 38.4534H89V72.518H50.1699V41.8225L66.6641 0.271057H81.4402ZM0 72.518V41.8225L16.4942 0.271057H31.2703L18.2124 38.4534H38.8301V72.518H0Z"
-                    fill="black"
-                  />
-                </svg>
+                <QuoteIcon />
                 <span className="card-text">
-                  Their care included an effective mediation with the insurance
-                  company, which spared me from many headaches.
+                  From initial meeting to completion, I felt being supported at
+                  challenging time. Response time was quick, work done well,
+                  cost reasonable. There were no surprises!
                 </span>
               </div>
               <div>
-                <h3 className="fw-bold">Joel Saalfeld</h3>
-                <p>~STAR~</p>
+                <h3 className="fw-bold">Lonnie Delisle</h3>
+                <Image src={stars} style={{ height: "36px" }}></Image>
               </div>
             </div>
           </div>
           <div>
-            <h3>5</h3>
+            <div
+              style={{ height: 537, margin: 10, background: "white" }}
+              className="d-flex flex-column card-box justify-content-between"
+            >
+              <div className="d-flex flex-column">
+                <QuoteIcon />
+                <span className="card-text">
+                  My apartment had a flood, flooring and walls were damaged. APL
+                  Team make sure I was clear on everything happening. They went
+                  above and beyond, my apartment looked better than before.
+                </span>
+              </div>
+              <div>
+                <h3 className="fw-bold">Mairead Raupach</h3>
+                <Image src={stars} style={{ height: "36px" }}></Image>
+              </div>
+            </div>
           </div>
           <div>
-            <h3>6</h3>
+            <div
+              style={{ height: 537, margin: 10, background: "white" }}
+              className="d-flex flex-column card-box justify-content-between"
+            >
+              <div className="d-flex flex-column">
+                <QuoteIcon />
+                <span className="card-text">
+                  APL helped our business with a flood. The job was quick,
+                  efficient, safe (dust control, dehumidification,
+                  sterilization, etc). I hope not have another flood, I'd be
+                  happy to use APL again and again.
+                </span>
+              </div>
+              <div>
+                <h3 className="fw-bold">Emese Tokes</h3>
+                <Image src={stars} style={{ height: "36px" }}></Image>
+              </div>
+            </div>
           </div>
           <div>
-            <h3>7</h3>
+            <div
+              style={{ height: 537, margin: 10, background: "white" }}
+              className="d-flex flex-column card-box justify-content-between"
+            >
+              <div className="d-flex flex-column">
+                <QuoteIcon />
+                <span className="card-text">
+                  They were professional and courteous, with great communication
+                  and friendly staff. The work performed was of the highest
+                  quality, with excellent dust control and workspace
+                  cleanliness. A+ service.
+                </span>
+              </div>
+              <div>
+                <h3 className="fw-bold">Duncan Stratton</h3>
+                <Image src={stars} style={{ height: "36px" }}></Image>
+              </div>
+            </div>
           </div>
           <div>
-            <h3>8</h3>
+            <div
+              style={{ height: 537, margin: 10, background: "white" }}
+              className="d-flex flex-column card-box justify-content-between"
+            >
+              <div className="d-flex flex-column">
+                <QuoteIcon />
+                <span className="card-text">
+                  Fantastic work done by APL Restoration and their
+                  technicians!!! The 3 yrs warranty they provide is also great.
+                  Highly recommend their service if you're in a trouble!
+                </span>
+              </div>
+              <div>
+                <h3 className="fw-bold">Sang Min Kim</h3>
+                <Image src={stars} style={{ height: "36px" }}></Image>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              style={{ height: 537, margin: 10, background: "white" }}
+              className="d-flex flex-column card-box justify-content-between"
+            >
+              <div className="d-flex flex-column">
+                <QuoteIcon />
+                <span className="card-text">
+                  APL's amazing team of craftsmen completely redid my ruined
+                  basement. They arrived within hours after I called. Removed
+                  the mess, dried it out, laid floor, fixed the drywall and our
+                  basement look new!!
+                </span>
+              </div>
+              <div>
+                <h3 className="fw-bold">Richard Lee</h3>
+                <Image src={stars} style={{ height: "36px" }}></Image>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              style={{ height: 537, margin: 10, background: "white" }}
+              className="d-flex flex-column card-box justify-content-between"
+            >
+              <div className="d-flex flex-column">
+                <QuoteIcon />
+                <span className="card-text">
+                  Amazing work. My flooded basement was a mess and they
+                  refinished it to an amazing high standard. Made it all so
+                  simple with the insurance, even helped with deductible.
+                  Thanks!!
+                </span>
+              </div>
+              <div>
+                <h3 className="fw-bold">Ed Berry</h3>
+                <Image src={stars} style={{ height: "36px" }}></Image>
+              </div>
+            </div>
           </div>
         </Slider>
       </div>

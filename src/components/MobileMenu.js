@@ -5,7 +5,7 @@ import MobileMenuService from "./MobileMenuService";
 
 const MobileMenu = () => {
   return (
-    <div className="mobile-menu d-lg-none">
+    <div className="container-fluid mobile-menu d-lg-none">
       <div className="mobile-menu-card">
         <span className=" ">
           24/7 Emergency Toll-Free Number <br />

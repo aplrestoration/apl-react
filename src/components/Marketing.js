@@ -8,7 +8,7 @@ import icon3 from "../assets/icon/marketing/3.png";
 const Marketing = () => {
   return (
     <Container className="pt-5">
-      <div className="d-flex flex-column justify-content-around align-items-center text-center pb-5">
+      <div className="d-flex flex-column flex-md-row justify-content-around align-items-center text-center pb-5">
         <div className="d-flex flex-column marketing-block pb-3">
           <Image src={icon1} className="icon-marketing"></Image>
           <span className="marketing-title">5 stars</span>

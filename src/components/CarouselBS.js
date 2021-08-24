@@ -45,7 +45,7 @@ export default class Responsive extends Component {
         <Slider {...settings}>
           <div>
             <div
-              style={{ height: 537, margin: 10, background: "white" }}
+              style={{ height: 600, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -64,7 +64,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 10, background: "white" }}
+              style={{ height: 600, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -83,7 +83,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 10, background: "white" }}
+              style={{ height: 600, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -102,7 +102,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 10, background: "white" }}
+              style={{ height: 600, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -121,7 +121,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 10, background: "white" }}
+              style={{ height: 600, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -140,7 +140,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 10, background: "white" }}
+              style={{ height: 600, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -160,7 +160,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 10, background: "white" }}
+              style={{ height: 600, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -169,7 +169,7 @@ export default class Responsive extends Component {
                   They were professional and courteous, with great communication
                   and friendly staff. The work performed was of the highest
                   quality, with excellent dust control and workspace
-                  cleanliness. A+ service.
+                  cleanliness. 
                 </span>
               </div>
               <div>
@@ -180,7 +180,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 10, background: "white" }}
+              style={{ height: 600, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -199,7 +199,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 10, background: "white" }}
+              style={{ height: 600, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">
@@ -219,7 +219,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <div
-              style={{ height: 537, margin: 10, background: "white" }}
+              style={{ height: 600, margin: 10, background: "white" }}
               className="d-flex flex-column card-box justify-content-between"
             >
               <div className="d-flex flex-column">

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
 import WebMenu from "./WebMenu";
 
-
 function Header() {
   const [showMobile, setShow] = useState(false);
   const [showWeb, setWeb] = useState(false);
@@ -12,8 +11,7 @@ function Header() {
     <div>
       <div className="header-container">
         <div className="header-nav-container">
-          {/* Site Logo  */}
-          <div className="header-nav-logo d-flex justify-content-between">
+          <div className="d-flex align-items-center">
             <Link to="/" className="text-dark text-decoration-none">
               <h3 className="site-logo">APL restoration</h3>
             </Link>
@@ -25,11 +23,28 @@ function Header() {
 
           {/* Desktop Navigation  */}
           <div className="header-nav">
-          {showWeb ? <WebMenu /> : null}
+            {showWeb ? <WebMenu /> : null}
             <ul className="nav d-none d-lg-flex">
               <li>
-                <Link to="/" className="nav-link"onClick={() => setWeb(!showWeb)}>
-                  Service
+                <Link
+                  to="/"
+                  className="nav-link"
+                  onClick={() => setWeb(!showWeb)}
+                >
+                  Service&nbsp;&nbsp;
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13"
+                    height="9"
+                    viewBox="0 0 13 9"
+                    fill="none"
+                  >
+                    <path
+                      d="M1 1L6.5 7L12 1"
+                      stroke="black"
+                      stroke-width="1.5"
+                    />
+                  </svg>
                 </Link>
               </li>
               <li>
@@ -63,13 +78,11 @@ function Header() {
             </Link>
           </div>
         </div>
-        <div>
-        </div>
+        <div></div>
       </div>
 
       {/* Mobile Navigation Panel  */}
       {showMobile ? <MobileMenu /> : null}
-
     </div>
   );
 }

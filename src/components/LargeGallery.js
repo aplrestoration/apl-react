@@ -11,7 +11,7 @@ const LargeGallery = () => {
         <div className="container px-4 pt-5">
         <h2 className="pb-2 big-title-2">RESTORATION SERVICES</h2>
           <div className="row row-cols-2 row-cols-lg-2 align-items-stretch g-4">
-          <div className="col">
+          <div className="col column-height">
             <div className="
               card card-cover
               h-100
@@ -27,7 +27,7 @@ const LargeGallery = () => {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col column-height">
             <div className="
               card card-cover
               h-100
@@ -43,7 +43,7 @@ const LargeGallery = () => {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col column-height">
             <div className="
               card card-cover
               h-100
@@ -59,7 +59,7 @@ const LargeGallery = () => {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col column-height">
             <div className="
               card card-cover
               h-100

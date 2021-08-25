@@ -6,19 +6,23 @@ const Testimonial = () => {
   return (
     <div className="testimonial-container">
       <div>
-      <div className="mb-5">
-        <div className="testimonial-intro">
+        <div className="testimonial-intro mb-5">
           <h2 className="big-title-2">WHAT OUR CUSTOMER HAVE TO SAY</h2>
-          <h6 className="pt-2">5 star trusted by all customers</h6>
-          <div type="button" className="custom-button-react" style={{backgroundColor:'black'}}>
+          <span className="pt-2 testimonial-text">
+            5 star trusted by all customers
+          </span>
+          <div
+            type="button"
+            className="custom-button-react"
+            style={{ backgroundColor: "black" }}
+          >
             SEE ALL 50+ GOOGLE REVIEW
           </div>
         </div>
+
+        <CarouselBS />
       </div>
-      <CarouselBS />
-    </div>   
     </div>
-    
   );
 };
 

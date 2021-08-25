@@ -27,7 +27,7 @@ function SmallGallery() {
             style={{ backgroundImage: `url(${bg1})` }}
           >
             <div className="d-flex flex-column-reverse h-100 p-3 text-shadow-1">
-              <h1 className="pt-5 mt-5 mb-4 lh-1 fw-bold card-title">
+              <h1 className="pt-5 mt-5 lh-1 fw-bold card-title">
                 Drywall Repairs And Installation
               </h1>
             </div>
@@ -46,7 +46,7 @@ function SmallGallery() {
             style={{ backgroundImage: `url(${bg2})` }}
           >
             <div className="d-flex flex-column-reverse h-100 p-3 text-shadow-1">
-              <h1 className="pt-5 mt-5 mb-4 lh-1 fw-bold card-title">
+              <h1 className="pt-5 mt-5 lh-1 fw-bold card-title">
                 Door & Trim Works
               </h1>
             </div>
@@ -65,7 +65,7 @@ function SmallGallery() {
             style={{ backgroundImage: `url(${bg3})` }}
           >
             <div className="d-flex flex-column-reverse h-100 p-3 text-shadow-1">
-              <h1 className="pt-5 mt-5 mb-4 lh-1 fw-bold card-title">
+              <h1 className="pt-5 mt-5 lh-1 fw-bold card-title">
                 Floor Installation
               </h1>
             </div>
@@ -84,7 +84,7 @@ function SmallGallery() {
             style={{ backgroundImage: `url(${bg4})` }}
           >
             <div className="d-flex flex-column-reverse h-100 p-3 text-shadow-1">
-              <h1 className="pt-5 mt-5 mb-4 lh-1 fw-bold card-title">
+              <h1 className="pt-5 mt-5 lh-1 fw-bold card-title">
                 Tiling
               </h1>
             </div>
@@ -103,7 +103,7 @@ function SmallGallery() {
             style={{ backgroundImage: `url(${bg5})` }}
           >
             <div className="d-flex flex-column-reverse h-100 p-3 text-shadow-1">
-              <h1 className="pt-5 mt-5 mb-4 lh-1 fw-bold card-title">
+              <h1 className="pt-5 mt-5 lh-1 fw-bold card-title">
                 Bathroom Finishing
               </h1>
             </div>
@@ -122,7 +122,7 @@ function SmallGallery() {
             style={{ backgroundImage: `url(${bg6})` }}
           >
             <div className="d-flex flex-column-reverse h-100 p-3 text-shadow-1">
-              <h1 className="pt-5 mt-5 mb-4 lh-1 fw-bold card-title">
+              <h1 className="pt-5 mt-5 lh-1 fw-bold card-title">
                 Basement Finishing
               </h1>
             </div>
@@ -141,7 +141,7 @@ function SmallGallery() {
             style={{ backgroundImage: `url(${bg7})` }}
           >
             <div className="d-flex flex-column-reverse h-100 p-3 text-shadow-1">
-              <h1 className="pt-5 mt-5 mb-4 lh-1 fw-bold card-title">
+              <h1 className="pt-5 mt-5 lh-1 fw-bold card-title">
                 Painting
               </h1>
             </div>
@@ -160,7 +160,7 @@ function SmallGallery() {
             style={{ backgroundImage: `url(${bg8})` }}
           >
             <div className="d-flex flex-column-reverse h-100 p-3 text-shadow-1">
-              <h1 className="pt-5 mt-5 mb-4 lh-1 fw-bold card-title">
+              <h1 className="pt-5 mt-5 lh-1 fw-bold card-title">
                 Demolition
               </h1>
             </div>

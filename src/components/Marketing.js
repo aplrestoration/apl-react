@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Image } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import "../index.css";
 import icon1 from "../assets/icon/marketing/1.png";
 import icon2 from "../assets/icon/marketing/2.png";
@@ -29,9 +29,9 @@ const Marketing = () => {
         <div className="d-flex flex-column align-items-center marketing-bg">
           <span className="callout-title">ready to fix your home</span>
           <span className="marketing-text">We're here to help, so you can rest assured.</span>
-          <Button className="custom-button-react rounded-0 fw-bold">
+          <div type="button" className="custom-button-react rounded-0 fw-bold">
             Call for free quote
-          </Button>
+          </div>
         </div>
       </div>
     </Container>

@@ -13,7 +13,7 @@ const WhoWeServed = () => {
         <div className="d-inline-flex flex-row align-items-baseline">
           <h2 className="pb-2 big-title-2">WHO DO WE SERVED</h2>
           <Link to="#" className="icon-link">
-            <h4 className="fw-bold">VIEW ALL</h4>
+            <h4 className="fw-bold view-all">VIEW ALL</h4>
           </Link>
         </div>
 
@@ -22,36 +22,36 @@ const WhoWeServed = () => {
             <div className="feature-icon">
               <Image src={icon1} className="icon-whoWeServed"></Image>
             </div>
-            <h3 className="fw-bold pt-4">Residential Property</h3>
-            <ul className="list-unstyled">
-              <h5>Residential Building Manager</h5>
-              <h5>House Owners</h5>
-              <h5>Condo Ownders</h5>
-              <h5>Tennants</h5>
+            <h3 className="fw-bold pt-4 wws-mobile-title">Residential Property</h3>
+            <ul className="list-unstyled wws-text">
+              <li>Residential Building Manager</li>
+              <li>House Owners</li>
+              <li>Condo Ownders</li>
+              <li>Tennants</li>
             </ul>
           </div>
           <div className="feature col">
             <div className="feature-icon">
               <Image src={icon2} className="icon-whoWeServed"></Image>
             </div>
-            <h3 className="fw-bold pt-4">Commercial Property</h3>
-            <ul className="list-unstyled">
-              <h5>Commercial Property Owner</h5>
-              <h5>Commercial Property Manager</h5>
-              <h5>Business Owners Leasing Space</h5>
-              <h5>Hospitality Sector</h5>
+            <h3 className="fw-bold pt-4 wws-mobile-title">Commercial Property</h3>
+            <ul className="list-unstyled wws-text">
+              <li>Commercial Property Owner</li>
+              <li>Commercial Property Manager</li>
+              <li>Business Owners Leasing Space</li>
+              <li>Hospitality Sector</li>
             </ul>
           </div>
           <div className="feature col">
             <div className="feature-icon">
               <Image src={icon3} className="icon-whoWeServed"></Image>
             </div>
-            <h3 className="fw-bold pt-4">Insurance Professionals</h3>
-            <ul className="list-unstyled">
-              <h5>Brokers</h5>
-              <h5>Adjusters</h5>
-              <h5>Idependent Adjusters</h5>
-              <h5>Claims Managers</h5>
+            <h3 className="fw-bold pt-4 wws-mobile-title">Insurance Professionals</h3>
+            <ul className="list-unstyled wws-text">
+              <li>Brokers</li>
+              <li>Adjusters</li>
+              <li>Idependent Adjusters</li>
+              <li>Claims Managers</li>
             </ul>
           </div>
         </div>

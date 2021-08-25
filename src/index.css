@@ -226,7 +226,6 @@ a.nav-link {
 /* Logos */
 /* Galleries */
 
-/* Column Height */
 @media screen and (min-device-width: 992px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .column-height {
     height: 400px;
@@ -234,12 +233,57 @@ a.nav-link {
 }
 
 @media (max-width: 991.98px) {
+  .site-logo {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+  }
+
+  .header-nav-menu {
+    width: 40px;
+  }
+
+  .big-title-2 {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.03em;
+  }
+
+  .header-nav-container {
+    padding: 15px 15px;
+  }
+  .hero-block-text {
+    margin: 3% 3%;
+  }
+
+  div.gallery-spacing {
+    --bs-gutter-x: 0.5rem;
+    --bs-gutter-y: 1rem;
+  }
+
   .column-height {
-    height: 180px;
+    height: 238px;
+  }
+
+  img.icon-whoWeServed {
+    width: 50px;
+    height: 50px;
   }
 
   .card-title {
     font-size: 24px;
+    line-height: 30px;
+  }
+  .view-all {
+    font-size: 16px;
+    margin-left: -10px;
+  }
+  .wws-mobile-title {
+    font-size: 22px;
+  }
+
+  .wws-text {
+    font-size: 18px;
   }
 
   .hero-title {
@@ -270,10 +314,25 @@ a.nav-link {
     line-height: 51px;
   }
 
-  .marketing-bg {
-    width: 55%;
+  div.marketing-bg {
+    text-align: center;
+    width: 80%;
+    padding: 60px 36px;
   }
 
+  div.testimonial-container {
+    padding: 40px 20px;
+  }
+
+  .testimonial-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img.icon-marketing {
+    width: 165px;
+  }
   .footer {
     padding-top: 20px;
   }
@@ -352,6 +411,7 @@ div.card {
 
 .card-box {
   padding: 30px 25px;
+  border-radius: 5px;
 }
 
 .card-text {
@@ -389,6 +449,7 @@ div.card {
 
 .marketing-bg {
   background-color: white;
+  border-radius: 5px;
   padding: 5% 5%;
 }
 

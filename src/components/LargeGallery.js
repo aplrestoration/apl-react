@@ -10,7 +10,7 @@ const LargeGallery = () => {
     return (
         <div className="container px-4 pt-5">
         <h2 className="pb-2 big-title-2">RESTORATION SERVICES</h2>
-          <div className="row row-cols-2 row-cols-lg-2 align-items-stretch g-4">
+          <div className="row row-cols-2 row-cols-lg-2 align-items-stretch gallery-spacing">
           <div className="col column-height">
             <div className="
               card card-cover

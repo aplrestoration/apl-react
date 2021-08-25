@@ -13,7 +13,7 @@ function SmallGallery() {
   return (
     <div className="container px-4 py-5" id="custom-cards">
       <h2 className="pb-2 big-title-2">RENOVATION SERVICES</h2>
-      <div className="row row-cols-2 row-cols-lg-4 align-items-stretch g-4">
+      <div className="row row-cols-2 row-cols-lg-4 align-items-stretch gallery-spacing">
         <div className="col column-height">
           <div
             className="

@@ -7,7 +7,7 @@ const Testimonial = () => {
   return (
     <div className="testimonial-container">
       <Container>
-      <div className="row mb-5">
+      <div className="mb-5">
         <div className="testimonial-intro">
           <h2 className="big-title-2">WHAT OUR CUSTOMER HAVE TO SAY</h2>
           <h6 className="pt-2">5 star trusted by all customers</h6>

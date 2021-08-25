@@ -230,6 +230,17 @@ a.nav-link {
   .column-height {
     height: 400px;
   }
+
+  .wws-text {
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+  }
+
+  div.gallery-spacing {
+    --bs-gutter-x: 1rem;
+    --bs-gutter-y: 1.8rem;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -348,6 +359,12 @@ a.nav-link {
     text-align: center;
     padding-bottom: 20px;
   }
+
+  span.footer-note {
+    font-size: 13px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+  }
 }
 
 div.card {
@@ -395,7 +412,7 @@ div.card {
 }
 
 .custom-button-react:hover {
-  background: turquoise;
+  opacity: 0.8;
 }
 
 .icon-link {

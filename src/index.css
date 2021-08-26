@@ -409,8 +409,8 @@ a.nav-link {
     padding: 0 20px;
   }
 
-  div.page-hero-mobile {
-    margin-bottom: 60px;
+  div.page-hero {
+    margin-bottom: 50px;
   }
 
   p {
@@ -420,7 +420,7 @@ a.nav-link {
   }
 }
 
-/* Mobile Style enE */
+/* Mobile Style end */
 
 div.card {
   border: none;
@@ -621,10 +621,12 @@ div.card {
   line-height: 120px;
   text-transform: uppercase;
   padding-top: 400px;
-  padding-left: 10%;
   color: black;
 }
 
+.page-hero {
+  padding: 0 15%;
+}
 .page-text-container {
   padding: 0 15%;
 }

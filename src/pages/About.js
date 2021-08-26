@@ -3,12 +3,12 @@ import React from "react";
 const About = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid hero-container page-hero-mobile position-relative">
-          <div className="container-fluid">
+      <div className="container-fluid hero-container page-hero">
+        <div className="container">
           <h1 className="page-title">About Us</h1>
-          </div>
+        </div>
       </div>
-      
+
       <div className="page-text-container">
         <p>
           The management team of APL Restoration has over 20 years’ experience
@@ -24,9 +24,10 @@ const About = () => {
           technology to address water problems. We also work with an extensive
           team of plumbers, drain professionals, flood technicians, and other
           important types of skilled tradesmen.
-        </p><br/>
+        </p>
+        <br />
         <h1>24 Hour Emergency Service:</h1>
-        <ul className='page-li'>
+        <ul className="page-li">
           <li>Free on-site inspection to help determine coverage</li>
           <li>Exceptional customer service</li>
           <li>Complete property restoration-Free estimates</li>

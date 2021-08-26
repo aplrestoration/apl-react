@@ -5,9 +5,9 @@ const About = () => {
   return (
     <div className="page-container">
       <div className="container-fluid hero-container position-relative">
-          <Container>
+          <div className="container-fluid">
           <h1 className="page-title">About Us</h1>
-          </Container>
+          </div>
       </div>
       
       <div className="page-text-container">

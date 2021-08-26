@@ -103,8 +103,6 @@ a.nav-link {
 .mobile-menu {
   transform: scale(1);
   opacity: 1;
-
-  
 }
 
 .mobile-menu-card {
@@ -158,9 +156,9 @@ a.nav-link {
   transform: scale(1);
   opacity: 1;
   z-index: 100;
-  top: 95px;
+  top: 55px;
   min-width: 500px;
-
+  border-radius: 5px;
   padding: 47px 40px;
   background-color: black;
   color: white;
@@ -179,9 +177,14 @@ a.nav-link {
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
-  /* or 111% */
-
   letter-spacing: -0.02em;
+}
+
+.web-menu-title {
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* Hero Hection */

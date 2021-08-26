@@ -7,52 +7,72 @@ const WebMenu = () => {
     <div className="web-menu-container">
       <div className="web-menu-box">
         <div className="web-menu-list">
-            <h4>Restoration</h4>
+            <div className="web-menu-title">Restoration</div>
             <ul className="list-unstyled">
             <li className="nav-item">
               <Link to="/" className="mobile-nav-link">
-                Drywall Service
+              Emergency Responce
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/" className="mobile-nav-link">
-                Drywall Service
+              Water & Flood
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/" className="mobile-nav-link">
-                Drywall Service
+              Biohazard Redemption
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/" className="mobile-nav-link">
-                Drywall Service
+              Fire & Smoke
               </Link>
             </li>
           </ul>
         </div>
 
         <div className="web-menu-list">
-            <h4>Rennovation</h4>
+            <div className="web-menu-title">Rennovation</div>
           <ul className="list-unstyled">
             <li className="nav-item">
               <Link to="/" className="mobile-nav-link">
-                Drywall Service
+              Drywall Repairs & Installation
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/" className="mobile-nav-link">
-                Drywall Service
+              Door & Trim Works
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/" className="mobile-nav-link">
-                Drywall Service
+              Floor Installation
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/" className="mobile-nav-link">
-                Drywall Service
+              Tiling
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="mobile-nav-link">
+              Painting
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="mobile-nav-link">
+              Basement Finishing
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="mobile-nav-link">
+              Demolition
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="mobile-nav-link">
+              Bathroom Finishing
               </Link>
             </li>
           </ul>

@@ -70,10 +70,16 @@ function Header() {
             onClick={() => setShow(!showMobile)}
           >
             <Link to="/">
-              <svg viewBox="0 0 100 80" width="40" height="40">
-                <rect width="100" height="20"></rect>
-                <rect y="30" width="100" height="20"></rect>
-                <rect y="60" width="100" height="20"></rect>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="23"
+                viewBox="0 0 40 23"
+                fill="none"
+              >
+                <rect y="20" width="40" height="3" fill="black" />
+                <rect y="10" width="40" height="3" fill="black" />
+                <rect width="40" height="3" fill="black" />
               </svg>
             </Link>
           </div>

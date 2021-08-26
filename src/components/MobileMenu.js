@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import MobileMenuService from "./MobileMenuService";
 
 
@@ -19,7 +19,9 @@ const MobileMenu = () => {
         <hr className="solid-divider" />
         <span className="mobile-menu-title">Where We Served</span>
         <hr className="solid-divider" />
-        <span className="mobile-menu-title">About Us</span>
+        <Link to="/about" className="mobile-menu-title">
+        <span>About Us</span>
+        </Link>
         <hr className="solid-divider" />
         <span className="mobile-menu-title">Home</span>
         

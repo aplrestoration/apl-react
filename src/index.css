@@ -145,7 +145,8 @@ a.nav-link {
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
-
+  color: white;
+  text-decoration: none;
   letter-spacing: -0.02em;
 }
 
@@ -156,7 +157,7 @@ a.nav-link {
   transform: scale(1);
   opacity: 1;
   z-index: 100;
-  top: 55px;
+  top: 5gi5px;
   min-width: 500px;
   border-radius: 5px;
   padding: 47px 40px;
@@ -403,7 +404,20 @@ a.nav-link {
     width: 100px;
     height: 140px;
   }
+
+  div.page-text-container {
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 0.03em;
+    padding: 0 20px;
+  }
+
+  div.page-hero-mobile {
+    margin-bottom: 60px;
+  }
 }
+
+/* Mobile Style enE */
 
 div.card {
   border: none;
@@ -609,5 +623,11 @@ div.card {
 }
 
 .page-text-container {
-  padding: 0 20%;
+  padding: 0 15%;
+}
+
+ul.page-li {
+  font-size: 25px;
+  line-height: 45px;
+  letter-spacing: 0.03em;
 }

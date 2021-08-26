@@ -103,8 +103,8 @@ a.nav-link {
 .mobile-menu {
   transform: scale(1);
   opacity: 1;
-  padding: 20px 15px;
-  margin-top: -0px;
+
+  
 }
 
 .mobile-menu-card {
@@ -128,10 +128,17 @@ a.nav-link {
 }
 
 .mobile-nav-link {
+  color: white;
   text-decoration: none;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 36px;
   letter-spacing: -0.02em;
+  margin-bottom: 5px;
+}
+
+.mobile-menu-info {
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .mobile-menu-title {
@@ -278,7 +285,7 @@ a.nav-link {
 
   img.icon-whoWeServed {
     width: 36px;
-    height:36px;
+    height: 36px;
     margin-right: 14px;
   }
 
@@ -395,7 +402,7 @@ a.nav-link {
 
   .footer-mob-icon {
     width: 100px;
-    height:140px
+    height: 140px;
   }
 }
 

@@ -13,27 +13,37 @@ const MobileMenuService = () => {
           </li>
           <li className="nav-item">
             <Link to="/" className="mobile-nav-link">
-              Drywall Service
+            Door & Trim Works
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/" className="mobile-nav-link">
-              Drywall Service
+            Floor Installation
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/" className="mobile-nav-link">
-              Drywall Service
+            Tiling
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/" className="mobile-nav-link">
-              Drywall Service
+            Painting
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/" className="mobile-nav-link">
-              Drywall Service
+            Basement Finishing
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link">
+            Demolition
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link">
+            Bathroom Finishing
             </Link>
           </li>
         </ul>
@@ -42,22 +52,22 @@ const MobileMenuService = () => {
         <ul className="list-unstyled">
           <li className="nav-item">
             <Link to="/" className="mobile-nav-link">
-              Drywall Service
+            Emergency Responce
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/" className="mobile-nav-link">
-              Drywall Service
+            Water & Flood
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/" className="mobile-nav-link">
-              Drywall Service
+            Biohazard Redemption
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/" className="mobile-nav-link">
-              Drywall Service
+            Fire & Smoke
             </Link>
           </li>
         </ul>

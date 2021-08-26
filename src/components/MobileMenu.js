@@ -5,9 +5,9 @@ import MobileMenuService from "./MobileMenuService";
 
 const MobileMenu = () => {
   return (
-    <div className="container-fluid mobile-menu d-lg-none">
+    <div className="mobile-menu d-lg-none">
       <div className="mobile-menu-card">
-        <span className=" ">
+        <span className="mobile-menu-info">
           24/7 Emergency Toll-Free Number <br />
           1-833-7GOT-FlOOD（1-833-746-8356)
         </span>

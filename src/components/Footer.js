@@ -3,6 +3,9 @@ import "../index.css";
 import icon2 from "../assets/icon/footer/2.png";
 import icon3 from "../assets/icon/footer/3.png";
 import icon4 from "../assets/icon/footer/4.png";
+import mobIcon1 from "../assets/icon/footer/footer-mob-icon1.png";
+import mobIcon2 from "../assets/icon/footer/footer-mob-icon2.png";
+import mobIcon3 from "../assets/icon/footer/footer-mob-icon3.png";
 import smallIcon1 from "../assets/icon/footer/icon-1.png";
 import smallIcon2 from "../assets/icon/footer/icon-2.png";
 import smallIcon3 from "../assets/icon/footer/icon-3.png";
@@ -18,22 +21,25 @@ const Footer = () => {
               <span className="footer-title">APL Restoration Ltd</span>
             </div>
             <div className="col-4 col-md-3">
-              <Image src={icon2} className="img-fluid logo-partners"></Image>
+              <Image src={icon2} className="img-fluid logo-partners d-none d-sm-block"></Image>
+              <Image src={mobIcon1} className="img-fluid footer-mob-icon d-block d-sm-none"></Image>
             </div>
             <div className="col-4 col-md-3">
-              <Image src={icon3} className="img-fluid logo-partners"></Image>
+              <Image src={icon3} className="img-fluid logo-partners d-none d-sm-block"></Image>
+              <Image src={mobIcon2} className="img-fluid footer-mob-icon d-block d-sm-none"></Image>
             </div>
             <div className="col-4 col-md-3">
-              <Image src={icon4} className="img-fluid logo-partners"></Image>
+              <Image src={icon4} className="img-fluid logo-partners d-none d-sm-block"></Image>
+              <Image src={mobIcon3} className="img-fluid footer-mob-icon d-block d-sm-none"></Image>
             </div>
             
           </div>
         </div>
         <hr className="solid-divider" />
         <div className="container">
-          <div className="row">
-            <div className="col-lg-3">
-              <h1 className="fw-bold my-3">Contact</h1>
+          <div className="row footer-row">
+            <div className="col-lg-3 footer-col">
+              <h1 className="fw-bold my-3 mobile-title">Contact</h1>
               <ul className="list-unstyled footer-contact-text">
                 <li style={{ paddingBottom: "20px" }}>
                   <Image src={smallIcon1} className="footer-icon"></Image>
@@ -55,7 +61,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 d-none d-md-block">
               <h1 className="fw-bold my-3">Renovation</h1>
               <ul className="list-unstyled footer-text">
                 <li>Drywall Repairs and Installation</li>
@@ -68,7 +74,7 @@ const Footer = () => {
                 <li>Demolition</li>
               </ul>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 d-none d-md-block">
               <h1 className="fw-bold my-3">Restoration</h1>
               <ul className="list-unstyled footer-text">
                 <li>Emergency Response</li>
@@ -77,8 +83,8 @@ const Footer = () => {
                 <li>Fire & Flood</li>
               </ul>
             </div>
-            <div className="col-lg-3">
-              <h1 className="fw-bold my-3">More Info</h1>
+            <div className="col-lg-3 footer-col">
+              <h1 className="fw-bold my-3 mobile-title">More Info</h1>
               <ul className="list-unstyled footer-text">
                 <li>About us</li>
                 <li>Service Property</li>

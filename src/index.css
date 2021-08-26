@@ -277,8 +277,9 @@ a.nav-link {
   }
 
   img.icon-whoWeServed {
-    width: 50px;
-    height: 50px;
+    width: 36px;
+    height:36px;
+    margin-right: 14px;
   }
 
   h1.card-title {
@@ -293,9 +294,15 @@ a.nav-link {
   .wws-mobile-title {
     font-size: 22px;
   }
+  .wws-mobile-column {
+    display: flex;
+    align-items: baseline;
+  }
 
   .wws-text {
     font-size: 18px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
   }
 
   .hero-title {
@@ -357,13 +364,38 @@ a.nav-link {
 
   .footer-title-mobile {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
   span.footer-note {
     font-size: 13px;
     line-height: 40px;
     letter-spacing: -0.02em;
+  }
+
+  ul.footer-text,
+  ul.footer-contact-text {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  h1.mobile-title {
+    font-size: 24px;
+    line-height: 122.69%;
+    letter-spacing: 0.015em;
+  }
+
+  div.footer-col {
+    width: 50%;
+  }
+
+  div.footer-row {
+    display: flex;
+  }
+
+  .footer-mob-icon {
+    width: 100px;
+    height:140px
   }
 }
 

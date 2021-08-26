@@ -18,41 +18,53 @@ const WhoWeServed = () => {
         </div>
 
         <div className="row g-4 pt-3 row-cols-1 row-cols-lg-3">
-          <div className="feature col">
-            <div className="feature-icon">
+          <div className="col wws-mobile-column">
+            <div>
               <Image src={icon1} className="icon-whoWeServed"></Image>
             </div>
-            <h3 className="fw-bold pt-4 wws-mobile-title">Residential Property</h3>
-            <ul className="list-unstyled wws-text">
-              <li>Residential Building Manager</li>
-              <li>House Owners</li>
-              <li>Condo Ownders</li>
-              <li>Tennants</li>
-            </ul>
+            <div>
+              <h3 className="fw-bold pt-4 wws-mobile-title">
+                Residential Property
+              </h3>
+              <ul className="list-unstyled wws-text">
+                <li>Residential Building Manager</li>
+                <li>House Owners</li>
+                <li>Condo Ownders</li>
+                <li>Tennants</li>
+              </ul>
+            </div>
           </div>
-          <div className="feature col">
+          <div className="wws-mobile-column col">
             <div className="feature-icon">
               <Image src={icon2} className="icon-whoWeServed"></Image>
             </div>
-            <h3 className="fw-bold pt-4 wws-mobile-title">Commercial Property</h3>
-            <ul className="list-unstyled wws-text">
-              <li>Commercial Property Owner</li>
-              <li>Commercial Property Manager</li>
-              <li>Business Owners Leasing Space</li>
-              <li>Hospitality Sector</li>
-            </ul>
+            <div>
+              <h3 className="fw-bold pt-4 wws-mobile-title">
+                Commercial Property
+              </h3>
+              <ul className="list-unstyled wws-text">
+                <li>Commercial Property Owner</li>
+                <li>Commercial Property Manager</li>
+                <li>Business Owners Leasing Space</li>
+                <li>Hospitality Sector</li>
+              </ul>
+            </div>
           </div>
-          <div className="feature col">
+          <div className="wws-mobile-column col">
             <div className="feature-icon">
               <Image src={icon3} className="icon-whoWeServed"></Image>
             </div>
-            <h3 className="fw-bold pt-4 wws-mobile-title">Insurance Professionals</h3>
-            <ul className="list-unstyled wws-text">
-              <li>Brokers</li>
-              <li>Adjusters</li>
-              <li>Idependent Adjusters</li>
-              <li>Claims Managers</li>
-            </ul>
+            <div>
+              <h3 className="fw-bold pt-4 wws-mobile-title">
+                Insurance Professionals
+              </h3>
+              <ul className="list-unstyled wws-text">
+                <li>Brokers</li>
+                <li>Adjusters</li>
+                <li>Idependent Adjusters</li>
+                <li>Claims Managers</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

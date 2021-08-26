@@ -4,7 +4,7 @@ import MobileMenu from "./MobileMenu";
 import WebMenu from "./WebMenu";
 
 function Header() {
-  const [showMobile, setShow] = useState(false);
+  const [showMobile, setMobile] = useState(false);
   const [showWeb, setWeb] = useState(false);
 
   return (
@@ -67,7 +67,7 @@ function Header() {
           {/* Mobile Hamburger Menu */}
           <div
             className="header-nav-menu d-lg-none"
-            onClick={() => setShow(!showMobile)}
+            onClick={() => setMobile(!showMobile)}
           >
             <Link to="/">
               <svg
@@ -88,7 +88,7 @@ function Header() {
       </div>
 
       {/* Mobile Navigation Panel  */}
-      {showMobile ? <MobileMenu /> : null}
+      {showMobile ? <MobileMenu closeMenuMobile={showMobile => setMobile()}/> : null}
     </div>
   );
 }

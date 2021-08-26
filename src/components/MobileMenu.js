@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import MobileMenuService from "./MobileMenuService";
 
-function MobileMenu() {
-  const [showMobile, setShow] = useState(false);
-
+const MobileMenu = props => {
+console.log(props)
   return (
     <div className="mobile-menu d-lg-none">
       <div className="mobile-menu-card">
@@ -23,7 +22,7 @@ function MobileMenu() {
         <Link
           to="/about"
           className="mobile-menu-title"
-          onClick={() => setShow(!showMobile)}
+          onClick={() => props.closeMenuMobile(false)}
         >
           <span>About Us</span>
         </Link>

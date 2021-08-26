@@ -392,10 +392,6 @@ a.nav-link {
     letter-spacing: 0.015em;
   }
 
-  div.footer-col {
-    width: 50%;
-  }
-
   div.footer-row {
     display: flex;
   }

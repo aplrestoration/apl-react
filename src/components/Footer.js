@@ -83,7 +83,7 @@ const Footer = () => {
                 <li>Fire & Flood</li>
               </ul>
             </div>
-            <div className="col-lg-3 footer-col">
+            <div className="col-lg-3 d-none d-md-block">
               <h1 className="fw-bold my-3 mobile-title">More Info</h1>
               <ul className="list-unstyled footer-text">
                 <li>About us</li>

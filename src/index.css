@@ -626,6 +626,15 @@ div.card {
 
 .page-hero {
   padding: 0 15%;
+  display: block;
+  min-height: 572px;
+  margin-bottom: 60px;
+  /* Image styling  */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../src/assets/bg/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
 .page-text-container {
   padding: 0 15%;

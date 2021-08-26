@@ -406,14 +406,17 @@ a.nav-link {
   }
 
   div.page-text-container {
-    font-size: 20px;
-    line-height: 38px;
-    letter-spacing: 0.03em;
     padding: 0 20px;
   }
 
   div.page-hero-mobile {
     margin-bottom: 60px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 0.03em;
   }
 }
 
@@ -627,7 +630,7 @@ div.card {
 }
 
 ul.page-li {
-  font-size: 25px;
-  line-height: 45px;
+  font-size: 20px;
+  line-height: 38px;
   letter-spacing: 0.03em;
 }

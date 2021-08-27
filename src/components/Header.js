@@ -42,7 +42,7 @@ function Header() {
                     <path
                       d="M1 1L6.5 7L12 1"
                       stroke="black"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                     />
                   </svg>
                 </Link>
@@ -88,7 +88,7 @@ function Header() {
       </div>
 
       {/* Mobile Navigation Panel  */}
-      {showMobile ? <MobileMenu closeMenuMobile={showMobile => setMobile()}/> : null}
+      {showMobile ? <MobileMenu closeMenuMobile={setMobile}/> : null}
     </div>
   );
 }

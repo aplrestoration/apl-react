@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import WhoWeServed from "./pages/WhoWeServed";
 import WhereWeServed from "./pages/WhereWeServed";
-
+import WaterFlood from "./pages/WaterFlood";
 
 function App() {
   return (
@@ -15,15 +15,15 @@ function App() {
         <Header />
       </div>
       <Switch>
-      <Route path='/' component={Home} exact/>
-      <Route path='/about' component={About} exact/>
-      <Route path='/who-we-serve' component={WhoWeServed}></Route>
-      <Route path='/where-we-serve' component={ WhereWeServed}></Route>
+        <Route path="/" component={Home} exact />
+        <Route path="/about" component={About} exact />
+        <Route path="/who-we-serve" component={WhoWeServed}></Route>
+        <Route path="/where-we-serve" component={WhereWeServed}></Route>
+        <Route path="/water-and-flood" component={WaterFlood}></Route>
       </Switch>
       <div>
-      <Footer />
+        <Footer />
       </div>
-      
     </BrowserRouter>
   );
 }

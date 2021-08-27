@@ -15,7 +15,7 @@ const WebMenu = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="mobile-nav-link">
+              <Link to="/water-and-flood" className="mobile-nav-link">
               Water & Flood
               </Link>
             </li>

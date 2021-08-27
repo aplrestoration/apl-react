@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+const defaultProps = {
+  closeMenuMobile: () => {},
+};
 
-const MobileMenuService = () => {
+
+const MobileMenuService = ({ closeMenuMobile }) => {
   return (
     <div className="mobile-menu-box">
       <div className=" mobile-menu-list">
@@ -56,7 +60,7 @@ const MobileMenuService = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link">
+            <Link to="/water-and-flood" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
             Water & Flood
             </Link>
           </li>
@@ -76,4 +80,5 @@ const MobileMenuService = () => {
   );
 };
 
+MobileMenuService.defaultProps = defaultProps;
 export default MobileMenuService;

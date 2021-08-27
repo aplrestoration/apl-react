@@ -9,7 +9,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="page-text-container">
+      <div className="container page-text-container">
         <p>
           The management team of APL Restoration has over 20 years’ experience
           in helping people who have experienced a flood, or sewer back up. We

@@ -637,7 +637,7 @@ div.card {
   background-position: center;
 }
 .page-text-container {
-  padding: 0 15%;
+  /* padding: 0 15%; */
 }
 
 ul.page-li {

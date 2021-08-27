@@ -48,12 +48,12 @@ function Header() {
                 </Link>
               </li>
               <li>
-                <Link to="/" className="nav-link">
+                <Link to="/who-we-serve" className="nav-link">
                   Who We Serve
                 </Link>
               </li>
               <li>
-                <Link to="/" className="nav-link">
+                <Link to="/where-we-serve" className="nav-link">
                   Where We Serve
                 </Link>
               </li>

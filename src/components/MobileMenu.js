@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import MobileMenuService from "./MobileMenuService";
 
 const defaultProps = {
   closeMenuMobile: () => {},
@@ -16,7 +15,76 @@ const MobileMenu = ({ closeMenuMobile }) => {
         </span>
         <hr className="solid-divider" />
         <h4>Service</h4>
-        <MobileMenuService />
+        <div className="mobile-menu-box">
+      <div className=" mobile-menu-list">
+        <ul className="list-unstyled">
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+              Drywall Service
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            Door & Trim Works
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            Floor Installation
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            Tiling
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            Painting
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            Basement Finishing
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            Demolition
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            Bathroom Finishing
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div className="list-unstyled mobile-menu-list">
+        <ul className="list-unstyled">
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            Emergency Responce
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/water-and-flood" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            Water & Flood
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            Biohazard Redemption
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            Fire & Smoke
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </div>
         <hr className="solid-divider" />
         <Link
           to="/who-we-serve"

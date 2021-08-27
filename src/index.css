@@ -625,7 +625,7 @@ div.card {
 }
 
 .page-hero {
-  padding: 0 15%;
+  /* padding: 0 15%; */
   display: block;
   min-height: 572px;
   margin-bottom: 60px;

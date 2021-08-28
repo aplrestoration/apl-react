@@ -23,7 +23,7 @@ function Header() {
 
           {/* Desktop Navigation  */}
           <div className="header-nav">
-            {showWeb ? <WebMenu /> : null}
+            {showWeb ? <WebMenu closeMenuWeb={setWeb}/> : null}
             <ul className="nav d-none d-lg-flex">
               <li>
                 <Link

@@ -19,42 +19,42 @@ const MobileMenu = ({ closeMenuMobile }) => {
       <div className=" mobile-menu-list">
         <ul className="list-unstyled">
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            <Link to="/drywall-service" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
               Drywall Service
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            <Link to="/door-and-trimworks" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
             Door & Trim Works
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            <Link to="/floor-installation" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
             Floor Installation
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            <Link to="/tiling" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
             Tiling
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            <Link to="/painting" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
             Painting
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            <Link to="/basement-finishing" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
             Basement Finishing
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            <Link to="/demolition" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
             Demolition
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            <Link to="/bathroom-finishing" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
             Bathroom Finishing
             </Link>
           </li>
@@ -63,7 +63,7 @@ const MobileMenu = ({ closeMenuMobile }) => {
       <div className="list-unstyled mobile-menu-list">
         <ul className="list-unstyled">
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            <Link to="/emergency-response" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
             Emergency Responce
             </Link>
           </li>
@@ -73,12 +73,12 @@ const MobileMenu = ({ closeMenuMobile }) => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            <Link to="/biohazard-redemption" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
             Biohazard Redemption
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
+            <Link to="/fire-and-smoke" className="mobile-nav-link" onClick={() => closeMenuMobile(false)}>
             Fire & Smoke
             </Link>
           </li>

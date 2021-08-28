@@ -11,11 +11,21 @@ const Painting = () => {
 
       <div className="container page-text-container">
         <p>
-          The management team of APL Restoration has over 20 years’ experience
-          in helping people who have experienced a flood, or sewer back up. We
-          also have extensive experience with the insurance industry and we are
-          familiar with their different requirements. This knowledge often makes
-          all the difference in a claim proceeding smoothly.
+          APL Restoration Ltd helps you transform your home with color. If
+          it&rsquo;s a complete house repaint, an eye-catching accent wall, or
+          anything in between, we will handle it. Our professional painters can
+          paint houses and apartments of all shapes and sizes, interior and
+          exterior.
+        </p>
+
+        <p>
+          We show up on time, finish the job on time, and leave with a result
+          that goes above and beyond your expectations. Your satisfaction is our
+          number-one goal, and we take every step of the painting process
+          seriously, from our preparation to the final quality checks. And we
+          make sure there are no surprises along the way: from arriving on time
+          to finishing on time and providing you with an accurate, upfront price
+          quote.
         </p>
       </div>
     </div>

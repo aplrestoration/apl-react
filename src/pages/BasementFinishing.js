@@ -11,12 +11,24 @@ const BasementFinishing = () => {
 
       <div className="container page-text-container">
         <p>
-          The management team of APL Restoration has over 20 years’ experience
-          in helping people who have experienced a flood, or sewer back up. We
-          also have extensive experience with the insurance industry and we are
-          familiar with their different requirements. This knowledge often makes
-          all the difference in a claim proceeding smoothly.
+          Are you looking to build out your dream basement? Our team at APL
+          Restoration can help, we offer professional basement finishing
+          services to homeowners in Greater Vancouver. Our experts take the
+          guesswork out of basement finishingby planning the work and sticking
+          to the plan. Contact our experts today to get started on your basement
+          finishing project.
         </p>
+        <p>Steps to Finishing Your Basement:</p>
+        <ul className="page-li">
+          <li>Insulation Installation</li>
+          <li>Framing Walls</li>
+          <li>Drywall Installation</li>
+          <li>Drywall Finishing</li>
+          <li>Wall painting</li>
+          <li>Trim work</li>
+          <li>Subflooring and Flooring Installation</li>
+          <li>Basement Ceiling Finish</li>
+        </ul>
       </div>
     </div>
   );

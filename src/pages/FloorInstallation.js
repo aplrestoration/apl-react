@@ -11,12 +11,21 @@ const FloorInstallation = () => {
 
       <div className="container page-text-container">
         <p>
-          The management team of APL Restoration has over 20 years’ experience
-          in helping people who have experienced a flood, or sewer back up. We
-          also have extensive experience with the insurance industry and we are
-          familiar with their different requirements. This knowledge often makes
-          all the difference in a claim proceeding smoothly.
+          APL Restoration Ltd has an extensive inventory of flooring options in
+          all types, colors, shapes and sizes. Our flooring specialists will
+          evaluate your needs and make a smart recommendation. Then our expert
+          installers will get your new floor installed and looking great!
         </p>
+
+        <p>Flooring types:</p>
+        <ul className="page-li">
+          <li>Hardwood Flooring</li>
+          <li>Laminate Flooring</li>
+          <li>Carpeting</li>
+          <li>Natural Stone Tile</li>
+          <li>Ceramic or Porcelain Tile Floors</li>
+          <li>Vinyl or Linoleum Floor Installation</li>
+        </ul>
       </div>
     </div>
   );

@@ -11,11 +11,11 @@ const Tiling = () => {
 
       <div className="container page-text-container">
         <p>
-          The management team of APL Restoration has over 20 years’ experience
-          in helping people who have experienced a flood, or sewer back up. We
-          also have extensive experience with the insurance industry and we are
-          familiar with their different requirements. This knowledge often makes
-          all the difference in a claim proceeding smoothly.
+          We are proud of ourselves on the quality of our service and the work
+          that we have completed. APL Restoration have a qualified tiler with
+          more than 15 years’ experience in tiling service. Our goal is to
+          provide great service to our customers. Contact us today for more
+          information.
         </p>
       </div>
     </div>

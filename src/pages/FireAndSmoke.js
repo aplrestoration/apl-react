@@ -11,12 +11,39 @@ const FireAndSmoke = () => {
 
       <div className="container page-text-container">
         <p>
-          The management team of APL Restoration has over 20 years’ experience
-          in helping people who have experienced a flood, or sewer back up. We
-          also have extensive experience with the insurance industry and we are
-          familiar with their different requirements. This knowledge often makes
-          all the difference in a claim proceeding smoothly.
+          Fires can do more than compromise the structural integrity of your
+          building. They interrupt critical systems, like HVAC or electrical,
+          and can release harmful materials like asbestos.
         </p>
+
+        <p>We respond by: mitigating damage to ensure site safety.</p>
+
+        <p>
+          Although its fire&rsquo;s worst enemy, water damage, triggered as a
+          result of fires, is not what most homeowners expect. Whether it is the
+          damage caused by water from fire hoses and extinguishers or that from
+          bursting and leaking faucets and pipes; there is often significant
+          water damage that needs to be addressed immediately.
+        </p>
+
+        <p>
+          Water used in fire suppression can create an entirely new set of
+          challenges.
+        </p>
+
+        <p>
+          Excessive moisture can rust pipes, rot drywall, create mould, or
+          compromise a building&rsquo;s structural integrity.
+        </p>
+
+        <p>We respond by:</p>
+        <ul className="page-li">
+          <li>Providing drying & dehumidification services</li>
+          <li>Sending in mould restoration specialists</li>
+          <li>Offering content restoration services</li>
+          <li>Reconstruction water-damaged areas</li>
+          <li>Cleaning</li>
+        </ul>
       </div>
     </div>
   );

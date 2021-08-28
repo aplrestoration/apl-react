@@ -11,11 +11,31 @@ const EmergencyResponse = () => {
 
       <div className="container page-text-container">
         <p>
-          The management team of APL Restoration has over 20 years’ experience
-          in helping people who have experienced a flood, or sewer back up. We
-          also have extensive experience with the insurance industry and we are
-          familiar with their different requirements. This knowledge often makes
-          all the difference in a claim proceeding smoothly.
+          Most properties can be dried in 2-4 days using our Quick Dry System.
+          Whatever the cause, APL Restoration professional damage restoration
+          services are available 365 days a year, 24 hours a day to respond to
+          an emergency.
+        </p>
+
+        <p>
+          You get our Quick Dry System, which is the most advanced equipment
+          available &ndash; to dry any areas completely so that the threat of
+          mould growth and pathogen spread is minimized or eliminated. APL can
+          reduce the time it takes to dry most buildings to two to four days in
+          order to minimize your inconvenience.
+        </p>
+
+        <p>
+          Water damage losses can happen in homes and businesses. Supply lines
+          break and soak walls, floors and contents. Strong storms can result in
+          flood damage allowing water to enter the structure. You probably know
+          someone who has returned home to a kitchen or living room full of
+          water after a water heater or toilet line has broken.
+        </p>
+
+        <p>
+          This is a very difficult time for a home or business owner to walk
+          inand find a water damaged area.
         </p>
       </div>
     </div>

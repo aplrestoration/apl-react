@@ -20,13 +20,14 @@ code {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 38px;
 }
 
 h2 {
   font-size: 30px;
-  font-weight: bold;
+  line-height: 45px;
+  letter-spacing: 0.01em;
 }
 
 h3 {
@@ -50,6 +51,7 @@ h6,
 p {
   font-size: 25px;
   line-height: 45px;
+  padding-bottom: 40px;
 }
 
 .big-title-1 {
@@ -123,6 +125,11 @@ a.nav-link {
 
 .solid-divider {
   border: 1px solid #fff;
+}
+
+.solid-divider-black {
+  border: 1px solid #000;
+  margin: 70px 0;
 }
 
 .mobile-nav-link {
@@ -406,7 +413,7 @@ a.nav-link {
   }
 
   div.page-text-container {
-    padding: 0 20px;
+    margin: 0 5%;
   }
 
   div.page-hero {
@@ -419,6 +426,14 @@ a.nav-link {
   }
 
   p {
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 0.03em;
+    padding-bottom: 20px;
+
+  }
+
+  ul.page-li li{
     font-size: 20px;
     line-height: 38px;
     letter-spacing: 0.03em;
@@ -642,11 +657,11 @@ div.card {
   background-position: center;
 }
 .page-text-container {
-  /* padding: 0 15%; */
+  margin:0 20%;
 }
 
 ul.page-li {
-  font-size: 20px;
-  line-height: 38px;
+  font-size: 25px;
+  line-height: 45px;
   letter-spacing: 0.03em;
 }

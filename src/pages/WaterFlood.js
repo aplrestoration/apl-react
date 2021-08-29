@@ -17,7 +17,7 @@ const WaterFlood = () => {
           Restoration. Quick action is necessary for complete water damage
           cleanup and restoration.
         </p>
-        <h1>What are the causes of water damage?</h1>
+        <h1 className="fw-bold">What are the causes of water damage?</h1>
         <ul className="page-li">
           <li>Plumbing leaks</li>
           <li>Burst or broken pipes and hoses</li>

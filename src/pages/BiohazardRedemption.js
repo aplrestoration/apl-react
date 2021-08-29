@@ -3,7 +3,7 @@ import React from "react";
 const BiohazardRedemption = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid page-hero">
+      <div className="container-fluid d-flex flex-column justify-content-end page-hero">
         <div className="page-text-container">
           <h1 className="page-title">Biohazard Redemption</h1>
         </div>
@@ -45,7 +45,7 @@ const BiohazardRedemption = () => {
           drywall, in attics, or under carpets, indoor mould grows in the
           presence of excessive dampness or water.
         </p>
-        <p>Also found in damp indoor environments are:</p>
+        <p className="pb-1">Also found in damp indoor environments are:</p>
         <ul className="page-li">
           <li>bacteria;</li>
           <li>dust mites;</li>

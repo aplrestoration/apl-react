@@ -640,14 +640,13 @@ div.card {
   font-size: 100px;
   line-height: 120px;
   text-transform: uppercase;
-  padding-top: 400px;
+  padding-bottom: 20px;
   color: black;
 }
 
 .page-hero {
-  /* padding: 0 15%; */
   display: block;
-  min-height: 572px;
+  height: 572px;
   margin-bottom: 60px;
   /* Image styling  */
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),

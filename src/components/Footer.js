@@ -47,7 +47,7 @@ const Footer = () => {
                   <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1-833-746-8356）</span>
                 </li>
                 <li style={{ paddingBottom: "20px" }}>
-                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;604,446,2773</span>
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;604.446.2773</span>
                 </li>
                 <li style={{ paddingBottom: "20px" }}>
                   <Image src={smallIcon2} className="footer-icon"></Image>
@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
         <hr className="solid-divider" />
         <span className="footer-note">
-          © 2021, APL Restoration Ltd. All Rights Reserved.{" "}
+          © 2021, APL Restoration Ltd. All Rights Reserved.
         </span>
       </div>
     </div>

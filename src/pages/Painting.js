@@ -3,13 +3,13 @@ import React from "react";
 const Painting = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid page-hero">
-        <div className="container">
+      <div className="container-fluid d-flex flex-column justify-content-end page-hero">
+        <div className="page-text-container">
           <h1 className="page-title"> Painting</h1>
         </div>
       </div>
 
-      <div className="container page-text-container">
+      <div className="page-text-container">
         <p>
           APL Restoration Ltd helps you transform your home with color. If
           it&rsquo;s a complete house repaint, an eye-catching accent wall, or

@@ -3,13 +3,13 @@ import React from "react";
 const DoorAndTrimWorks = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid page-hero">
-        <div className="container">
+    <div className="container-fluid d-flex flex-column justify-content-end page-hero">
+      <div className="page-text-container">
           <h1 className="page-title">Door & Trimworks</h1>
         </div>
       </div>
 
-      <div className="container page-text-container">
+      <div className="page-text-container">
         <p>
           APL Restoration provide you with a full range of doors and trims
           services.

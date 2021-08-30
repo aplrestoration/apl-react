@@ -3,13 +3,13 @@ import React from "react";
 const BathroomFinishing = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid page-hero">
-        <div className="container">
+      <div className="container-fluid d-flex flex-column justify-content-end page-hero">
+        <div className="page-text-container">
           <h1 className="page-title">Bathroom Finishing</h1>
         </div>
       </div>
 
-      <div className="container page-text-container">
+      <div className="page-text-container">
         <p>
           Make the bathroom your favorite room in the house. APL Restoration Ltd
           will help you create your dream bathroom from start to finish.

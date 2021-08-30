@@ -3,13 +3,13 @@ import React from "react";
 const BasementFinishing = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid page-hero">
-        <div className="container">
+    <div className="container-fluid d-flex flex-column justify-content-end page-hero">
+      <div className="page-text-container">
           <h1 className="page-title">Basement Finishing</h1>
         </div>
       </div>
 
-      <div className="container page-text-container">
+      <div className="page-text-container">
         <p>
           Are you looking to build out your dream basement? Our team at APL
           Restoration can help, we offer professional basement finishing

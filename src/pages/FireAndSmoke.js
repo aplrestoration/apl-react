@@ -3,13 +3,13 @@ import React from "react";
 const FireAndSmoke = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid page-hero">
-        <div className="container">
+    <div className="container-fluid d-flex flex-column justify-content-end page-hero">
+      <div className="page-text-container">
           <h1 className="page-title">Fire And Smoke</h1>
         </div>
       </div>
 
-      <div className="container page-text-container">
+      <div className="page-text-container">
         <p>
           Fires can do more than compromise the structural integrity of your
           building. They interrupt critical systems, like HVAC or electrical,

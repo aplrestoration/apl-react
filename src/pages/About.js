@@ -3,13 +3,13 @@ import React from "react";
 const About = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid page-hero">
-        <div className="container">
+      <div className="container-fluid d-flex flex-column justify-content-end page-hero">
+        <div className="page-text-container">
           <h1 className="page-title">About Us</h1>
         </div>
       </div>
 
-      <div className="container page-text-container">
+      <div className="page-text-container">
         <p>
           The management team of APL Restoration has over 20 years’ experience
           in helping people who have experienced a flood, or sewer back up. We

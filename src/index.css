@@ -243,11 +243,9 @@ hr.solid-divider {
   position: absolute;
 }
 
-/* Logos */
-/* Galleries */
-
+/* Desktop */
 @media screen and (min-device-width: 992px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  .column-height {
+  div.column-height {
     height: 400px;
   }
 
@@ -263,6 +261,7 @@ hr.solid-divider {
   }
 }
 
+/* Mobile */
 @media (max-width: 991.98px) {
   .site-logo {
     font-size: 20px;
@@ -468,6 +467,11 @@ div.card {
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.4) 100%
   );
+}
+
+
+div.column-height {
+  height: 400px;
 }
 
 .card-title {

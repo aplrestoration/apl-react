@@ -244,7 +244,7 @@ hr.solid-divider {
 }
 
 /* Desktop */
-@media screen and (min-device-width: 992px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 992px) {
   div.column-height {
     height: 400px;
   }
@@ -291,7 +291,7 @@ hr.solid-divider {
     --bs-gutter-y: 1rem;
   }
 
-  .column-height {
+  div.column-height {
     height: 238px;
   }
 
@@ -470,7 +470,7 @@ div.card {
 }
 
 
-div.column-height {
+.column-height {
   height: 400px;
 }
 

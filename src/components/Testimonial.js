@@ -5,7 +5,7 @@ import CarouselBS from "./CarouselBS";
 const Testimonial = () => {
   return (
     <div className="testimonial-container">
-      <div>
+      <div className="container">
         <div className="testimonial-intro mb-5">
           <h2 className="big-title-2">WHAT OUR CUSTOMER HAVE TO SAY</h2>
           <span className="pt-2 testimonial-text">

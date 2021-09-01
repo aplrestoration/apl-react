@@ -123,13 +123,15 @@ a.nav-link {
   grid-gap: 20px;
 }
 
-.solid-divider {
+hr.solid-divider {
   border: 1px solid #fff;
+  opacity: 1;
 }
 
 .solid-divider-black {
   border: 1px solid #000;
   margin: 70px 0;
+  opacity: 1;
 }
 
 .mobile-nav-link {

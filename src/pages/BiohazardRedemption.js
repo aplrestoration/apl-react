@@ -45,10 +45,10 @@ const BiohazardRedemption = () => {
           drywall, in attics, or under carpets, indoor mould grows in the
           presence of excessive dampness or water.
         </p>
-        <p className="pb-1">Also found in damp indoor environments are:</p>
+        <h1 className="fw-bold">Also found in damp indoor environments are:</h1>
         <ul className="page-li">
-          <li>bacteria;</li>
-          <li>dust mites;</li>
+          <li>bacteria</li>
+          <li>dust mites</li>
           <li>
             break-down products of bacteria and moulds, such as proteins,
             cell-wall particles (glucans) and volatile organic compounds (the

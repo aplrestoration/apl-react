@@ -5,7 +5,7 @@ const WaterFlood = () => {
     <div className="page-container">
       <div className="container-fluid d-flex flex-column justify-content-end page-hero">
         <div className="page-text-container">
-          <h1 className="page-title">WATER AND FLOOD DAMAGE RESTORATION</h1>
+          <h1 className="page-title">WATER&FLOOD DAMAGE RESTORATION</h1>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ const WaterFlood = () => {
           the time it takes to dry most buildings to two to four days inorder to
           minimize your inconvenience.
         </p>
-        <h2 className="fw-bold">4. Reconstruction of the property</h2>
+        <h2 className="fw-bold">4 Reconstruction of the property</h2>
         <p>
           Once it has been confirmed that there is no longer any water hiding
           within cracks, crevices, or floorboards, APL Restoration will be able

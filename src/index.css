@@ -86,7 +86,7 @@ p {
   letter-spacing: 0.03em;
 }
 
-.headernav-info {
+.header-nav-info {
   display: block;
   font-family: Roboto;
   font-style: normal;
@@ -124,12 +124,12 @@ a.nav-link {
 }
 
 hr.solid-divider {
-  border: 1px solid #fff;
+  border: 0.5px solid #fff;
   opacity: 1;
 }
 
 .solid-divider-black {
-  border: 1px solid #000;
+  border: 0.5px solid #000;
   margin: 70px 0;
   opacity: 1;
 }
@@ -220,6 +220,13 @@ hr.solid-divider {
 }
 
 .hero-block-text {
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0.03em;
+  text-align: center;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -280,8 +287,11 @@ hr.solid-divider {
   .header-nav-container {
     padding: 15px 15px;
   }
+
   .hero-block-text {
-    margin: 3% 3%;
+    margin: 3% 1%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   div.gallery-spacing {
@@ -327,7 +337,13 @@ hr.solid-divider {
   }
 
   .hero-block-text {
+    font-family: Roboto;
     font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: center;
     margin-top: -90px;
   }
 
@@ -429,10 +445,9 @@ hr.solid-divider {
     line-height: 38px;
     letter-spacing: 0.03em;
     padding-bottom: 20px;
-
   }
 
-  ul.page-li li{
+  ul.page-li li {
     font-size: 20px;
     line-height: 38px;
     letter-spacing: 0.03em;
@@ -466,7 +481,6 @@ div.card {
     rgba(0, 0, 0, 0.4) 100%
   );
 }
-
 
 .column-height {
   height: 400px;
@@ -625,7 +639,7 @@ div.card {
 .footer-note {
   font-style: normal;
   color: #898787;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   line-height: 40px;
   letter-spacing: -0.02em;
@@ -675,7 +689,7 @@ div.card {
 }
 
 .page-text-container {
-  margin:0 20%;
+  margin: 0 20%;
 }
 
 ul.page-li {

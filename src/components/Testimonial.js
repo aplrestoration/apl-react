@@ -8,7 +8,7 @@ const Testimonial = () => {
       <div className="container">
         <div className="testimonial-intro mb-5">
           <h2 className="big-title-2">WHAT OUR CUSTOMER HAVE TO SAY</h2>
-          <span className="pt-2 testimonial-text">
+          <span className="pt-1 testimonial-text">
             5 star trusted by all customers
           </span>
           <div

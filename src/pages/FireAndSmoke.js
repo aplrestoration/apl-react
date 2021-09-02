@@ -1,9 +1,11 @@
 import React from "react";
+import bg from "../assets/bg/page-hero/restoration-header-fire-smoke.jpg"
 
 const FireAndSmoke = () => {
   return (
     <div className="page-container">
-    <div className="container-fluid d-flex flex-column justify-content-end page-hero">
+    <div className="container-fluid d-flex flex-column justify-content-end page-hero"
+    style={{ backgroundImage: `url(${bg})` }}>
       <div className="page-text-container">
           <h1 className="page-title">Fire And Smoke</h1>
         </div>

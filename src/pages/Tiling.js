@@ -1,11 +1,13 @@
 import React from "react";
-import bg from "../assets/bg/page-hero/renovation-header-tile-installation.jpg"
-
+import bg from "../assets/bg/page-hero/renovation-header-tile-installation.jpg";
+import GalleryNav from "../components/GalleryNav";
 const Tiling = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid d-flex flex-column justify-content-end page-hero"
-      style={{ backgroundImage: `url(${bg})` }}>
+      <div
+        className="container-fluid d-flex flex-column justify-content-end page-hero"
+        style={{ backgroundImage: `url(${bg})` }}
+      >
         <div className="page-text-container">
           <h1 className="page-title"> Tiling</h1>
         </div>
@@ -20,6 +22,7 @@ const Tiling = () => {
           information.
         </p>
       </div>
+      <GalleryNav />
     </div>
   );
 };

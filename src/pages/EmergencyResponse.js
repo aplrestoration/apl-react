@@ -1,13 +1,18 @@
 import React from "react";
-import bg from "../assets/bg/page-hero/restoration-header-emergency-response.jpg"
-
+import bg from "../assets/bg/page-hero/restoration-header-emergency-response.jpg";
+import GalleryNav from "../components/GalleryNav";
 const EmergencyResponse = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid d-flex flex-column justify-content-end page-hero"
-      style={{ backgroundImage: `url(${bg})` }}>
+      <div
+        className="container-fluid d-flex flex-column justify-content-end page-hero"
+        style={{ backgroundImage: `url(${bg})` }}
+      >
         <div className="page-text-container">
-          <h1 className="page-title" style={{color:"white" }}> Emergency Response</h1>
+          <h1 className="page-title" style={{ color: "white" }}>
+            {" "}
+            Emergency Response
+          </h1>
         </div>
       </div>
 
@@ -40,6 +45,7 @@ const EmergencyResponse = () => {
           inand find a water damaged area.
         </p>
       </div>
+      <GalleryNav />
     </div>
   );
 };

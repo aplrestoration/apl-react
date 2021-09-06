@@ -1,5 +1,6 @@
 import React from "react";
 import bg from "../assets/bg/page-hero/renovation-header-bathroom.jpg"
+import GalleryNav from "../components/GalleryNav";
 
 const BathroomFinishing = () => {
   return (
@@ -39,6 +40,7 @@ const BathroomFinishing = () => {
           smoothly.
         </p>
       </div>
+      <GalleryNav />
     </div>
   );
 };

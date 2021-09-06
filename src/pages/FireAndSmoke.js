@@ -1,6 +1,6 @@
 import React from "react";
 import bg from "../assets/bg/page-hero/restoration-header-fire-smoke.jpg"
-
+import GalleryNav from "../components/GalleryNav";
 const FireAndSmoke = () => {
   return (
     <div className="page-container">
@@ -47,6 +47,7 @@ const FireAndSmoke = () => {
           <li>Cleaning</li>
         </ul>
       </div>
+      <GalleryNav />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import bg from "../assets/bg/page-hero/renovation-header-basement.jpg"
+import GalleryNav from "../components/GalleryNav";
 
 const BasementFinishing = () => {
   return (
@@ -32,6 +33,7 @@ const BasementFinishing = () => {
           <li>Basement Ceiling Finish</li>
         </ul>
       </div>
+      <GalleryNav />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import bg from "../assets/bg/page-hero/renovation-header-demolition.jpg"
-
+import GalleryNav from "../components/GalleryNav";
 const Demolition = () => {
   return (
     <div className="page-container">
@@ -20,6 +20,7 @@ const Demolition = () => {
           choice. We look forward to covering all your demolition needs.
         </p>
       </div>
+      <GalleryNav />
     </div>
   );
 };

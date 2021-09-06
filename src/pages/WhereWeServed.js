@@ -6,7 +6,7 @@ const WhereWeServed = () => {
     <div className="page-container">
       <div className="container-fluid d-flex flex-column justify-content-end page-hero">
         <div className="page-text-container">
-          <h1 className="page-title">WhereWeServed</h1>
+          <h1 className="page-title">Where We Served</h1>
         </div>
       </div>
 

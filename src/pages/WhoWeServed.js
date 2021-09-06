@@ -5,7 +5,7 @@ const WhoWeServed = () => {
     <div className="page-container">
       <div className="container-fluid d-flex flex-column justify-content-end page-hero">
         <div className="page-text-container">
-          <h1 className="page-title">WhoWeServed</h1>
+          <h1 className="page-title">Who We Served</h1>
         </div>
       </div>
 

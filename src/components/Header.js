@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
 import WebMenu from "./WebMenu";
 
+
 function Header() {
   const [showMobile, setMobile] = useState(false);
   const [showWeb, setWeb] = useState(false);
@@ -26,9 +27,9 @@ function Header() {
             {showWeb ? <WebMenu closeMenuWeb={setWeb}/> : null}
             <ul className="nav d-none d-lg-flex">
               <li>
-                <Link
-                  to="/"
+                <button
                   className="nav-link"
+                  style={{border: 'none', backgroundColor: 'white', color: 'black'}}
                   onClick={() => setWeb(!showWeb)}
                 >
                   Service&nbsp;&nbsp;
@@ -45,7 +46,7 @@ function Header() {
                       strokeWidth="1.5"
                     />
                   </svg>
-                </Link>
+                </button>
               </li>
               <li>
                 <Link to="/who-we-serve" className="nav-link">

@@ -1,5 +1,6 @@
 import React from "react";
 import bg from "../assets/bg/page-hero/renovation-header-drywall-repair-installation.jpg"
+import GalleryNav from "../components/GalleryNav";
 
 const DrywallService = () => {
   return (
@@ -27,6 +28,7 @@ const DrywallService = () => {
           relationships we develop with our customers.
         </p>
       </div>
+      <GalleryNav />
     </div>
   );
 };

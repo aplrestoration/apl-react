@@ -7,7 +7,7 @@ const DoorAndTrimWorks = () => {
     <div className="container-fluid d-flex flex-column justify-content-end page-hero"
      style={{ backgroundImage: `url(${bg})` }}>
       <div className="page-text-container">
-          <h1 className="page-title">Door & Trimworks</h1>
+          <h1 className="page-title">Door & Trim Works</h1>
         </div>
       </div>
 

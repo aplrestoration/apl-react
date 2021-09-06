@@ -19,7 +19,7 @@ const FloorInstallation = () => {
           installers will get your new floor installed and looking great!
         </p>
 
-        <p>Flooring types:</p>
+        <h1 className="fw-bold">Flooring types:</h1>
         <ul className="page-li">
           <li>Hardwood Flooring</li>
           <li>Laminate Flooring</li>

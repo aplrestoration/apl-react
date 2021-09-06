@@ -456,6 +456,10 @@ hr.solid-divider {
 
 /* Mobile Style end */
 
+button {
+  
+}
+
 div.card {
   border: none;
   border-radius: 5px;
@@ -647,9 +651,6 @@ div.card {
 }
 
 /* Other Pages  */
-.page-container {
-  padding-bottom: 5%;
-}
 
 .page-title {
   font-family: Big Shoulders Display;

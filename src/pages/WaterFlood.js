@@ -7,7 +7,7 @@ const WaterFlood = () => {
       <div className="container-fluid d-flex flex-column justify-content-end page-hero"
       style={{ backgroundImage: `url(${bg})` }}>
         <div className="page-text-container">
-          <h1 className="page-title">WATER&FLOOD DAMAGE RESTORATION</h1>
+          <h1 className="page-title" style={{color:"white" }}>WATER & FLOOD</h1>
         </div>
       </div>
 

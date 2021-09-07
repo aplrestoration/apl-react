@@ -38,7 +38,7 @@ const FireAndSmoke = () => {
           compromise a building&rsquo;s structural integrity.
         </p>
 
-        <p>We respond by:</p>
+        <span className="big-title-2">We respond by:</span><br /><br />
         <ul className="page-li">
           <li>Providing drying & dehumidification services</li>
           <li>Sending in mould restoration specialists</li>

@@ -26,7 +26,7 @@ const About = () => {
           important types of skilled tradesmen.
         </p>
         <br />
-        <h1>24 Hour Emergency Service:</h1>
+        <h1 className="fw-bold">24 Hour Emergency Service:</h1>
         <ul className="page-li">
           <li>Free on-site inspection to help determine coverage</li>
           <li>Exceptional customer service</li>

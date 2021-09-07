@@ -97,7 +97,7 @@ function GalleryNav() {
     <div style={{ backgroundColor: "#F2F2F2", paddingBottom: "5%" }}>
       {/* restoration */}
       <div className="container px-4 py-5" id="custom-cards">
-        <h2 className="pb-2 big-title-2">RENOVATION SERVICES</h2>
+        <h2 className="pb-2 big-title-2">RESTORATION SERVICES</h2>
         <div className="row row-cols-2 row-cols-lg-4 align-items-stretch gallery-spacing">
           {resData &&
             resData.map((item) => (
@@ -126,7 +126,7 @@ function GalleryNav() {
         </div>
       </div>
       {/* rennovation */}
-      <div className="container px-4 py-5" id="custom-cards">
+      <div className="container px-4 pb-5" id="custom-cards">
         <h2 className="pb-2 big-title-2">RENOVATION SERVICES</h2>
         <div className="row row-cols-2 row-cols-lg-4 align-items-stretch gallery-spacing">
           {renData &&

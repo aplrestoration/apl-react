@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 // Main Components
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -27,27 +28,44 @@ function App() {
       <div>
         <Header />
       </div>
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/about" component={About} exact />
-        <Route path="/who-we-serve" component={WhoWeServed}></Route>
-        <Route path="/where-we-serve" component={WhereWeServed}></Route>
-        <Route path="/drywall-service" component={DrywallService}></Route>
-        <Route path="/door-and-trimworks" component={DoorAndTrimWorks}></Route>
-        <Route path="/floor-installation" component={FloorInstallation}></Route>
-        <Route path="/tiling" component={Tiling}></Route>
-        <Route path="/painting" component={Painting}></Route>
-        <Route path="/basement-finishing" component={BasementFinishing}></Route>
-        <Route path="/demolition" component={Demolition}></Route>
-        <Route path="/bathroom-finishing" component={BathroomFinishing}></Route>
-        <Route path="/emergency-response" component={EmergencyResponse}></Route>
-        <Route path="/water-and-flood" component={WaterFlood}></Route>
-        <Route
-          path="/biohazard-redemption"
-          component={BiohazardRedemption}
-        ></Route>
-        <Route path="/fire-and-smoke" component={FireAndSmoke}></Route>
-      </Switch>
+      <ScrollToTop>
+        <Switch>
+          <Route path="/" component={Home} exact />
+          <Route path="/about" component={About} exact />
+          <Route path="/who-we-serve" component={WhoWeServed}></Route>
+          <Route path="/where-we-serve" component={WhereWeServed}></Route>
+          <Route path="/drywall-service" component={DrywallService}></Route>
+          <Route
+            path="/door-and-trimworks"
+            component={DoorAndTrimWorks}
+          ></Route>
+          <Route
+            path="/floor-installation"
+            component={FloorInstallation}
+          ></Route>
+          <Route path="/tiling" component={Tiling}></Route>
+          <Route path="/painting" component={Painting}></Route>
+          <Route
+            path="/basement-finishing"
+            component={BasementFinishing}
+          ></Route>
+          <Route path="/demolition" component={Demolition}></Route>
+          <Route
+            path="/bathroom-finishing"
+            component={BathroomFinishing}
+          ></Route>
+          <Route
+            path="/emergency-response"
+            component={EmergencyResponse}
+          ></Route>
+          <Route path="/water-and-flood" component={WaterFlood}></Route>
+          <Route
+            path="/biohazard-redemption"
+            component={BiohazardRedemption}
+          ></Route>
+          <Route path="/fire-and-smoke" component={FireAndSmoke}></Route>
+        </Switch>
+      </ScrollToTop>
       <div>
         <Footer />
       </div>

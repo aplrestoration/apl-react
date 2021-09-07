@@ -90,7 +90,7 @@ const WaterFlood = () => {
           removal of any moulds that may have formed.
         </p>
         <hr className="solid-divider-black" />
-        <span className="big-title-2">WHY CHOOSE US?</span>
+        <span className="big-title-2">WHY CHOOSE US?</span> <br /><br />
         <ul className="page-li">
           <li>Available 24/7</li>
           <li>We help you claim your insurance</li>

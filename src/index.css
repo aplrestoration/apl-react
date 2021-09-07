@@ -518,12 +518,13 @@ div.card {
 }
 
 .icon-whoWeServed {
-  width: 78px;
-  height: 78px;
+  width: 75px;
+  height: 100%;
 }
 
 .bg-whoWeServed {
   background-color: #f2f2f2;
+  padding-top: 20px;
 }
 
 /* Testimonial */
@@ -552,6 +553,10 @@ div.card {
   line-height: 45px;
   letter-spacing: 0.03em;
   padding-top: 34px;
+}
+
+ul.slick-dots {
+  bottom: -40px;
 }
 
 /* Marketing */
@@ -588,7 +593,8 @@ div.card {
 }
 
 .icon-marketing {
-  width: 200px;
+  width: 170px;
+  padding-bottom: 10px;
 }
 
 .marketing-title {
@@ -625,6 +631,7 @@ div.card {
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
+  padding-top: 12px;
 }
 
 .footer-text {

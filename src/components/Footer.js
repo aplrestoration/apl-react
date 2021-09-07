@@ -56,7 +56,7 @@ const Footer = () => {
                 <li>
                   <Image src={smallIcon3} className="footer-icon"></Image>
                   <span>
-                    &nbsp;&nbsp;PO Box 45006 Dunbar, Vancouver, BC V682M8
+                    &nbsp;&nbsp;PO Box 45006 Dunbar, Vancouver, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BC V682M8
                   </span>
                 </li>
               </ul>

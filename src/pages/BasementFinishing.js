@@ -21,7 +21,7 @@ const BasementFinishing = () => {
           to the plan. Contact our experts today to get started on your basement
           finishing project.
         </p>
-        <p>Steps to Finishing Your Basement:</p>
+        <span className="big-title-2">Steps to Finishing Your Basement:</span><br /><br />
         <ul className="page-li">
           <li>Insulation Installation</li>
           <li>Framing Walls</li>

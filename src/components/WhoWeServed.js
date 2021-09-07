@@ -23,7 +23,7 @@ const WhoWeServed = () => {
               <Image src={icon1} className="icon-whoWeServed"></Image>
             </div>
             <div>
-              <h3 className="fw-bold pt-4 wws-mobile-title">
+              <h3 className="fw-bold pt-2 wws-mobile-title">
                 Residential Property
               </h3>
               <ul className="list-unstyled wws-text">
@@ -39,7 +39,7 @@ const WhoWeServed = () => {
               <Image src={icon2} className="icon-whoWeServed"></Image>
             </div>
             <div>
-              <h3 className="fw-bold pt-4 wws-mobile-title">
+              <h3 className="fw-bold pt-2 wws-mobile-title">
                 Commercial Property
               </h3>
               <ul className="list-unstyled wws-text">
@@ -55,7 +55,7 @@ const WhoWeServed = () => {
               <Image src={icon3} className="icon-whoWeServed"></Image>
             </div>
             <div>
-              <h3 className="fw-bold pt-4 wws-mobile-title">
+              <h3 className="fw-bold pt-2 wws-mobile-title">
                 Insurance Professionals
               </h3>
               <ul className="list-unstyled wws-text">

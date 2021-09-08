@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import bg from "../assets/bg/who-we-serve-bg.jpg";
 import icon1 from "../assets/icon/whoWeServed/1.png";
 import icon2 from "../assets/icon/whoWeServed/2.png";

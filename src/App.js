@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
+// import ScrollToTop from "./components/ScrollToTop";
 // Main Components
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -28,7 +28,7 @@ function App() {
       <div>
         <Header />
       </div>
-      <ScrollToTop>
+      {/* <ScrollToTop> */}
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} exact />
@@ -65,7 +65,7 @@ function App() {
           ></Route>
           <Route path="/fire-and-smoke" component={FireAndSmoke}></Route>
         </Switch>
-      </ScrollToTop>
+      {/* </ScrollToTop> */}
       <div>
         <Footer />
       </div>

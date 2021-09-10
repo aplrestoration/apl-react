@@ -11,7 +11,7 @@ const WhoWeServed = () => {
     <div className="bg-whoWeServed">
       <div className="container px-4 py-5" id="featured-3">
         <div className="d-inline-flex flex-row align-items-baseline">
-          <h2 className="pb-2 big-title-2">WHO DO WE SERVED</h2>
+          <h2 className="pb-2 big-title-2">WHO DO WE SERVE</h2>
           <Link to="#" className="icon-link">
             <h4 className="fw-bold view-all">VIEW ALL</h4>
           </Link>
@@ -61,7 +61,7 @@ const WhoWeServed = () => {
               <ul className="list-unstyled wws-text">
                 <li>Brokers</li>
                 <li>Adjusters</li>
-                <li>Idependent Adjusters</li>
+                <li>Independent Adjusters</li>
                 <li>Claims Managers</li>
               </ul>
             </div>

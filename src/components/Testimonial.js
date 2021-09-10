@@ -7,7 +7,7 @@ const Testimonial = () => {
     <div className="testimonial-container">
       <div className="container">
         <div className="testimonial-intro mb-5">
-          <h2 className="big-title-2">WHAT OUR CUSTOMER HAVE TO SAY</h2>
+          <h2 className="big-title-2">WHAT OUR CUSTOMERS HAVE TO SAY</h2>
           <span className="pt-1 testimonial-text">
             5 star trusted by all customers
           </span>

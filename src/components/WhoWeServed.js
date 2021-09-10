@@ -29,7 +29,7 @@ const WhoWeServed = () => {
               <ul className="list-unstyled wws-text">
                 <li>Residential Building Manager</li>
                 <li>House Owners</li>
-                <li>Condo Ownders</li>
+                <li>Condo Owners</li>
                 <li>Tennants</li>
               </ul>
             </div>

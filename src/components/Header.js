@@ -29,10 +29,10 @@ function Header() {
               <li>
                 <button
                   className="nav-link"
-                  style={{border: 'none', backgroundColor: 'white', color: 'black'}}
+                  style={{border: 'none', backgroundColor: 'white'}}
                   onClick={() => setWeb(!showWeb)}
                 >
-                  Service&nbsp;&nbsp;
+                  <span>Service&nbsp;&nbsp;</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="13"

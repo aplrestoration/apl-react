@@ -100,6 +100,17 @@ a.nav-link {
   color: black;
 }
 
+a.nav-link:hover {
+  color: #0a27c3;
+}
+
+button.nav-link {
+  color: black;
+}
+button.nav-link:hover {
+  color: #0a27c3;
+}
+
 /* Mobile Menu  */
 
 .mobile-menu {
@@ -112,7 +123,7 @@ a.nav-link {
   position: relative;
   min-width: 100px;
   min-height: 500px;
-  padding: 20px 30px;
+  padding: 15px 20px;
   background-color: black;
   color: white;
 }
@@ -120,7 +131,7 @@ a.nav-link {
 .mobile-menu-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 15px;
 }
 
 hr.solid-divider {
@@ -141,6 +152,10 @@ hr.solid-divider {
   line-height: 36px;
   letter-spacing: -0.02em;
   margin-bottom: 5px;
+}
+
+.mobile-nav-link:hover:active {
+  color: #7d9aff;
 }
 
 .mobile-menu-info {
@@ -264,6 +279,10 @@ hr.solid-divider {
     --bs-gutter-x: 1rem;
     --bs-gutter-y: 1.8rem;
   }
+
+  ul.slick-dots {
+    bottom: -40px;
+  }
 }
 
 /* Mobile */
@@ -376,6 +395,10 @@ hr.solid-divider {
     padding: 40px 20px;
   }
 
+  div.btn-black {
+    width: 100%;
+  }
+
   .testimonial-intro {
     display: flex;
     flex-direction: column;
@@ -457,7 +480,6 @@ hr.solid-divider {
 /* Mobile Style end */
 
 button {
-  
 }
 
 div.card {
@@ -508,8 +530,12 @@ div.card {
   background-color: #0038ff;
 }
 
-.custom-button-react:hover {
-  opacity: 0.8;
+.btn-blue:hover {
+  background-color: #0a27c3;
+}
+
+.btn-black:hover {
+  background-color: #424242;
 }
 
 .icon-link {
@@ -553,10 +579,6 @@ div.card {
   line-height: 45px;
   letter-spacing: 0.03em;
   padding-top: 34px;
-}
-
-ul.slick-dots {
-  bottom: -40px;
 }
 
 /* Marketing */
@@ -642,6 +664,10 @@ ul.slick-dots {
   letter-spacing: -0.02em;
 }
 
+.footer-text a li:hover {
+  color: #7d9aff;
+}
+
 .footer-icon {
   width: 20px;
   height: 20px;
@@ -704,4 +730,9 @@ ul.page-li {
   font-size: 25px;
   line-height: 45px;
   letter-spacing: 0.03em;
+}
+
+/* Underline hover effect */
+.card-title:hover {
+  text-decoration: underline;
 }

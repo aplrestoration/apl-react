@@ -99,7 +99,7 @@ function GalleryNav() {
       <div className="container px-4 py-5" id="custom-cards">
         <h2 className="pb-2 big-title-2">RESTORATION SERVICES</h2>
         <div className="row row-cols-2 row-cols-lg-4 align-items-stretch gallery-spacing">
-          {resData &&
+          {resData && 
             resData.map((item) => (
               <Link to={item.link} style={{ textDecoration: "none" }}>
                 <div className="col column-height" key={item.id}>

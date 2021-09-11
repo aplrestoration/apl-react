@@ -21,18 +21,35 @@ const Footer = () => {
               <span className="footer-title">APL Restoration Ltd</span>
             </div>
             <div className="col-4 col-md-3">
-              <Image src={icon2} className="img-fluid logo-partners d-none d-sm-block"></Image>
-              <Image src={mobIcon1} className="img-fluid footer-mob-icon d-block d-sm-none"></Image>
+              <Image
+                src={icon2}
+                className="img-fluid logo-partners d-none d-sm-block"
+              ></Image>
+              <Image
+                src={mobIcon1}
+                className="img-fluid footer-mob-icon d-block d-sm-none"
+              ></Image>
             </div>
             <div className="col-4 col-md-3">
-              <Image src={icon3} className="img-fluid logo-partners d-none d-sm-block"></Image>
-              <Image src={mobIcon2} className="img-fluid footer-mob-icon d-block d-sm-none"></Image>
+              <Image
+                src={icon3}
+                className="img-fluid logo-partners d-none d-sm-block"
+              ></Image>
+              <Image
+                src={mobIcon2}
+                className="img-fluid footer-mob-icon d-block d-sm-none"
+              ></Image>
             </div>
             <div className="col-4 col-md-3">
-              <Image src={icon4} className="img-fluid logo-partners d-none d-sm-block"></Image>
-              <Image src={mobIcon3} className="img-fluid footer-mob-icon d-block d-sm-none"></Image>
+              <Image
+                src={icon4}
+                className="img-fluid logo-partners d-none d-sm-block"
+              ></Image>
+              <Image
+                src={mobIcon3}
+                className="img-fluid footer-mob-icon d-block d-sm-none"
+              ></Image>
             </div>
-            
           </div>
         </div>
         <hr className="solid-divider" />
@@ -43,11 +60,16 @@ const Footer = () => {
               <ul className="list-unstyled footer-contact-text">
                 <li style={{ paddingBottom: "20px" }}>
                   <Image src={smallIcon1} className="footer-icon"></Image>
-                  <span>&nbsp;&nbsp;1-833-7GOT-FLOOD?</span><br/>
-                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1-833-746-8356）</span>
+                  <span>&nbsp;&nbsp;1-833-7GOT-FLOOD?</span>
+                  <br />
+                  <span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1-833-746-8356）
+                  </span>
                 </li>
                 <li style={{ paddingBottom: "20px" }}>
-                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;604.446.2773</span>
+                  <span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;604.446.2773
+                  </span>
                 </li>
                 <li style={{ paddingBottom: "20px" }}>
                   <Image src={smallIcon2} className="footer-icon"></Image>
@@ -56,7 +78,8 @@ const Footer = () => {
                 <li>
                   <Image src={smallIcon3} className="footer-icon"></Image>
                   <span>
-                    &nbsp;&nbsp;PO Box 45006 Dunbar, Vancouver, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BC V682M8
+                    &nbsp;&nbsp;PO Box 45006 Dunbar, Vancouver, <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BC V682M8
                   </span>
                 </li>
               </ul>
@@ -64,31 +87,61 @@ const Footer = () => {
             <div className="col-lg-3 d-none d-md-block">
               <h1 className="fw-bold my-3">Renovation</h1>
               <ul className="list-unstyled footer-text">
-                <li>Drywall Repairs and Installation</li>
-                <li>Door & Trims work</li>
-                <li>Floor Installation</li>
-                <li>Tiling</li>
-                <li>Bathroom Renovations and Repairs</li>
-                <li>Basement Finishing</li>
-                <li>Painting</li>
-                <li>Demolition</li>
+                <a href="/drywall-service" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Drywall Repairs and Installation</li>
+                </a>
+                <a href="/door-and-trimworks" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Door & Trims work</li>
+                </a>
+                <a href="/floor-installation" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Floor Installation</li>
+                </a>
+                <a href="/tiling" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Tiling</li>
+                </a>
+                <a href="/bathroom-finishing" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Bathroom Renovations and Repairs</li>
+                </a>
+                <a href="/basement-finishing" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Basement Finishing</li>
+                </a>
+                <a href="/painting" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Painting</li>
+                </a>
+                <a href="/demolition" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Demolition</li>
+                </a>
               </ul>
             </div>
             <div className="col-lg-3 d-none d-md-block">
               <h1 className="fw-bold my-3">Restoration</h1>
               <ul className="list-unstyled footer-text">
-                <li>Emergency Response</li>
-                <li>Water & Flood</li>
-                <li>Biohazard Redemption</li>
-                <li>Fire & Flood</li>
+                <a href="/emergency-response" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Emergency Response</li>
+                </a>
+                <a href="/water-and-flood" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Water & Flood</li>
+                </a>
+                <a href="/biohazard-redemption" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Biohazard Redemption</li>
+                </a>
+                <a href="/fire-and-smoke" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Fire & Flood</li>
+                </a>
               </ul>
             </div>
             <div className="col-lg-3 d-none d-md-block">
               <h1 className="fw-bold my-3 mobile-title">More Info</h1>
               <ul className="list-unstyled footer-text">
-                <li>About us</li>
-                <li>Service Property</li>
-                <li>Contact us</li>
+                <a href="/" style={{ textDecoration: "none", color: "white" }}>
+                  <li>About us</li>
+                </a>
+                <a href="/" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Service Property</li>
+                </a>
+                <a href="/" style={{ textDecoration: "none", color: "white" }}>
+                  <li>Contact us</li>
+                </a>
               </ul>
             </div>
           </div>

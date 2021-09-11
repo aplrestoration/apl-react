@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 import CarouselBS from "./CarouselBS";
-
+ 
 const Testimonial = () => {
   return (
     <div className="testimonial-container">
@@ -13,10 +13,17 @@ const Testimonial = () => {
           </span>
           <div
             type="button"
-            className="custom-button-react"
+            className="custom-button-react btn-black"
             style={{ backgroundColor: "black" }}
           >
-            SEE ALL 50+ GOOGLE REVIEW
+            <a
+              href="https://g.page/APL-Restoration?share"
+              rel="noreferrer"
+              target="_blank"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              SEE ALL 50+ GOOGLE REVIEW
+            </a>
           </div>
         </div>
 

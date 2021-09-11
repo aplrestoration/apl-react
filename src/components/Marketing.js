@@ -30,7 +30,7 @@ const Marketing = () => {
           <span className="callout-title">ready to fix your home</span>
           <span className="marketing-text">We're here to help, so you can rest assured.</span>
           <div type="button" className="custom-button-react rounded-0 fw-bold">
-            Call for free quote
+          <a href="tel:+16044462773" style={{textDecoration:"none", color:"white"}}>Call for free quote</a>
           </div>
         </div>
       </div>

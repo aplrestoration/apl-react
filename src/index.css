@@ -111,6 +111,7 @@ button.nav-link:hover {
   color: #0a27c3;
 }
 
+
 /* Mobile Menu  */
 
 .mobile-menu {
@@ -735,4 +736,12 @@ ul.page-li {
 /* Underline hover effect */
 .card-title:hover {
   text-decoration: underline;
+}
+
+/* Gallery card hover effect */
+.card {
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(0.97);
 }

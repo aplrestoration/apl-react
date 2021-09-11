@@ -1,9 +1,13 @@
 import React from "react";
+import bg from "../assets/bg/about-bg.jpeg";
 
 const About = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid d-flex flex-column justify-content-end page-hero">
+      <div
+        className="container-fluid d-flex flex-column justify-content-end page-hero"
+        style={{ backgroundImage: `url(${bg})` }}
+      >
         <div className="page-text-container">
           <h1 className="page-title">About Us</h1>
         </div>

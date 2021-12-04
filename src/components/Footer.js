@@ -29,7 +29,7 @@ const Footer = () => {
               ></Image>
               <Image
                 src={mobIcon4}
-                className="img-fluid footer-mob-icon d-block d-sm-none"
+                className="img-fluid  d-block d-sm-none"
               ></Image>
             </div>
             <div className="col-3 col-md-3">
@@ -39,7 +39,7 @@ const Footer = () => {
               ></Image>
               <Image
                 src={mobIcon1}
-                className="img-fluid footer-mob-icon d-block d-sm-none"
+                className="img-fluid  d-block d-sm-none"
               ></Image>
             </div>
             <div className="col-3 col-md-3">
@@ -49,7 +49,7 @@ const Footer = () => {
               ></Image>
               <Image
                 src={mobIcon2}
-                className="img-fluid footer-mob-icon d-block d-sm-none"
+                className="img-fluid  d-block d-sm-none"
               ></Image>
             </div>
             <div className="col-3 col-md-3">
@@ -59,7 +59,7 @@ const Footer = () => {
               ></Image>
               <Image
                 src={mobIcon3}
-                className="img-fluid footer-mob-icon d-block d-sm-none"
+                className="img-fluid  d-block d-sm-none"
               ></Image>
             </div>
           </div>
@@ -99,28 +99,52 @@ const Footer = () => {
             <div className="col-lg-3 d-none d-md-block">
               <h1 className="fw-bold my-3">Renovation</h1>
               <ul className="list-unstyled footer-text">
-                <a href="/drywall-service" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/drywall-service"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Drywall Repairs and Installation</li>
                 </a>
-                <a href="/door-and-trimworks" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/door-and-trimworks"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Door & Trims work</li>
                 </a>
-                <a href="/floor-installation" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/floor-installation"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Floor Installation</li>
                 </a>
-                <a href="/tiling" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/tiling"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Tiling</li>
                 </a>
-                <a href="/bathroom-finishing" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/bathroom-finishing"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Bathroom Renovations and Repairs</li>
                 </a>
-                <a href="/basement-finishing" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/basement-finishing"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Basement Finishing</li>
                 </a>
-                <a href="/painting" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/painting"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Painting</li>
                 </a>
-                <a href="/demolition" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/demolition"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Demolition</li>
                 </a>
               </ul>
@@ -128,16 +152,28 @@ const Footer = () => {
             <div className="col-lg-3 d-none d-md-block">
               <h1 className="fw-bold my-3">Restoration</h1>
               <ul className="list-unstyled footer-text">
-                <a href="/emergency-response" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/emergency-response"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Emergency Response</li>
                 </a>
-                <a href="/water-and-flood" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/water-and-flood"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Water & Flood</li>
                 </a>
-                <a href="/biohazard-redemption" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/biohazard-redemption"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Biohazard Redemption</li>
                 </a>
-                <a href="/fire-and-smoke" style={{ textDecoration: "none", color: "white" }}>
+                <a
+                  href="/fire-and-smoke"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   <li>Fire & Flood</li>
                 </a>
               </ul>

@@ -111,7 +111,6 @@ button.nav-link:hover {
   color: #0a27c3;
 }
 
-
 /* Mobile Menu  */
 
 .mobile-menu {
@@ -444,11 +443,6 @@ hr.solid-divider {
 
   div.footer-row {
     display: flex;
-  }
-
-  .footer-mob-icon {
-    width: auto;
-    height: 140px;
   }
 
   div.page-text-container {

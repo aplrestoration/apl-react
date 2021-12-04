@@ -10,6 +10,7 @@ import WhoWeServed from "../components/WhoWeServed";
 const Home = () => {
   return (
     <div>
+      {/* <Banner /> */}
       <Hero />
       <Logo />
       <LargeGallery />

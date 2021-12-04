@@ -3,13 +3,19 @@ import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
 import WebMenu from "./WebMenu";
 
-
 function Header() {
   const [showMobile, setMobile] = useState(false);
   const [showWeb, setWeb] = useState(false);
 
   return (
     <div>
+      <div
+        className="container-fluid text-white px-2 py-2 text-center"
+        style={{ backgroundColor: "#D0423C", fontSize: "18px", lineHeight: "22px" }}
+      >
+        B.C. rainstorm and flood: Contact APL for emergency water repair and
+        restoration service.
+      </div>
       <div className="header-container">
         <div className="header-nav-container">
           <div className="d-flex align-items-center">
@@ -24,12 +30,12 @@ function Header() {
 
           {/* Desktop Navigation  */}
           <div className="header-nav">
-            {showWeb ? <WebMenu closeMenuWeb={setWeb}/> : null}
+            {showWeb ? <WebMenu closeMenuWeb={setWeb} /> : null}
             <ul className="nav d-none d-lg-flex">
               <li>
                 <button
                   className="nav-link"
-                  style={{border: 'none', backgroundColor: 'white'}}
+                  style={{ border: "none", backgroundColor: "white" }}
                   onClick={() => setWeb(!showWeb)}
                 >
                   <span>Service&nbsp;&nbsp;</span>
@@ -89,7 +95,7 @@ function Header() {
       </div>
 
       {/* Mobile Navigation Panel  */}
-      {showMobile ? <MobileMenu closeMenuMobile={setMobile}/> : null}
+      {showMobile ? <MobileMenu closeMenuMobile={setMobile} /> : null}
     </div>
   );
 }

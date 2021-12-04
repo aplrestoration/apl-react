@@ -9,13 +9,13 @@ function Header() {
 
   return (
     <div>
-      <div
+      {/* <div
         className="container-fluid text-white px-2 py-2 text-center"
         style={{ backgroundColor: "#D0423C", fontSize: "18px", lineHeight: "22px" }}
       >
         B.C. rainstorm and flood: Contact APL for emergency water repair and
         restoration service.
-      </div>
+      </div> */}
       <div className="header-container">
         <div className="header-nav-container">
           <div className="d-flex align-items-center">

@@ -447,7 +447,7 @@ hr.solid-divider {
   }
 
   .footer-mob-icon {
-    width: 100px;
+    width: auto;
     height: 140px;
   }
 

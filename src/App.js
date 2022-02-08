@@ -21,12 +21,16 @@ import EmergencyResponse from "./pages/EmergencyResponse";
 import WaterFlood from "./pages/WaterFlood";
 import BiohazardRedemption from "./pages/BiohazardRedemption";
 import FireAndSmoke from "./pages/FireAndSmoke";
+// SEO component
+import SEO from './components/SEO';
 
 function App() {
+
   return (
     <BrowserRouter>
       <div>
         <Header />
+        <SEO />
       </div>
       {/* <ScrollToTop> */}
         <Switch>

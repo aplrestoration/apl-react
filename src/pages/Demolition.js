@@ -16,7 +16,7 @@ const Demolition = () => {
           When any environmental hazards are involved, it’s more than just a
           routine dismantlement project. You need an experienced, highly
           knowledgeable contractor to do the job right safely, cost-effectively,
-          and in full regulatory compliance.<br/> APL Restoration is the right
+          and in full regulatory compliance.<br/> <a href="https://www.aplrestoration.ca/"><strong>APL Restoration Ltd</strong></a> is the right
           choice. We look forward to covering all your demolition needs.
         </p>
       </div>

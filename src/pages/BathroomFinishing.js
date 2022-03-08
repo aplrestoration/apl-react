@@ -14,8 +14,7 @@ const BathroomFinishing = () => {
 
       <div className="page-text-container">
         <p>
-          Make the bathroom your favorite room in the house. APL Restoration Ltd
-          will help you create your dream bathroom from start to finish.
+          Make the bathroom your favorite room in the house. <a href="https://www.aplrestoration.ca/"><strong>APL Restoration Ltd</strong></a> will help you create your dream bathroom from start to finish.
         </p>
         <p>Our Services:</p>
         <ul className="page-li">

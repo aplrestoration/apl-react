@@ -68,7 +68,7 @@ const Footer = () => {
         <div className="container">
           <div className="row footer-row">
             <div className="col-lg-3 footer-col">
-              <h1 className="fw-bold my-3 mobile-title">Contact</h1>
+              <h3 className="fw-bold my-3 mobile-title">Contact</h3>
               <ul className="list-unstyled footer-contact-text">
                 <li style={{ paddingBottom: "20px" }}>
                   <Image src={smallIcon1} className="footer-icon"></Image>
@@ -97,7 +97,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-lg-3 d-none d-md-block">
-              <h1 className="fw-bold my-3">Renovation</h1>
+              <h3 className="fw-bold my-3">Renovation</h3>
               <ul className="list-unstyled footer-text">
                 <a
                   href="/drywall-service"
@@ -150,7 +150,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-lg-3 d-none d-md-block">
-              <h1 className="fw-bold my-3">Restoration</h1>
+              <h3 className="fw-bold my-3">Restoration</h3>
               <ul className="list-unstyled footer-text">
                 <a
                   href="/emergency-response"
@@ -179,7 +179,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-lg-3 d-none d-md-block">
-              <h1 className="fw-bold my-3 mobile-title">More Info</h1>
+              <h3 className="fw-bold my-3 mobile-title">More Info</h3>
               <ul className="list-unstyled footer-text">
                 <a href="/" style={{ textDecoration: "none", color: "white" }}>
                   <li>About us</li>

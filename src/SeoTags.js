@@ -5,9 +5,11 @@ const seoTags = {
         "meta": [
             {
                 "property": "og:url",
-                "content": "https://www.aplrestoration.ca/"
+                "content": "https://www.aplrestoration.ca",
+                "property":"og:title",
+                "content":"Drywall Repair | Flooring Installation - APL Restoration Vancouver"
             }
-        ]
+        ],
     },
     "/drywall-service": {
         "title": "Drywall Repair | Fire Damage - APL Restoration Vancouver",

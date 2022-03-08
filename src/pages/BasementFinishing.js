@@ -14,11 +14,10 @@ const BasementFinishing = () => {
 
       <div className="page-text-container">
         <p>
-          Are you looking to build out your dream basement? Our team at APL
-          Restoration can help, we offer professional basement finishing
+          Are you looking to build out your dream basement? Our team at <a href="https://www.aplrestoration.ca/"><strong>APL Restoration Ltd</strong></a> can help, we offer professional basement finishing
           services to homeowners in Greater Vancouver. Our experts take the
           guesswork out of basement finishingby planning the work and sticking
-          to the plan. Contact our experts today to get started on your basement
+          to the plan. <a href="https://www.aplrestoration.ca/contact"><strong>Contact</strong></a> our experts today to get started on your basement
           finishing project.
         </p>
         <span className="big-title-2">Steps to Finishing Your Basement:</span><br /><br />

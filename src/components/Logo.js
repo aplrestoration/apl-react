@@ -12,22 +12,22 @@ const Logo = () => {
     <div className="container logo-section">
       <div className="row">
         <div className="col-4 col-md-2">
-          <Image src={logo1} className="img-fluid"></Image>
+          <Image src={logo1} className="img-fluid" alt="emergency restoration company vancouver"></Image>
         </div>
         <div className="col-4 col-md-2">
-          <Image src={logo2} className="img-fluid"></Image>
-        </div> 
-        <div className="col-4 col-md-2">
-          <Image src={logo3} className="img-fluid"></Image>
+          <Image src={logo2} className="img-fluid" alt="drywall repair vancouver"></Image>
         </div>
         <div className="col-4 col-md-2">
-          <Image src={logo4} className="img-fluid"></Image>
+          <Image src={logo3} className="img-fluid" alt="flooring installation vancouver"></Image>
         </div>
         <div className="col-4 col-md-2">
-          <Image src={logo5} className="img-fluid"></Image>
+          <Image src={logo4} className="img-fluid" alt="fire damage restoration vancouver"></Image>
         </div>
         <div className="col-4 col-md-2">
-          <Image src={logo6} className="img-fluid"></Image>
+          <Image src={logo5} className="img-fluid" alt="water damage restoration vancouver"></Image>
+        </div>
+        <div className="col-4 col-md-2">
+          <Image src={logo6} className="img-fluid" alt="fire damage restoration vancouver"></Image>
         </div>
       </div>
     </div>

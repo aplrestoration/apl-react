@@ -15,7 +15,7 @@ const DoorAndTrimWorks = () => {
 
       <div className="page-text-container">
         <p>
-          APL Restoration provide you with a full range of doors and trims
+          <a href="https://www.aplrestoration.ca/"><strong>APL Restoration Ltd</strong></a> provide you with a full range of doors and trims
           services.
         </p>
 

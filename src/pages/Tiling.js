@@ -16,9 +16,9 @@ const Tiling = () => {
       <div className="page-text-container">
         <p>
           We are proud of ourselves on the quality of our service and the work
-          that we have completed. APL Restoration have a qualified tiler with
+          that we have completed. <a href="https://www.aplrestoration.ca/"><strong>APL Restoration Ltd</strong></a> have a qualified tiler with
           more than 15 years’ experience in tiling service. Our goal is to
-          provide great service to our customers. Contact us today for more
+          provide great service to our customers. <a href="https://www.aplrestoration.ca/contact"><strong>Contact Us</strong></a> today for more
           information.
         </p>
       </div>

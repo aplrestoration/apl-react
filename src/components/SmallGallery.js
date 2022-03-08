@@ -82,9 +82,9 @@ function SmallGallery() {
                   style={{ backgroundImage: `url(${item.bgIMG})` }}
                 >
                   <div className="d-flex flex-column-reverse h-100 p-3 text-shadow-1">
-                    <h1 className="pt-5 mt-5 lh-1 fw-bold card-title">
+                    <h3 className="pt-5 mt-5 lh-1 fw-bold card-title">
                       {item.title}
-                    </h1>
+                    </h3>
                   </div>
                 </div>
               </div>

@@ -99,7 +99,7 @@ function GalleryNav() {
       <div className="container px-4 py-5" id="custom-cards">
         <h2 className="pb-2 big-title-2">RESTORATION SERVICES</h2>
         <div className="row row-cols-2 row-cols-lg-4 align-items-stretch gallery-spacing">
-          {resData && 
+          {resData &&
             resData.map((item) => (
               <Link to={item.link} style={{ textDecoration: "none" }}>
                 <div className="col column-height" key={item.id}>
@@ -115,9 +115,9 @@ function GalleryNav() {
                     style={{ backgroundImage: `url(${item.bgIMG})` }}
                   >
                     <div className="d-flex flex-column-reverse h-100 p-3 text-shadow-1">
-                      <h1 className="pt-5 mt-5 lh-1 fw-bold card-title">
+                      <h3 className="pt-5 mt-5 lh-1 fw-bold card-title">
                         {item.title}
-                      </h1>
+                      </h3>
                     </div>
                   </div>
                 </div>
@@ -145,9 +145,9 @@ function GalleryNav() {
                     style={{ backgroundImage: `url(${item.bgIMG})` }}
                   >
                     <div className="d-flex flex-column-reverse h-100 p-3 text-shadow-1">
-                      <h1 className="pt-5 mt-5 lh-1 fw-bold card-title">
+                      <h3 className="pt-5 mt-5 lh-1 fw-bold card-title">
                         {item.title}
-                      </h1>
+                      </h3>
                     </div>
                   </div>
                 </div>

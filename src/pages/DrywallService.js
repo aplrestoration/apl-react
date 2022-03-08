@@ -5,7 +5,7 @@ import GalleryNav from "../components/GalleryNav";
 const DrywallService = () => {
   return (
     <div className="page-container">
-      <div className="container-fluid d-flex flex-column justify-content-end page-hero" 
+      <div className="container-fluid d-flex flex-column justify-content-end page-hero"
        style={{ backgroundImage: `url(${bg})` }}>
         <div className="page-text-container">
           <h1 className="page-title">Drywall Service</h1>
@@ -21,9 +21,8 @@ const DrywallService = () => {
           repairs. We will patch-up and repaint your damaged drywall quickly and
           cleanly, so that it looks pretty much brand new.
         </p>
-
         <p>
-          At APL Restoration Ltd we strive to provide the highest quality
+          At <a href="https://www.aplrestoration.ca/"><strong>APL Restoration Ltd</strong></a> we strive to provide the highest quality
           service to maintain total honesty, fairness, and transparency in the
           relationships we develop with our customers.
         </p>

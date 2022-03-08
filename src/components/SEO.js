@@ -7,9 +7,9 @@ const SEO = () => {
     const location = useLocation()
     const pathName = location.pathname;
     const {title, description, meta=[]} = seoTags[pathName] || seoTags['/']
-    
+
     return(
-        <Helmet 
+        <Helmet
             title={title}
             meta={[
                 {
@@ -17,7 +17,13 @@ const SEO = () => {
                     content: description,
                 },
                 ...meta
-            ]} 
+            ]}
+            link={[
+                {
+                    rel: 'canonical',
+                    href: window.location.href
+                }
+            ]}
         />
     )
 }

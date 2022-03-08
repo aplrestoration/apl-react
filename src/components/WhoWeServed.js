@@ -16,7 +16,7 @@ const WhoWeServed = () => {
             <h4 className="fw-bold view-all">VIEW ALL</h4>
           </Link>
         </div>
-  
+
         <div className="row g-2 pt-1 row-cols-1 row-cols-lg-3">
           <div className="col wws-mobile-column">
             <div>

@@ -15,13 +15,12 @@ const Painting = () => {
 
       <div className="page-text-container">
         <p>
-          APL Restoration Ltd helps you transform your home with color. If
+        <a href="https://www.aplrestoration.ca/"><strong>APL Restoration Ltd</strong></a> helps you transform your home with color. If
           it&rsquo;s a complete house repaint, an eye-catching accent wall, or
           anything in between, we will handle it. Our professional painters can
           paint houses and apartments of all shapes and sizes, interior and
           exterior.
         </p>
-
         <p>
           We show up on time, finish the job on time, and leave with a result
           that goes above and beyond your expectations. Your satisfaction is our

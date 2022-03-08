@@ -15,7 +15,7 @@ const FloorInstallation = () => {
 
       <div className="page-text-container">
         <p>
-          APL Restoration Ltd has an extensive inventory of flooring options in
+          <a href="https://www.aplrestoration.ca/"><strong>APL Restoration Ltd</strong></a> has an extensive inventory of flooring options in
           all types, colors, shapes and sizes. Our flooring specialists will
           evaluate your needs and make a smart recommendation. Then our expert
           installers will get your new floor installed and looking great!

@@ -30,7 +30,7 @@ const About = () => {
           important types of skilled tradesmen.
         </p>
         <br />
-        <h1 className="fw-bold">24 Hour Emergency Service:</h1>
+        <h2 className="fw-bold">24 Hour Emergency Service:</h2>
         <ul className="page-li">
           <li>Free on-site inspection to help determine coverage</li>
           <li>Exceptional customer service</li>

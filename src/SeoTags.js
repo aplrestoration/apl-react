@@ -44,12 +44,16 @@ const seoTags = {
         ]
     },
     "/floor-installation": {
-        "title": "Floor Installation Vancouver | HardWood | Laminate | Carpeting",
-        "description": "APL Restoration Ltd has an extensive inventory of flooring options in all types, colors, shapes and sizes. Contact us today for Floor Installation!",
+        "title": "Flooring Installation Vancouver | HardWood | Laminate | Carpeting",
+        "description": "APL Restoration Ltd has an extensive inventory of flooring options in all types, colours, shapes and sizes. Contact us for Flooring Installation in Vancouver!",
         "meta": [
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/floor-installation"
+            },
+            {
+                "property":"og:title",
+                "content":"Flooring Installation Vancouver | HardWood | Laminate | Carpeting"
             }
         ]
     },

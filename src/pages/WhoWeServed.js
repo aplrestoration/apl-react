@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 import bg from "../assets/bg/who-we-serve-bg.jpg";
 import icon1 from "../assets/icon/whoWeServed/1.png";
 import icon2 from "../assets/icon/whoWeServed/2.png";
@@ -14,13 +14,13 @@ const WhoWeServed = () => {
       >
         <div className="page-text-container">
           <h1 className="page-title" style={{ color: "white" }}>
-            Who We Served
+            Who We Serve
           </h1>
         </div>
       </div>
 
       <div className="page-text-container">
-        <h1 className="fw-bold">KEY INDUSTRIES SERVED</h1>
+        <h2 className="fw-bold">KEY INDUSTRIES SERVED</h2>
         <p>
           At APL, we’re skilled team with experience of handle renovation and
           restoration of all kinds. Whether the damage be to residential,
@@ -28,10 +28,10 @@ const WhoWeServed = () => {
           internally and externally to respond quickly and help get things back
           to normal, without unnecessary cost or complexity.
         </p>
-        <h1 className="fw-bold pb-3">
+        <h2 className="fw-bold pb-3">
           We have proven restoration expertise with the following property
           groups:
-        </h1>
+        </h2>
       </div>
 
       <div className="bg-whoWeServed">

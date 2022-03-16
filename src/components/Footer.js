@@ -103,8 +103,8 @@ const Footer = () => {
                 <li>
                   <Image src={smallIcon3} className="footer-icon"></Image>
                   <span>
-                    &nbsp;&nbsp;PO Box 45006 Dunbar, Vancouver, <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BC V682M8
+                    &nbsp;&nbsp;190-2912 W Broadway,<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vancouver, BC V6K 0E9
                   </span>
                 </li>
               </ul>

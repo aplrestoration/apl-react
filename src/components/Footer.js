@@ -4,6 +4,7 @@ import icon1 from "../assets/icon/footer/1.png";
 import icon2 from "../assets/icon/footer/2.png";
 import icon3 from "../assets/icon/footer/3.png";
 import icon4 from "../assets/icon/footer/4.png";
+import icon5 from "../assets/icon/footer/5.png";
 import mobIcon1 from "../assets/icon/footer/footer-mob-icon1.png";
 import mobIcon2 from "../assets/icon/footer/footer-mob-icon2.png";
 import mobIcon3 from "../assets/icon/footer/footer-mob-icon3.png";
@@ -59,6 +60,18 @@ const Footer = () => {
               ></Image>
               <Image
                 src={mobIcon3}
+                className="img-fluid  d-block d-sm-none"
+              ></Image>
+            </div>
+            <div className="col-4 col-md-4 offset-4 offset-sm-4" style={{display: 'flex', justifyContent: 'center'}}>
+              <Image
+                style={{maxHeight: 150}}
+                src={icon5}
+                className="img-fluid logo-partners d-none d-sm-block"
+              ></Image>
+              <Image
+                src={icon5}
+                style={{maxHeight: 90}}
                 className="img-fluid  d-block d-sm-none"
               ></Image>
             </div>

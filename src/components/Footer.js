@@ -62,6 +62,16 @@ const Footer = () => {
                 className="img-fluid  d-block d-sm-none"
               ></Image>
             </div>
+            {/* <div className="col-3 col-md-3">
+              <Image
+                src={icon4}
+                className="img-fluid logo-partners d-none d-sm-block"
+              ></Image>
+              <Image
+                src={mobIcon3}
+                className="img-fluid  d-block d-sm-none"
+              ></Image>
+            </div> */}
           </div>
         </div>
         <hr className="solid-divider" />
@@ -90,8 +100,8 @@ const Footer = () => {
                 <li>
                   <Image src={smallIcon3} className="footer-icon"></Image>
                   <span>
-                    &nbsp;&nbsp;PO Box 45006 Dunbar, Vancouver, <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BC V682M8
+                    &nbsp;&nbsp;190-2912 W Broadway,<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vancouver, BC V6K 0E9
                   </span>
                 </li>
               </ul>

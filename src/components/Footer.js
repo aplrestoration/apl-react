@@ -26,30 +26,36 @@ const Footer = () => {
             <div className="col-3 col-md-3">
               <Image
                 src={icon1}
+                alt="emergency restoration company"
                 className="img-fluid logo-partners d-none d-sm-block"
               ></Image>
               <Image
                 src={mobIcon4}
+                alt="emergency restoration company"
                 className="img-fluid  d-block d-sm-none"
               ></Image>
             </div>
             <div className="col-3 col-md-3">
               <Image
                 src={icon2}
+                alt="emergency restoration company"
                 className="img-fluid logo-partners d-none d-sm-block"
               ></Image>
               <Image
                 src={mobIcon1}
+                alt="emergency restoration company vancouver"
                 className="img-fluid  d-block d-sm-none"
               ></Image>
             </div>
             <div className="col-3 col-md-3">
               <Image
                 src={icon3}
+                alt="emergency restoration company vancouver"
                 className="img-fluid logo-partners d-none d-sm-block"
               ></Image>
               <Image
                 src={mobIcon2}
+                alt="water damage restoration company vancouver"
                 className="img-fluid  d-block d-sm-none"
               ></Image>
             </div>
@@ -209,7 +215,7 @@ const Footer = () => {
         </div>
         <hr className="solid-divider" />
         <span className="footer-note">
-          © 2021, APL Restoration Ltd. All Rights Reserved.
+          © 2022, APL Restoration Ltd. All Rights Reserved.
         </span>
       </div>
     </div>

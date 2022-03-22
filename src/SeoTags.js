@@ -14,14 +14,18 @@ const seoTags = {
         ],
     },
     "/drywall-service": {
-        "title": "Drywall Repair | Fire Damage - APL Restoration Vancouver",
+        "title": "Drywall Repair Vancouver | DryWall Service - APL Restoration",
         "description": "The team here at APL Restoration Ltd has a lot of expertise in drywall repairs. We will patch-up and repaint your damaged drywall. Call us today!",
         "meta": [
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/drywall-service"
+            },
+            {
+                "property":"og:title",
+                "content":"Drywall Repair Vancouver | DryWall Service - APL Restoration"
             }
-        ]
+        ],
     },
     "/emergency-response": {
         "title": "Emergency Response | Water Damage | Fire Damage | APL",

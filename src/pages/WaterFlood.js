@@ -10,7 +10,7 @@ const WaterFlood = () => {
       >
         <div className="page-text-container">
           <h1 className="page-title" style={{ color: "white" }}>
-            WATER & FLOOD
+            WATER & FLOOD  RESTORATION VANCOUVER
           </h1>
         </div>
       </div>
@@ -19,8 +19,8 @@ const WaterFlood = () => {
         <p>
           Water is one of the most common and also the most destructive elements
           that can cause a wide variety of problems for any home owner. As soon
-          as you experience water damage in your home or business, call APL
-          Restoration. Quick action is necessary for complete water damage
+          as you experience water damage in your home or business, <a href="tel:833-746-8356" style={{textDecoration:"none"}}>call APL
+          Restoration</a>. Quick action is necessary for complete water damage
           cleanup and restoration.
         </p>
         <h2 className="fw-bold">What are the causes of water damage?</h2>
@@ -54,14 +54,14 @@ const WaterFlood = () => {
           excessive costly and disruptive repairs.
         </p>
         <hr className="solid-divider-black" />
-        <h2 className="fw-bold">1 Initial assessment of the problem</h2>
+        <h2 className="fw-bold">1. Initial assessment of the problem</h2>
         <p>
           After you contact us, we’ll connect with you to gather all information
           about the incident over the phone and to make arrangement to get to
           your site at the earliest.
         </p>
         <h2 className="fw-bold">
-          2 Removal of wet or damaged belongings, including furniture
+          2. Removal of wet or damaged belongings, including furniture
         </h2>
         <p>
           During the preparation process we’ll help to remove valuables and
@@ -70,7 +70,7 @@ const WaterFlood = () => {
           to ensure your home is safe. If the HVAC system is damaged, we will
           remove this as well.
         </p>
-        <h2 className="fw-bold">3 Water extraction and dehumidification</h2>
+        <h2 className="fw-bold">3. Water extraction and dehumidification</h2>
         <p>
           Most properties can be dried in 2-4 days using our Quick Dry System.
           You get our Quick Dry System, which is the most advanced equipment
@@ -79,7 +79,7 @@ const WaterFlood = () => {
           the time it takes to dry most buildings to two to four days inorder to
           minimize your inconvenience.
         </p>
-        <h2 className="fw-bold">4 Reconstruction of the property</h2>
+        <h2 className="fw-bold">4. Reconstruction of the property</h2>
         <p>
           Once it has been confirmed that there is no longer any water hiding
           within cracks, crevices, or floorboards, APL Restoration will be able

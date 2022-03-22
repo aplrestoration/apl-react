@@ -24,7 +24,7 @@ function Header() {
             </Link>
             <span className="header-nav-info d-none d-xl-block">
               24/7 Emergency Toll-Free Number <br />
-              1-833-7GOT-FLOOD?（1-833-746-8356) or 604.446.2773
+              1-833-7GOT-FLOOD? (1-833-746-8356) or 604.446.2773
             </span>
           </div>
 

@@ -22,7 +22,7 @@ const WhoWeServed = () => {
       <div className="page-text-container">
         <h2 className="fw-bold">KEY INDUSTRIES SERVED</h2>
         <p>
-          At APL, we’re skilled team with experience of handle renovation and
+          At <a href="https://www.aplrestoration.ca/">APL</a>, we’re skilled team with experience of handle renovation and
           restoration of all kinds. Whether the damage be to residential,
           commercial, industrial property, we will assemble the right team both
           internally and externally to respond quickly and help get things back

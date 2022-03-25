@@ -62,6 +62,7 @@ const Footer = () => {
             <div className="col-3 col-md-3">
               <Image
                 src={icon4}
+                alt="drywall repair vancouver"
                 className="img-fluid logo-partners d-none d-sm-block"
               ></Image>
               <Image
@@ -73,6 +74,7 @@ const Footer = () => {
               <Image
                 style={{maxHeight: 150}}
                 src={icon5}
+                alt="drywall services vancouver"
                 className="img-fluid logo-partners d-none d-sm-block"
               ></Image>
               <Image

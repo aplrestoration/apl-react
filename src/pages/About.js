@@ -9,20 +9,20 @@ const About = () => {
         style={{ backgroundImage: `url(${bg})` }}
       >
         <div className="page-text-container">
-          <h1 className="page-title">About Us</h1>
+          <h1 className="page-title">About Us | Emergency Restoration Company</h1>
         </div>
       </div>
 
       <div className="page-text-container">
         <p>
           The management team of APL Restoration has over 20 years’ experience
-          in helping people who have experienced a flood, or sewer back up. We
+          in helping people who have experienced a <a href="https://www.aplrestoration.ca/water-and-flood">flood</a>, or sewer back up. We
           also have extensive experience with the insurance industry and we are
           familiar with their different requirements. This knowledge often makes
           all the difference in a claim proceeding smoothly.
         </p>
         <p>
-          At APL Restoration we make use of the latest technology. We use an IR
+          At <a href="https://www.aplrestoration.ca/">APL Restoration</a> we make use of the latest technology. We use an IR
           Camera that allows us to see through walls and floors to check for the
           source of leaks and water damage. This is just one way in which we use
           technology to address water problems. We also work with an extensive

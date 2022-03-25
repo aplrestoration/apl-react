@@ -10,7 +10,20 @@ const seoTags = {
             {
                 "property":"og:title",
                 "content":"Drywall Repair | Flooring Installation - APL Restoration Vancouver"
-            }
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+            {
+                "property":"og:description",
+                "content":"Flood, Fire, Emergency? We’re here to help you restore and renovate, any time, day or night. Call us today for emergency damage restoration in Vancouver!"
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+
         ],
     },
     "/drywall-service": {
@@ -24,7 +37,20 @@ const seoTags = {
             {
                 "property":"og:title",
                 "content":"Drywall Repair Vancouver | DryWall Service - APL Restoration"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+            {
+                "property":"og:description",
+                "content":"The team here at APL Restoration Ltd has a lot of expertise in drywall repairs. We will patch-up and repaint your damaged drywall. Call us today!"
+            },
+
         ],
     },
     "/emergency-response": {
@@ -34,7 +60,20 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/emergency-respose"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+            {
+                "property":"og:description",
+                "content":"Whatever the cause, APL Restoration professional damage restoration services are available 365 days a year, 24 hours a day to respond to an emergency."
+            },
+
         ]
     },
     "/door-and-trimworks": {
@@ -44,7 +83,16 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/door-and-trimworks"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/floor-installation": {
@@ -58,7 +106,16 @@ const seoTags = {
             {
                 "property":"og:title",
                 "content":"Flooring Installation Vancouver | HardWood | Laminate | Carpeting"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/tiling": {
@@ -68,7 +125,16 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/tiling"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/painting": {
@@ -78,7 +144,16 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/painting"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/basement-finishing": {
@@ -88,7 +163,16 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/basement-finishing"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/demolition": {
@@ -98,7 +182,16 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/demolition"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/bathroom-finishing": {
@@ -108,7 +201,16 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/bathroom-finishing"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/water-and-flood": {
@@ -118,7 +220,16 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/water-and-flood"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/biohazard-redemption": {
@@ -128,7 +239,16 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/biohazard-redmemption"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/fire-and-smoke": {
@@ -138,7 +258,16 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/fire-and-smoke"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/who-we-serve": {
@@ -148,7 +277,16 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/who-we-serve"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/where-we-serve": {
@@ -158,17 +296,35 @@ const seoTags = {
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/where-we-serve"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     },
     "/about": {
-        "title": "Abous Us | Restoration Company | Drywall Repair",
-        "description": "The management team of APL Restoration has over 20 years’ experience in helping people who have experienced a flood, or sewer back up.",
+        "title": "Abous Us | Emergency Restoration Company | Drywall Repair",
+        "description": "The team of APL has over 20 years of experience in helping people in a flood or sewer backup. We are the Emergency Restoration Company in the Vancouver area",
         "meta": [
             {
                 "property": "og:url",
                 "content": "https://www.aplrestoration.ca/about"
-            }
+            },
+            {
+                "property": "og:type",
+                "content": "website",
+            },
+            {
+                "property":"og:site_name",
+                "content":"APL Restoration"
+            },
+
         ]
     }
 }

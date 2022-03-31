@@ -1,13 +1,12 @@
 import "./App.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 // import ScrollToTop from "./components/ScrollToTop";
 // Main Components
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import WhoWeServed from "./pages/WhoWeServed";
 import WhereWeServed from "./pages/WhereWeServed";
+import Error from "./pages/Error";
 //Pages
 import DrywallService from "./pages/DrywallService";
 import DoorAndTrimWorks from "./pages/DoorAndTrimWorks";
@@ -21,20 +20,15 @@ import EmergencyResponse from "./pages/EmergencyResponse";
 import WaterFlood from "./pages/WaterFlood";
 import BiohazardRedemption from "./pages/BiohazardRedemption";
 import FireAndSmoke from "./pages/FireAndSmoke";
-// SEO component
-import SEO from './components/SEO';
 
 function App() {
 
   return (
     <BrowserRouter>
-      <div>
-        <Header />
-        <SEO />
-      </div>
       {/* <ScrollToTop> */}
         <Switch>
           <Route path="/" component={Home} exact />
+          <Route path="/404" component={Error} exact />
           <Route path="/about" component={About} exact />
           <Route path="/who-we-serve" component={WhoWeServed}></Route>
           <Route path="/where-we-serve" component={WhereWeServed}></Route>
@@ -68,11 +62,9 @@ function App() {
             component={BiohazardRedemption}
           ></Route>
           <Route path="/fire-and-smoke" component={FireAndSmoke}></Route>
+          <Route render={routerProps => <Redirect to='/404' {...routerProps} />} />
         </Switch>
       {/* </ScrollToTop> */}
-      <div>
-        <Footer />
-      </div>
     </BrowserRouter>
   );
 }

@@ -1,8 +1,10 @@
 import React from "react";
 import bg from "../assets/bg/about-bg.jpeg";
+import Layout from "../components/Layout";
 
 const About = () => {
   return (
+    <Layout>
     <div className="page-container">
       <div
         className="container-fluid d-flex flex-column justify-content-end page-hero"
@@ -38,6 +40,7 @@ const About = () => {
         </ul>
       </div>
     </div>
+    </Layout>
   );
 };
 

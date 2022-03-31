@@ -4,9 +4,11 @@ import icon1 from "../assets/icon/whoWeServed/1.png";
 import icon2 from "../assets/icon/whoWeServed/2.png";
 import icon3 from "../assets/icon/whoWeServed/3.png";
 import { Image } from "react-bootstrap";
+import Layout from "../components/Layout";
 
 const WhoWeServed = () => {
   return (
+    <Layout>
     <div className="page-container">
       <div
         className="container-fluid d-flex flex-column justify-content-end page-hero"
@@ -113,6 +115,7 @@ const WhoWeServed = () => {
         </div>
       </div>
     </div>
+    </Layout>
   );
 };
 

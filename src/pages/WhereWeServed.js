@@ -1,8 +1,10 @@
 import React from "react";
 import bg from "../assets/bg/where-we-serve-bg.jpeg";
+import Layout from "../components/Layout";
 
 function WhereWeServed() {
   return (
+    <Layout>
     <div className="page-container">
       <div
         className="container-fluid d-flex flex-column justify-content-end page-hero"
@@ -44,6 +46,7 @@ function WhereWeServed() {
         </ul>
       </div>
     </div>
+    </Layout>
   );
 }
 

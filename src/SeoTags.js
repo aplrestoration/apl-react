@@ -326,6 +326,10 @@ const seoTags = {
             },
 
         ]
+    },
+    "/404": {
+        "title": "404 | Not Found",
+        "description": "This page does not exist.",
     }
 }
 

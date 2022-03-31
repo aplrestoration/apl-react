@@ -36,38 +36,38 @@ function App() {
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} exact />
-          <Route path="/who-we-serve" component={WhoWeServed}></Route>
-          <Route path="/where-we-serve" component={WhereWeServed}></Route>
-          <Route path="/drywall-service" component={DrywallService}></Route>
+          <Route path="/who-we-serve" component={WhoWeServed} exact></Route>
+          <Route path="/where-we-serve" component={WhereWeServed} exact></Route>
+          <Route path="/drywall-service" component={DrywallService} exact></Route>
           <Route
             path="/door-and-trimworks"
-            component={DoorAndTrimWorks}
+            component={DoorAndTrimWorks} exact
           ></Route>
           <Route
             path="/floor-installation"
-            component={FloorInstallation}
+            component={FloorInstallation} exact
           ></Route>
-          <Route path="/tiling" component={Tiling}></Route>
-          <Route path="/painting" component={Painting}></Route>
+          <Route path="/tiling" component={Tiling} exact></Route>
+          <Route path="/painting" component={Painting} exact></Route>
           <Route
             path="/basement-finishing"
-            component={BasementFinishing}
+            component={BasementFinishing} exact
           ></Route>
-          <Route path="/demolition" component={Demolition}></Route>
+          <Route path="/demolition" component={Demolition} exact></Route>
           <Route
             path="/bathroom-finishing"
-            component={BathroomFinishing}
+            component={BathroomFinishing} exact
           ></Route>
           <Route
             path="/emergency-response"
-            component={EmergencyResponse}
+            component={EmergencyResponse} exact
           ></Route>
-          <Route path="/water-and-flood" component={WaterFlood}></Route>
+          <Route path="/water-and-flood" component={WaterFlood} exact></Route>
           <Route
             path="/biohazard-redemption"
-            component={BiohazardRedemption}
+            component={BiohazardRedemption} exact
           ></Route>
-          <Route path="/fire-and-smoke" component={FireAndSmoke}></Route>
+          <Route path="/fire-and-smoke" component={FireAndSmoke} exact></Route>
         </Switch>
       {/* </ScrollToTop> */}
       <div>

@@ -92,6 +92,10 @@ const seoTags = {
                 "property":"og:site_name",
                 "content":"APL Restoration"
             },
+            {
+                "property":"og:description",
+                "content":"APL Restoration provide you with a full range of doors and trims services. Call us today for basic baseboards to window castings and crown mouldings."
+            },
 
         ]
     },
@@ -115,6 +119,10 @@ const seoTags = {
                 "property":"og:site_name",
                 "content":"APL Restoration"
             },
+            {
+                "property":"og:description",
+                "content":"APL Restoration Ltd has an extensive inventory of flooring options in all types, colours, shapes and sizes. Contact us for Flooring Installation in Vancouver!"
+            },
 
         ]
     },
@@ -133,6 +141,10 @@ const seoTags = {
             {
                 "property":"og:site_name",
                 "content":"APL Restoration"
+            },
+            {
+                "property":"og:description",
+                "content":"APL Restoration have a qualified tiler with more than 15 years’ experience in tiling service. Contact us today for more information."
             },
 
         ]
@@ -153,6 +165,10 @@ const seoTags = {
                 "property":"og:site_name",
                 "content":"APL Restoration"
             },
+            {
+                "property":"og:description",
+                "content":"APL Restoration Ltd helps you transform your home with color. Our professional painters can paint houses and apartments of all shapes and sizes, interior and exterior."
+            },
 
         ]
     },
@@ -171,6 +187,10 @@ const seoTags = {
             {
                 "property":"og:site_name",
                 "content":"APL Restoration"
+            },
+            {
+                "property":"og:description",
+                "content":"Are you looking to build out your dream basement?  We offer professional basement finishing services to homeowners in Greater Vancouver."
             },
 
         ]
@@ -191,6 +211,10 @@ const seoTags = {
                 "property":"og:site_name",
                 "content":"APL Restoration"
             },
+            {
+                "property":"og:description",
+                "content":"Environmental hazards? Demolition needed? APL Restoration is the right choice. We look forward to covering all your demolition needs."
+            },
 
         ]
     },
@@ -209,6 +233,10 @@ const seoTags = {
             {
                 "property":"og:site_name",
                 "content":"APL Restoration"
+            },
+            {
+                "property":"og:description",
+                "content":"Make the bathroom your favorite room in the house. APL Restoration Ltd will help you create your dream bathroom from start to finish."
             },
 
         ]
@@ -229,12 +257,16 @@ const seoTags = {
                 "property":"og:site_name",
                 "content":"APL Restoration"
             },
+            {
+                "property":"og:description",
+                "content":"As soon as you experience water damage in your home or business, call APL Restoration. Quick action is necessary."
+            },
 
         ]
     },
     "/biohazard-redemption": {
         "title": "Biohazard Redemption | Mould | Damp | APL ",
-        "description": " If you find that your home or business has begun to show signs of mould damage, it’s important to act as quickly as possible.",
+        "description": "If you find that your home or business has begun to show signs of mould damage, it’s important to act as quickly as possible.",
         "meta": [
             {
                 "property": "og:url",
@@ -247,6 +279,10 @@ const seoTags = {
             {
                 "property":"og:site_name",
                 "content":"APL Restoration"
+            },
+            {
+                "property":"og:description",
+                "content":"If you find that your home or business has begun to show signs of mould damage, it’s important to act as quickly as possible."
             },
 
         ]
@@ -267,11 +303,15 @@ const seoTags = {
                 "property":"og:site_name",
                 "content":"APL Restoration"
             },
+            {
+                "property":"og:description",
+                "content":"Fires can do more than compromise the structural integrity of your building. Contact us today for fire damage restoration."
+            },
 
         ]
     },
     "/who-we-serve": {
-        "title": "Who We Serve | Drywall Repair Vancouver",
+        "title": "Who We Serve | Drywall Repair Vancouver | APL Restoration",
         "description": "At APL, we’re skilled team with experience of handle renovation and restoration of all kinds.",
         "meta": [
             {
@@ -285,6 +325,10 @@ const seoTags = {
             {
                 "property":"og:site_name",
                 "content":"APL Restoration"
+            },
+            {
+                "property":"og:description",
+                "content":"At APL, we’re skilled team with experience of handle renovation and restoration of all kinds."
             },
 
         ]
@@ -305,6 +349,10 @@ const seoTags = {
                 "property":"og:site_name",
                 "content":"APL Restoration"
             },
+            {
+                "property":"og:description",
+                "content":"As soon as you experience water damage in your home or business, call APL Restoration. Quick action is necessary."
+            },
 
         ]
     },
@@ -323,6 +371,10 @@ const seoTags = {
             {
                 "property":"og:site_name",
                 "content":"APL Restoration"
+            },
+            {
+                "property":"og:description",
+                "content":"The team of APL has over 20 years of experience in helping people in a flood or sewer backup. We are the Emergency Restoration Company in the Vancouver area"
             },
 
         ]

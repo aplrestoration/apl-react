@@ -202,7 +202,7 @@ const Footer = () => {
             <div className="col-lg-3 d-none d-md-block">
               <h3 className="fw-bold my-3 mobile-title">More Info</h3>
               <ul className="list-unstyled footer-text">
-                <a href="/" style={{ textDecoration: "none", color: "white" }}>
+                <a href="/about" style={{ textDecoration: "none", color: "white" }}>
                   <li>About us</li>
                 </a>
                 <a href="/" style={{ textDecoration: "none", color: "white" }}>

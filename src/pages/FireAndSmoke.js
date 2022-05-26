@@ -30,18 +30,16 @@ const FireAndSmoke = () => {
           bursting and leaking faucets and pipes; there is often significant
           water damage that needs to be addressed immediately.
         </p>
-
         <p>
           Water used in fire suppression can create an entirely new set of
           challenges.
         </p>
-
         <p>
           Excessive moisture can rust pipes, rot drywall, create mould, or
           compromise a building&rsquo;s structural integrity.
         </p>
-
-        <span className="big-title-2">We respond by:</span><br /><br />
+        <h3 className="big-title-2">We respond by:</h3><br /><br />
+        {/* <h3>We respond by:</h3><br /><br /> */}
         <ul className="page-li">
           <li>Providing drying & dehumidification services</li>
           <li>Sending in mould restoration specialists</li>

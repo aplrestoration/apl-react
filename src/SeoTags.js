@@ -100,8 +100,8 @@ const seoTags = {
         ]
     },
     "/floor-installation": {
-        "title": "Flooring Installation Vancouver | HardWood | Laminate | Carpeting",
-        "description": "APL Restoration Ltd has an extensive inventory of flooring options in all types, colours, shapes and sizes. Contact us for Flooring Installation in Vancouver!",
+        "title": "Flooring Installation Vancouver | Best Laminate Flooring Installation in Vancouver  | HardWood | Carpeting",
+        "description": "APL Restoration Ltd has an extensive inventory of flooring options in all types, colours, shapes and sizes. We proud to offer Best Flooring Installation service in Vancouver. Contact us for Flooring Installation in Vancouver!",
         "meta": [
             {
                 "property": "og:url",
@@ -109,7 +109,7 @@ const seoTags = {
             },
             {
                 "property":"og:title",
-                "content":"Flooring Installation Vancouver | HardWood | Laminate | Carpeting"
+                "content":"Flooring Installation Vancouver | Best Laminate Flooring Installation in Vancouver  | HardWood | Carpeting"
             },
             {
                 "property": "og:type",
@@ -121,7 +121,7 @@ const seoTags = {
             },
             {
                 "property":"og:description",
-                "content":"APL Restoration Ltd has an extensive inventory of flooring options in all types, colours, shapes and sizes. Contact us for Flooring Installation in Vancouver!"
+                "content":"APL Restoration Ltd has an extensive inventory of flooring options in all types, colours, shapes and sizes. We proud to offer Best Flooring Installation service in Vancouver. Contact us for Flooring Installation in Vancouver!"
             },
 
         ]
@@ -173,7 +173,7 @@ const seoTags = {
         ]
     },
     "/basement-finishing": {
-        "title": "Professional Basement Finishing |  Flooring Installation | APL",
+        "title": "Professional Basement Finishing |  Flooring Installation Vancouver | APL",
         "description": "Are you looking to build out your dream basement?  We offer professional basement finishing services to homeowners in Greater Vancouver.",
         "meta": [
             {

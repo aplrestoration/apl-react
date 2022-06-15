@@ -35,7 +35,7 @@ const FireAndSmoke = () => {
           challenges.
         </p>
         <p>
-          Excessive moisture can rust pipes, rot <a href="https://www.aplrestoration.ca/drywall-service"> drywall </a> , create mould, or
+          Excessive moisture can rust pipes, rot <a href="https://www.aplrestoration.ca/drywall-service">drywall</a> , create mould, or
           compromise a building&rsquo;s structural integrity.
         </p>
         <h3 className="big-title-2">We respond by:</h3><br /><br />

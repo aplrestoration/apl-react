@@ -36,7 +36,7 @@ const EmergencyResponse = () => {
           </p>
 
           <p>
-            Water damage losses can happen in homes and businesses. Supply lines
+            <a href="https://www.aplrestoration.ca/water-and-flood"> Water damage </a> losses can happen in homes and businesses. Supply lines
             break and soak walls, floors and contents. Strong storms can result in
             flood damage allowing water to enter the structure. You probably know
             someone who has returned home to a kitchen or living room full of

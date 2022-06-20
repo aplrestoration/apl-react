@@ -20,10 +20,10 @@ const BathroomFinishing = () => {
         </p>
         <p>Our Services:</p>
         <ul className="page-li">
-          <li>drywall repair</li>
+          <li><a href="https://www.aplrestoration.ca/drywall-service">drywall repair</a></li>
           <li>replacing outdated tile or updating paint colors</li>
           <li>new window treatments</li>
-          <li>replacing shower curtains with fashionable shower doors</li>
+          <li>replacing shower curtains with fashionable shower <a href="https://www.aplrestoration.ca/door-and-trimworks">doors</a></li>
           <li>installing molding</li>
           <li>
             replacing fixtures such as faucets, towel bars, mirrors and medicine

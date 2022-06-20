@@ -24,7 +24,7 @@ const FireAndSmoke = () => {
         <p>We respond by: mitigating damage to ensure site safety.</p>
 
         <p>
-          Although its fire&rsquo;s worst enemy, water damage, triggered as a
+          Although its fire&rsquo;s worst enemy, <a href="https://www.aplrestoration.ca/water-and-flood">water damage</a>, triggered as a
           result of fires, is not what most homeowners expect. Whether it is the
           damage caused by water from fire hoses and extinguishers or that from
           bursting and leaking faucets and pipes; there is often significant

@@ -54,7 +54,7 @@ const seoTags = {
         ],
     },
     "/emergency-response": {
-        "title": "Emergency Response | Water Damage | Fire Damage | APL",
+        "title": "Emergency Response | Water Damage | Fire Damage | APL Restoration Vancouver",
         "description": "Whatever the cause, APL Restoration professional damage restoration services are available 365 days a year, 24 hours a day to respond to an emergency.",
         "meta": [
             {
@@ -242,8 +242,8 @@ const seoTags = {
         ]
     },
     "/water-and-flood": {
-        "title": "Water Damage Restoration Vancouver | Available 24/7 | APL",
-        "description": "As soon as you experience water damage in your home or business, call APL Restoration. Quick action is necessary.",
+        "title": "Water Damage Restoration Vancouver | Emergency Restoration Company | Available 24/7 | APL",
+        "description": "As soon as you experience water damage in your home or business, call APL Emergency Restoration Company. Quick action is necessary.",
         "meta": [
             {
                 "property": "og:url",

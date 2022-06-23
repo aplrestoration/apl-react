@@ -85,7 +85,7 @@ const WaterFlood = () => {
         <h2 className="fw-bold">4. Reconstruction of the property</h2>
         <p>
           Once it has been confirmed that there is no longer any water hiding
-          within cracks, crevices, or floorboards, <a href="https://www.aplrestoration.ca/" style={{textDecoration:"none"}}>APL Restoration</a> will be able
+          within cracks, crevices, or floorboards, <a href="/">APL Restoration</a> will be able
           to move onto the next part: assessing the damage done and begin
           repairs. Fixing water damage may include removal of drywall and
           flooring, carpets being cleaned, wood floors being repaired or

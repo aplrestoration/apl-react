@@ -22,7 +22,7 @@ const EmergencyResponse = () => {
         <div className="page-text-container">
           <p>
             Most properties can be dried in 2-4 days using our Quick Dry System.
-            Whatever the cause, APL Restoration professional damage restoration
+            Whatever the cause,  <a href="https://www.aplrestoration.ca/"><strong>APL Restoration </strong></a> professional damage restoration
             services are available 365 days a year, 24 hours a day to respond to
             an emergency.
           </p>
@@ -36,7 +36,7 @@ const EmergencyResponse = () => {
           </p>
 
           <p>
-            <a href="https://www.aplrestoration.ca/water-and-flood"> Water damage </a> losses can happen in homes and businesses. Supply lines
+            <a href="https://www.aplrestoration.ca/water-and-flood"><strong> Water damage </strong></a> losses can happen in homes and businesses. Supply lines
             break and soak walls, floors and contents. Strong storms can result in
             flood damage allowing water to enter the structure. You probably know
             someone who has returned home to a kitchen or living room full of
